@@ -23,7 +23,7 @@ body {
   width: 94.75vw;
   height: 41.49vw;
   margin: 2.08vw;
-  border-radius: 24px;
+  border-radius: 1.66vw;
   color: #fefefe;
   font-family: 'Montserrat';
   font-size: 0.97vw;
@@ -75,7 +75,7 @@ body {
   padding: 0.69vw 1.66vw;
   background-color: #fff;
   color: #112211;
-  border-radius: 8px;
+  border-radius: 0.55vw;
 }
 
 #landing #btns-logo .container .logo img {
@@ -109,8 +109,8 @@ body {
   height: 19.40vw;
   background: #fff;
   margin: 0 7.20vw;
-  box-shadow: 0px 0.28vw 1.11vw rgba(141, 211, 187, 0.15);
-  border-radius: 16px;
+  box-shadow: 0 0.28vw 1.11vw rgba(141, 211, 187, 0.15);
+  border-radius: 1.11vw;
   margin-top: -6.72vw;
   padding-top: 1.11vw;
 }
@@ -189,7 +189,7 @@ body {
   height: 3.88vw;
   background: #FFFFFF;
   border: 0.07vw solid #79747E;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-size: 1.11vw;
   padding: 1.25vw 1.11vw;
 }
@@ -250,7 +250,7 @@ body {
   width: 9.97vw;
   height: 3.32vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
 }
 
 #landing #booking #places-search .srch-btns #srch-btn-pf img,
@@ -300,8 +300,8 @@ body {
 }
 
 #landing #popular-pics .container .btn {
-  border: #8DD3BB solid 1px;
-  border-radius: 4px;
+  border: #8DD3BB solid 0.07vw;
+  border-radius: 0.28vw;
   padding: 0.8vw 1.10vw;
   color: #112211;
   margin-left: 1.66vw;
@@ -320,8 +320,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 16px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 1.11vw;
   height: 8.45vw;
   width: 26vw;
   margin-bottom: 2.22vw;
@@ -376,7 +376,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 20;
   margin-bottom: 4.71vw;
 }
 
@@ -388,7 +388,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 20;
   margin-bottom: 4.71vw;
 }
 
@@ -415,7 +415,7 @@ body {
   padding: 1.1vw;
   color: #112211;
   margin-bottom: 1.66vw;
-  border-radius: 4px;
+  border-radius: 0.28vw;
 }
 
 #landing .container .flights .btn-blue img,
@@ -444,8 +444,8 @@ body {
 }
 
 #landing #reviews .container .btn {
-  border: #8DD3BB solid 1px;
-  border-radius: 4px;
+  border: #8DD3BB solid 0.07vw;
+  border-radius: 0.28vw;
   padding: 0.8vw 1.11vw;
   color: #112211;
   margin-left: 1.66vw;
@@ -482,7 +482,7 @@ body {
   height: fit-content;
   background: #FFFFFF;
   box-shadow: 0.14vw 0.28vw 1.1vw rgba(17, 34, 17, 0.1);
-  border-radius: 20px;
+  border-radius: 20;
   margin-right: 3.46vw;
 }
 
@@ -559,7 +559,7 @@ body {
   height: 13.85vw;
   margin: 1.66vw;
   margin-top: 0;
-  border-radius: 8px;
+  border-radius: 0.55vw;
 }
 
 #newsletter-0 {
@@ -573,8 +573,8 @@ body {
   height: 21.13vw;
   width: 85.34vw;
   margin: 0 7.13vw;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 20px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 20;
   
 }
 
@@ -767,7 +767,7 @@ footer .contact {
   padding: 0.69vw 1.66vw;
   background-color: #112211;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 0.55vw;
 }
 
 #navbar .container .logo img {
@@ -809,8 +809,8 @@ footer .contact {
   width: 85.34vw;
   height: 18.84vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(141, 211, 187, 0.15);
-  border-radius: 16px;
+  box-shadow: 0 0.28vw 1.11vw rgba(141, 211, 187, 0.15);
+  border-radius: 1.11vw;
   margin: 0 7.20vw;
   margin-top: -6.10vw;
   padding: 2.22vw 1.66vw;
@@ -850,7 +850,7 @@ footer .contact {
   height: 3.88vw;
   background: #FFFFFF;
   border: 0.07vw solid #79747E;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-size: 1.11vw;
   padding: 1.25vw 1.11vw;
 }
@@ -910,7 +910,7 @@ footer .contact {
   width: 9.97vw;
   height: 3.32vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
 }
 
 #places-container #places-search .srch-btns #srch-btn-pf img,
@@ -959,8 +959,8 @@ footer .contact {
 }
 
 #places .container .btn {
-  border: #8DD3BB solid 1px;
-  border-radius: 4px;
+  border: #8DD3BB solid 0.07vw;
+  border-radius: 0.28vw;
   padding: 0.8vw 1.10vw;
   color: #112211;
   font-size: 0.97vw;
@@ -1009,8 +1009,8 @@ footer .contact {
 
 
 #fall-into-travel .container .btn {
-  border: #8DD3BB solid 1px;
-  border-radius: 4px;
+  border: #8DD3BB solid 0.07vw;
+  border-radius: 0.28vw;
   padding: 0.8vw 1.10vw;
   color: #112211;
   margin-left: 1.66vw;
@@ -1033,7 +1033,7 @@ footer .contact {
   padding: 1.1vw;
   color: #112211;
   margin-bottom: 1.66vw;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   margin-left: 1.66vw;
   margin-right: 1.66vw;
   text-align: center;
@@ -1048,7 +1048,7 @@ footer .contact {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  border-radius: 12px;
+  border-radius: 0.83vw;
   color: #fff;
 }
 
@@ -1117,8 +1117,8 @@ footer .contact {
 
 
 #bp-srilanka .container .btn {
-  border: #8DD3BB solid 1px;
-  border-radius: 4px;
+  border: #8DD3BB solid 0.07vw;
+  border-radius: 0.28vw;
   padding: 0.8vw 1.10vw;
   color: #112211;
   margin-left: 1.66vw;
@@ -1135,7 +1135,7 @@ footer .contact {
   background: #8DD3BB;
   width: 38.24vw;
   height: 29.37vw;
-  border-radius: 20px;
+  border-radius: 20;
   margin-right: 1.66vw;
 }
 
@@ -1156,7 +1156,7 @@ footer .contact {
   width: 4.71vw;
   height: 4.29vw;
   background: #FFFFFF;
-  border-radius: 8px;
+  border-radius: 0.55vw;
   font-size: 0.97vw;
   font-weight: 400;
   margin-right: 0;
@@ -1184,7 +1184,7 @@ footer .contact {
   align-items: center;
   justify-content: center;
   background: #FFFFFF;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   margin-top: 8.31vw;
   text-align: center;
   line-height: normal;
@@ -1339,7 +1339,7 @@ footer .contact {
 #login .container form #email {
   width: 35.47vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   margin-bottom: 1.66vw;
   font-weight: 400;
   font-size: 1.11vw;
@@ -1349,7 +1349,7 @@ footer .contact {
 #login .container form #password {
   width: 35.47vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   margin-bottom: 1.66vw;
   font-weight: 400;
   font-size: 1.11vw;
@@ -1400,7 +1400,7 @@ footer .contact {
   height: 3.32vw;
   width: 35.47vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   border: none;
   font-weight: 600;
   font-size: 0.97vw;
@@ -1431,7 +1431,7 @@ footer .contact {
 
 #login .container .lines .line {
   width: 13.44vw;
-  height: 0.5px;
+  height: 0.03vw;
   background: #112211;
   opacity: 0.25;
 }
@@ -1456,8 +1456,8 @@ footer .contact {
   width: 11.08vw;
   height: 3.88vw;
   padding: 1.11vw 1.66vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   text-align: center;
 }
 
@@ -1482,7 +1482,7 @@ footer .contact {
   display: none;
   width: 42.67vw;
   height: 56.25vw;
-  border-radius: 30px;
+  border-radius: 30;
   margin-bottom: 0;
 }
 
@@ -1506,7 +1506,7 @@ footer .contact {
 .active, .dot:hover {
   width: 2.22vw;
   background: #8DD3BB;
-  border-radius: 5px;
+  border-radius: 0.35vw;
 }
 
 .fade {
@@ -1608,7 +1608,7 @@ footer .contact {
 #sign-up .container form .form-group #phone {
   width: 21.33vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   margin-bottom: 1.66vw;
   font-weight: 400;
   font-size: 1.11vw;
@@ -1630,7 +1630,7 @@ footer .contact {
 #sign-up .container form .form-group-2 .group #password {
   width: 44.33vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   font-weight: 400;
   font-size: 1.11vw;
   padding: 0 1.11vw;
@@ -1683,7 +1683,7 @@ footer .contact {
   height: 3.32vw;
   width: 44.33vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   border: none;
   font-weight: 600;
   font-size: 0.97vw;
@@ -1715,7 +1715,7 @@ footer .contact {
 
 #sign-up .container .lines .line {
   width: 13.44vw;
-  height: 0.5px;
+  height: 0.03vw;
   background: #112211;
   opacity: 0.25;
 }
@@ -1740,8 +1740,8 @@ footer .contact {
   width: 14.04vw;
   height: 3.88vw;
   padding: 1.11vw 1.66vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   text-align: center;
 }
 
@@ -1759,7 +1759,7 @@ footer .contact {
   display: none;
   width: 33.80vw;
   height: 56.52vw;
-  border-radius: 30px;
+  border-radius: 30;
   margin-bottom: 0;
 }
 
@@ -1788,7 +1788,7 @@ footer .contact {
 #sign-up .active, .dot:hover {
   width: 2.22vw;
   background: #8DD3BB;
-  border-radius: 5px;
+  border-radius: 0.35vw;
 }
 
 #sign-up .fade {
@@ -1884,7 +1884,7 @@ footer .contact {
 #forgot-password .container form #email {
   width: 35.47vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   margin-bottom: 1.66vw;
   font-weight: 400;
   font-size: 1.11vw;
@@ -1895,7 +1895,7 @@ footer .contact {
   height: 3.32vw;
   width: 35.47vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   border: none;
   font-weight: 600;
   font-size: 0.97vw;
@@ -1926,7 +1926,7 @@ footer .contact {
 
 #forgot-password .container .lines .line {
   width: 13.44vw;
-  height: 0.5px;
+  height: 0.03vw;
   background: #112211;
   opacity: 0.25;
 }
@@ -1952,8 +1952,8 @@ footer .contact {
   width: 11.08vw;
   height: 3.88vw;
   padding: 1.11vw 1.66vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -1982,7 +1982,7 @@ footer .contact {
   display: none;
   width: 42.67vw;
   height: 56.25vw;
-  border-radius: 30px;
+  border-radius: 30;
   margin-bottom: 0;
 }
 
@@ -2006,7 +2006,7 @@ footer .contact {
 .active, .dot:hover {
   width: 2.22vw;
   background: #8DD3BB;
-  border-radius: 5px;
+  border-radius: 0.35vw;
 }
 
 .fade {
@@ -2129,7 +2129,7 @@ footer .contact {
 #payment .container form .form-group-2 #country {
   width: 21.33vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   margin-bottom: 1.66vw;
   font-weight: 400;
   font-size: 1.11vw;
@@ -2187,7 +2187,7 @@ footer .contact {
   height: 3.32vw;
   width: 44.33vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   border: none;
   font-weight: 600;
   font-size: 0.97vw;
@@ -2218,7 +2218,7 @@ footer .contact {
   display: none;
   width: 33.80vw;
   height: 56.52vw;
-  border-radius: 30px;
+  border-radius: 30;
   margin-bottom: 0;
 }
 
@@ -2247,7 +2247,7 @@ footer .contact {
 #payment .active, .dot:hover {
   width: 2.22vw;
   background: #8DD3BB;
-  border-radius: 5px;
+  border-radius: 0.35vw;
 }
 
 #payment .fade {
@@ -2343,7 +2343,7 @@ footer .contact {
 #verify-code .container form #code {
   width: 35.47vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   margin-bottom: 1.11vw;
   font-weight: 400;
   font-size: 1.11vw;
@@ -2354,7 +2354,7 @@ footer .contact {
   height: 3.32vw;
   width: 35.47vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   border: none;
   font-weight: 600;
   font-size: 0.97vw;
@@ -2387,7 +2387,7 @@ footer .contact {
 
 #verify-code .container .lines .line {
   width: 13.44vw;
-  height: 0.5px;
+  height: 0.03vw;
   background: #112211;
   opacity: 0.25;
 }
@@ -2413,8 +2413,8 @@ footer .contact {
   width: 11.08vw;
   height: 3.88vw;
   padding: 1.11vw 1.66vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -2493,7 +2493,7 @@ footer .contact {
 #set-a-password .container form #password {
   width: 35.47vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   margin-bottom: 1.66vw;
   font-weight: 400;
   font-size: 1.11vw;
@@ -2518,7 +2518,7 @@ footer .contact {
   height: 3.32vw;
   width: 35.47vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   border: none;
   font-weight: 600;
   font-size: 0.97vw;
@@ -2541,7 +2541,7 @@ footer .contact {
 
 #profile #navbar {
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
   margin: 0;
   margin-bottom: 3.32vw;
   height: 6.03vw;
@@ -2562,7 +2562,7 @@ footer .contact {
   display: flex;
   align-items: center;
   padding-right: 1.11vw;
-  border-right: #000000 solid 1px;
+  border-right: #000000 solid 0.07vw;
   color: #000000;
 }
 
@@ -2589,7 +2589,7 @@ footer .contact {
   height: 24.24vw;
   width: 85.34vw;
   margin: 0 7.20vw;
-  border-radius: 12px;
+  border-radius: 0.83vw;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -2598,7 +2598,7 @@ footer .contact {
 #profile #profile-bg .btn-green {
   margin: 1.80vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   color: #112211;
   height: 3.32vw;
   width: 12.47vw;
@@ -2663,8 +2663,8 @@ footer .contact {
   width: 85.34vw;
   height: 5.54vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 0.83vw;
   margin-bottom: 2.77vw;
 }
 
@@ -2708,8 +2708,8 @@ footer .contact {
 
 #profile .account-nav .container .line {
   width: 3.32vw;
-  height: 0px;
-  border: 1px solid #D7E2EE;
+  height: 0;
+  border: 0.07vw solid #D7E2EE;
   transform: rotate(90deg);
   margin: 0;
 }
@@ -2740,8 +2740,8 @@ footer .contact {
   width: 85.34vw;
   height: 37.13vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
-  border-radius: 16px;
+  box-shadow: 0 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
+  border-radius: 1.11vw;
   color: #112211;
 
 }
@@ -2762,8 +2762,8 @@ footer .contact {
   align-items: center;
   width: 9.70vw;
   height: 3.32vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.97vw;
 }
@@ -2781,8 +2781,8 @@ footer .contact {
   align-items: center;
   width: 12.81vw;
   height: 3.32vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.97vw;
   margin-right: 0.55vw;
@@ -2807,8 +2807,8 @@ footer .contact {
   margin: 0 7.20vw;
   margin-bottom: 1.11vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 0.83vw;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -2841,8 +2841,8 @@ footer .contact {
 
 #profile .t-b-nav .container .line {
   width: 3.32vw;
-  height: 0px;
-  border: 1px solid #D7E2EE;
+  height: 0;
+  border: 0.07vw solid #D7E2EE;
   transform: rotate(90deg);
   margin: 0;
 }
@@ -2866,8 +2866,8 @@ footer .contact {
   width: 85.34vw;
   height: 9.98vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 16px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 1.11vw;
   margin: 0 7.20vw;
   margin-bottom: 1.11vw;
 }
@@ -2915,8 +2915,8 @@ footer .contact {
 
 #profile .fl-elements .line {
   width: 3.32vw;
-  height: 0px;
-  border: 1px solid #D7E2EE;
+  height: 0;
+  border: 0.07vw solid #D7E2EE;
   transform: rotate(90deg);
 }
 
@@ -2966,7 +2966,7 @@ footer .contact {
   width: 10.53vw;
   height: 3.32vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.97vw;
   color: #112211;
@@ -2979,8 +2979,8 @@ footer .contact {
   margin: 0;
   width: 3.32vw;
   height: 3.32vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3044,8 +3044,8 @@ footer .contact {
   width: 85.34vw;
   height: 9.98vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 16px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 1.11vw;
   margin: 0 7.20vw;
   margin-bottom: 1.11vw;
 }
@@ -3093,8 +3093,8 @@ footer .contact {
 
 #profile .st-elements .line {
   width: 3.32vw;
-  height: 0px;
-  border: 1px solid #D7E2EE;
+  height: 0;
+  border: 0.07vw solid #D7E2EE;
   transform: rotate(90deg);
 }
 
@@ -3144,7 +3144,7 @@ footer .contact {
   width: 10.53vw;
   height: 3.32vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.97vw;
   color: #112211;
@@ -3157,8 +3157,8 @@ footer .contact {
   margin: 0;
   width: 3.32vw;
   height: 3.32vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3186,8 +3186,8 @@ footer .contact {
   width: 85.34vw;
   height: 18.01vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 24px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 1.66vw;
 }
 
 #profile .cards .card-new:hover {
@@ -3201,7 +3201,7 @@ footer .contact {
   justify-content: flex-start;
   margin: 1.66vw;
   background: #8DD3BB;
-  border-radius: 16px;
+  border-radius: 1.11vw;
   width: 26.18vw;
   height: 14.68vw;
 }
@@ -3263,7 +3263,7 @@ footer .contact {
   align-items: center;
   justify-content: center;
   margin: 0;
-  border-radius: 16px;
+  border-radius: 1.11vw;
   border: 2px dashed #8DD3BB;
   width: 26.18vw;
   height: 14.68vw;
@@ -3305,7 +3305,7 @@ footer .contact {
   height: 51.61vw;
   z-index: 5;
   background: #fff;
-  border-radius: 12px;
+  border-radius: 0.83vw;
 }
 
  #new-card-form img {
@@ -3382,7 +3382,7 @@ footer .contact {
  #new-card-form form .form-group-2 #country {
   width: 16.90vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   margin-bottom: 1.66vw;
   font-weight: 400;
   font-size: 1.11vw;
@@ -3444,7 +3444,7 @@ footer .contact {
   justify-content: center;
   color: #112211;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   border: none;
   font-weight: 600;
   font-size: 0.97vw;
@@ -3463,7 +3463,7 @@ footer .contact {
 
 #flight-detail #navbar {
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
   margin: 0;
   margin-bottom: 3.32vw;
   height: 6.03vw;
@@ -3484,7 +3484,7 @@ footer .contact {
   display: flex;
   align-items: center;
   padding-right: 1.11vw;
-  border-right: #000000 solid 1px;
+  border-right: #000000 solid 0.07vw;
   color: #000000;
 }
 
@@ -3582,8 +3582,8 @@ footer .contact {
 }
 
 #flight-detail .heading .container .item-2 h5 {
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.97vw;
   padding: 0.59vw 0.76vw;
@@ -3621,8 +3621,8 @@ footer .contact {
   justify-content: center;
   width: 3.33vw;
   height: 3.33vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
 }
 
 #flight-detail .heading .container-2 .item a img {
@@ -3632,7 +3632,7 @@ footer .contact {
 
 #flight-detail .heading .container-2 .item .btn-green {
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   color: #112211;
   height: 3.32vw;
   width: 10.39vw;
@@ -3709,7 +3709,7 @@ footer .contact {
 #flight-detail .features .container-2 img {
   width: 8.31vw;
   height: 8.31vw;
-  border-radius: 12px;
+  border-radius: 0.83vw;
   align-self: center;
   justify-self: center;
 }
@@ -3723,7 +3723,7 @@ footer .contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 8px;
+  border-radius: 0.55vw;
 }
 
 #flight-detail .policies h5 {
@@ -3769,8 +3769,8 @@ footer .contact {
   width: 85.34vw;
   height: 19.88vw;
   background: #fff;
-  box-shadow: 0px 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
+  border-radius: 0.83vw;
 }
 
 #flight-detail .flight-info:last-child {margin-bottom: 8.31vw;}
@@ -3809,8 +3809,8 @@ footer .contact {
 
 #flight-detail .flight-info .container-2 .item {
   display: flex;
-  border: 0.5px solid #8DD3BB;
-  border-radius: 8px;
+  border: 0.03vw solid #8DD3BB;
+  border-radius: 0.55vw;
   width: 18.15vw;
   height: 5.96vw;
 }
@@ -3860,7 +3860,7 @@ footer .contact {
 
 #flight-detail .flight-info .container-2 .item-2 .line {
   width: 3.32vw;
-  height: 0px;
+  height: 0;
   border: 0.07vw solid #D7E2EE;
   transform: rotate(90deg);
 }
@@ -3920,8 +3920,8 @@ footer .contact {
   margin-bottom: 2.77vw;
   width: 54.72vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
+  border-radius: 0.83vw;
   display: flex;
   flex-direction: column;
 }
@@ -3978,8 +3978,8 @@ footer .contact {
   justify-content: space-between;
   width: 18.15vw;
   height: 5.96vw;
-  border: 0.5px solid #8DD3BB;
-  border-radius: 8px;
+  border: 0.03vw solid #8DD3BB;
+  border-radius: 0.55vw;
 }
 
 #flight-detail-booking .split .container-1 .emirates-flow .item img {
@@ -4019,7 +4019,7 @@ footer .contact {
 
 #flight-detail-booking .split .container-1 .emirates-flow .item-2 .line {
   width: 3.32vw;
-  height: 0px;
+  height: 0;
   border: 0.07vw solid #D7E2EE;
   transform: rotate(90deg);
 }
@@ -4079,7 +4079,7 @@ footer .contact {
   justify-content: space-between;
   width: 52.51vw;
   height: 5.54vw;
-  border-radius: 12px;
+  border-radius: 0.83vw;
 }
 
 #flight-detail-booking .split .container-2 .group #form-2 .item {
@@ -4145,8 +4145,8 @@ footer .contact {
   font-weight: 400;
   font-size: 1.11vw;
   color: #1C1B1F;
-  border: 1px solid #79747E;
-  border-radius: 4px;
+  border: 0.07vw solid #79747E;
+  border-radius: 0.28vw;
   font-family: 'Montserrat';
   cursor: pointer;
 }
@@ -4170,7 +4170,7 @@ footer .contact {
   align-items: center;
   justify-content: center;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-size: 1.1vw;
   font-family: 'Montserrat';
   font-weight: 500;
@@ -4188,9 +4188,9 @@ footer .contact {
 
 #flight-detail-booking .split .container-3 .item .line {
   width: 23.34vw;
-  height: 0px;
+  height: 0;
   opacity: 0.25;
-  border: 1px solid #112211;
+  border: 0.07vw solid #112211;
 }
 
 #flight-detail-booking .split .container-3 .item p {
@@ -4210,8 +4210,8 @@ footer .contact {
   width: 16.40vw;
   height: 3.88vw;
   padding: 1.11vw 1.66vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   text-align: center;
 }
 
@@ -4226,8 +4226,8 @@ footer .contact {
   justify-content: center;
   width: 51.40vw;
   height: 3.88vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   margin: 0 1.66vw;
   margin-bottom: 1.66vw;
 }
@@ -4254,8 +4254,8 @@ footer .contact {
   width: 31.17vw;
   height: 32.52vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 0.83vw;
 }
 
 #flight-detail-booking .review-flight .container-1 {
@@ -4298,7 +4298,7 @@ footer .contact {
   padding: 0.59vw 0.76vw;
   margin-right: 0.55vw;
   border: 0.07vw solid #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.83vw;
   align-self: center;
@@ -4386,8 +4386,8 @@ footer .contact {
   margin-bottom: 8.32vw;
   width: 54.72vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
+  border-radius: 0.83vw;
   display: flex;
   flex-direction: column;
 }
@@ -4397,7 +4397,7 @@ footer .contact {
   align-items: center;
   justify-content: space-between;
   margin: 1.11vw;
-  border-radius: 12px;
+  border-radius: 0.83vw;
 }
 
 #flight-detail-booking .split .container-3-li #card-selected .group {
@@ -4437,7 +4437,7 @@ footer .contact {
   margin: 1.11vw;
   margin-top: 0;
   border: 0.14vw dashed #8DD3BB;
-  border-radius: 15px;
+  border-radius: 10.35vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -4482,7 +4482,7 @@ footer .contact {
   height: 51.61vw;
   z-index: 5;
   background: #fff;
-  border-radius: 12px;
+  border-radius: 0.83vw;
 }
 
 #flight-detail-booking #new-card-form img {
@@ -4559,7 +4559,7 @@ footer .contact {
 #flight-detail-booking #new-card-form form .form-group-2 #country {
   width: 16.90vw;
   height: 3.74vw;
-  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.28vw 0.28vw 0 0;
   margin-bottom: 1.66vw;
   font-weight: 400;
   font-size: 1.11vw;
@@ -4617,7 +4617,7 @@ footer .contact {
   height: 3.32vw;
   width: 35.46vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   border: none;
   font-weight: 600;
   font-size: 0.97vw;
@@ -4688,8 +4688,8 @@ footer .contact {
 }
 
 #flight-detail #flight-detail-booking-ticket .heading .container .item-2 h5 {
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.97vw;
   padding: 0.59vw 0.76vw;
@@ -4727,8 +4727,8 @@ footer .contact {
   justify-content: center;
   width: 3.33vw;
   height: 3.33vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
 }
 
 #flight-detail #flight-detail-booking-ticket .heading .container-2 .item a img {
@@ -4738,7 +4738,7 @@ footer .contact {
 
 #flight-detail #flight-detail-booking-ticket .heading .container-2 .item .btn-green {
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   color: #112211;
   height: 3.32vw;
   width: 10.39vw;
@@ -4760,7 +4760,7 @@ footer .contact {
   height: 21.40vw;
   background: #FFFFFF;
   border: 0.07vw solid #EAEAEA;
-  border-radius: 16px;
+  border-radius: 1.11vw;
 }
 
 #flight-detail #flight-detail-booking-ticket .split .container-1 .item-1 {
@@ -4771,8 +4771,8 @@ footer .contact {
   width: 17.04vw;
   background: #EBF6F2;
   padding: 1.66vw;
-  border-bottom-left-radius: 16px;
-  border-top-left-radius: 16px;
+  border-bottom-left-radius: 1.11vw;
+  border-top-left-radius: 1.11vw;
 }
 
 #flight-detail #flight-detail-booking-ticket .split .container-1 .item-1 h6 {
@@ -4802,7 +4802,7 @@ footer .contact {
   display: flex;
   align-items: center;
   background: #8DD3BB;
-  border-top-right-radius: 16px;
+  border-top-right-radius: 1.11vw;
   padding: 1.66vw;
   width: 42.25vw;
 }
@@ -4891,7 +4891,7 @@ footer .contact {
   width: 25.98vw;
   height: 21.40vw;
   border: 0.07vw solid #EAEAEA;
-  border-radius: 16px;
+  border-radius: 1.11vw;
 }
 
 #flight-detail #flight-detail-booking-ticket #terms-conditions {
@@ -4929,7 +4929,7 @@ footer .contact {
 
 #hotel-listing #navbar {
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
   margin: 0;
   margin-bottom: 3.32vw;
   height: 6.03vw;
@@ -4950,7 +4950,7 @@ footer .contact {
   display: flex;
   align-items: center;
   padding-right: 1.11vw;
-  border-right: #000000 solid 1px;
+  border-right: #000000 solid 0.07vw;
   color: #000000;
 }
 
@@ -5072,8 +5072,8 @@ footer .contact {
 }
 
 #hotel-listing .heading .container .item-2 h5 {
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.97vw;
   padding: 0.59vw 0.76vw;
@@ -5111,8 +5111,8 @@ footer .contact {
   justify-content: center;
   width: 3.33vw;
   height: 3.33vw;
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
 }
 
 #hotel-listing .heading .container-2 .item a img {
@@ -5122,7 +5122,7 @@ footer .contact {
 
 #hotel-listing .heading .container-2 .item .btn-green {
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   color: #112211;
   height: 3.32vw;
   width: 10.39vw;
@@ -5187,7 +5187,7 @@ footer .contact {
   align-items: center;
   justify-content: center;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   width: 9.91vw;
   height: 3.32vw;
   margin-left: -11.02vw;
@@ -5240,7 +5240,7 @@ footer .contact {
   align-items: flex-start;
   justify-content: flex-start;
   background: #8DD3BB;
-  border-radius: 12px;
+  border-radius: 0.83vw;
   width: 11.50vw;
   height: 10.04vw;
   margin: 0;
@@ -5325,7 +5325,7 @@ footer .contact {
 #hotel-listing .rooms .container .group .item-1 img {
   width: 3.32vw;
   height: 3.32vw;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   margin-right: 1.11vw;
 }
 
@@ -5351,7 +5351,7 @@ footer .contact {
 #hotel-listing .rooms .container .group .item-2 a {
   color: #112211;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-weight: 600;
   font-size: 0.97vw;
   padding: 1.07vw 2.46vw;
@@ -5386,7 +5386,7 @@ footer .contact {
   margin: 0;
   color: #112211;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-weight: 600;
   font-size: 0.97vw;
   padding: 1.07vw 1.11vw;
@@ -5395,7 +5395,7 @@ footer .contact {
 #hotel-listing #location-map img {
   width: 85.34vw;
   height: 31.17vw;
-  border-radius: 16px;
+  border-radius: 1.11vw;
   margin-bottom: 0.55vw;
 }
 
@@ -5492,7 +5492,7 @@ footer .contact {
 
 #hotel-listing #reviews .container-1 .btn-green {
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   padding: 1.07vw 1.11vw;
   font-weight: 600;
   font-size: 0.97vw;
@@ -5581,7 +5581,7 @@ footer .contact {
  
 #hotels-listing #navbar {
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
   margin: 0;
   margin-bottom: 3.32vw;
   height: 6.03vw;
@@ -5602,7 +5602,7 @@ footer .contact {
   display: flex;
   align-items: center;
   padding-right: 1.11vw;
-  border-right: #000000 solid 1px;
+  border-right: #000000 solid 0.07vw;
   color: #000000;
 }
 
@@ -5631,8 +5631,8 @@ footer .contact {
   width: 85.34vw;
   height: 8.31vw;
   background: #fff;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 16px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 1.11vw;
   margin: 0 7.2vw;
   margin-bottom: 2.22vw;
 }
@@ -5655,7 +5655,7 @@ footer .contact {
   height: 3.88vw;
   background: #FFFFFF;
   border: 0.07vw solid #79747E;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-size: 1.11vw;
   padding: 1.25vw 1.11vw;
 }
@@ -5682,7 +5682,7 @@ footer .contact {
   border: none;
   width: 3.88vw;
   height: 3.88vw;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5835,7 +5835,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 2.77vw;
   height: 2.22vw;
   border: 0.07vw solid #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
 }
 
 #hotels-listing .split #filter .rating .buttons button p {
@@ -5888,8 +5888,8 @@ input[type="range"]::-webkit-slider-thumb {
   width: 58.19vw;
   height: 5.54vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 0.83vw;
   margin: 0;
   margin-bottom: 2.22vw;
   display: flex;
@@ -5962,8 +5962,8 @@ input[type="range"]::-webkit-slider-thumb {
   width: 58.19vw;
   height: 20.68vw;
   background: #FFFFFF;
-  border-radius: 0px 12px 12px 0px;
-  filter: drop-shadow(0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
+  border-radius: 0 0.83vw 0.83vw 0;
+  filter: drop-shadow(0 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
 }
 
 #hotels-listing .split #data #container-show:nth-child(8),
@@ -5997,7 +5997,7 @@ input[type="range"]::-webkit-slider-thumb {
   color: #112211;
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(2px);
-  border-radius: 8px;
+  border-radius: 0.55vw;
   width: 4.99vw;
   height: 2.22vw;
   margin-left: -5.54vw;
@@ -6106,8 +6106,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 #hotels-listing .split #data #container-show .txt-group .items .item-1 .rating h6 {
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.83vw;
   line-height: 1.01vw;
@@ -6165,7 +6165,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 3.32vw;
   height: 3.32vw;
   border: 0.07vw solid #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   margin: 0;
   display: flex;
   align-items: center;
@@ -6181,7 +6181,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 29.65vw;
   height: 3.32vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   color: #112211;
   font-size: 0.97vw;
   font-weight: 600;
@@ -6194,7 +6194,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 58.19vw;
   height: 3.32vw;
   background: #112211;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-weight: 600;
   font-size: 0.97vw;
   line-height: 1.18vw;
@@ -6207,7 +6207,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 #favourites #navbar {
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
   margin: 0;
   margin-bottom: 3.32vw;
   height: 6.03vw;
@@ -6228,7 +6228,7 @@ input[type="range"]::-webkit-slider-thumb {
   display: flex;
   align-items: center;
   padding-right: 1.11vw;
-  border-right: #000000 solid 1px;
+  border-right: #000000 solid 0.07vw;
   color: #000000;
 }
 
@@ -6264,8 +6264,8 @@ input[type="range"]::-webkit-slider-thumb {
   width: 85.34vw;
   height: 5.54vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 0.83vw;
   margin: 0 7.20vw;
   margin-bottom: 2.77vw;
 }
@@ -6331,8 +6331,8 @@ input[type="range"]::-webkit-slider-thumb {
   width: 85.34vw;
   height: 18.96vw;
   background: #FFFFFF;
-  border-radius: 0px 12px 12px 0px;
-  filter: drop-shadow(0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
+  border-radius: 0 0.83vw 0.83vw 0;
+  filter: drop-shadow(0 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
 }
 
 #favourites #fav-hotels #container-show .img-group,
@@ -6356,7 +6356,7 @@ input[type="range"]::-webkit-slider-thumb {
   color: #112211;
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(2px);
-  border-radius: 8px;
+  border-radius: 0.55vw;
   width: 4.99vw;
   height: 2.22vw;
   margin-left: -5.54vw;
@@ -6481,8 +6481,8 @@ input[type="range"]::-webkit-slider-thumb {
 
 #favourites #fav-hotels #container-show .txt-group .items .item-1 .rating h6,
 #favourites #fav-flights #container-show .txt-group .items .item-1 .rating h6 {
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.83vw;
   line-height: 1.01vw;
@@ -6549,7 +6549,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 3.32vw;
   height: 3.32vw;
   border: 0.07vw solid #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   margin: 0;
   display: flex;
   align-items: center;
@@ -6567,7 +6567,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 47.10vw;
   height: 3.32vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   color: #112211;
   font-size: 0.97vw;
   font-weight: 600;
@@ -6580,7 +6580,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 #flights-listing #navbar {
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
   margin: 0;
   margin-bottom: 3.32vw;
   height: 6.03vw;
@@ -6601,7 +6601,7 @@ input[type="range"]::-webkit-slider-thumb {
   display: flex;
   align-items: center;
   padding-right: 1.11vw;
-  border-right: #000000 solid 1px;
+  border-right: #000000 solid 0.07vw;
   color: #000000;
 }
 
@@ -6630,8 +6630,8 @@ input[type="range"]::-webkit-slider-thumb {
   width: 85.34vw;
   height: 8.31vw;
   background: #fff;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 16px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 1.11vw;
   margin: 0 7.2vw;
   margin-bottom: 2.22vw;
 }
@@ -6654,7 +6654,7 @@ input[type="range"]::-webkit-slider-thumb {
   height: 3.88vw;
   background: #FFFFFF;
   border: 0.07vw solid #79747E;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-size: 1.11vw;
   padding: 1.25vw 1.11vw;
 }
@@ -6681,7 +6681,7 @@ input[type="range"]::-webkit-slider-thumb {
   border: none;
   width: 3.88vw;
   height: 3.88vw;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6834,7 +6834,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 2.77vw;
   height: 2.22vw;
   border: 0.07vw solid #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
 }
 
 #flights-listing .split #filter .rating .buttons button p {
@@ -6887,8 +6887,8 @@ input[type="range"]::-webkit-slider-thumb {
   width: 58.19vw;
   height: 5.54vw;
   background: #FFFFFF;
-  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 0.83vw;
   margin: 0;
   margin-bottom: 2.22vw;
   display: flex;
@@ -6961,8 +6961,8 @@ input[type="range"]::-webkit-slider-thumb {
   width: 58.19vw;
   height: 20.68vw;
   background: #FFFFFF;
-  border-radius: 12px;
-  filter: drop-shadow(0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
+  border-radius: 0.83vw;
+  filter: drop-shadow(0 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
 }
 
 #flights-listing .split #data #container-show:nth-child(8),
@@ -6981,7 +6981,7 @@ input[type="range"]::-webkit-slider-thumb {
 #flights-listing .split #data #container-show .img-group {
   width: 12.74vw;
   height: 20.68vw;
-  border-radius: 12px;
+  border-radius: 0.83vw;
   display: flex;
   align-items: flex-start;
 
@@ -7019,8 +7019,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 #flights-listing .split #data #container-show .txt-group .items .item-1 .rating h6 {
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.83vw;
   line-height: 1.01vw;
@@ -7130,7 +7130,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 3.32vw;
   height: 3.32vw;
   border: 0.07vw solid #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   margin: 0;
   display: flex;
   align-items: center;
@@ -7146,7 +7146,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 37.133vw;
   height: 3.32vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   color: #112211;
   font-size: 0.97vw;
   font-weight: 600;
@@ -7159,7 +7159,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 58.19vw;
   height: 3.32vw;
   background: #112211;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   font-weight: 600;
   font-size: 0.97vw;
   line-height: 1.18vw;
@@ -7185,8 +7185,8 @@ input[type="range"]::-webkit-slider-thumb {
   align-items: center;
   width: 51.40vw;
   height: 5.96vw;
-  border: 0.5px solid #8DD3BB;
-  border-radius: 8px;
+  border: 0.03vw solid #8DD3BB;
+  border-radius: 0.55vw;
 }
 
 #flight-detail-booking .split .container-1 .cvk-flow .item img {
@@ -7238,7 +7238,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 #flight-detail-booking .split .container-1 .cvk-flow .item-2 .line {
   width: 3.32vw;
-  height: 0px;
+  height: 0;
   border: 0.07vw solid #D7E2EE;
   transform: rotate(90deg);
 }
@@ -7254,8 +7254,8 @@ input[type="range"]::-webkit-slider-thumb {
   width: 85.34vw;
   height: 18.95vw;
   background: #FFFFFF;
-  border-radius: 12px;
-  filter: drop-shadow(0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
+  border-radius: 0.83vw;
+  filter: drop-shadow(0 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
 }
 
 #favourites #fav-flights #container-show:last-child {
@@ -7265,7 +7265,7 @@ input[type="range"]::-webkit-slider-thumb {
 #favourites #fav-flights #container-show .img-group {
   width: 30.48vw;
   height: 20.68vw;
-  border-radius: 12px;
+  border-radius: 0.83vw;
   display: flex;
   align-items: flex-start;
 
@@ -7302,8 +7302,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 #favourites #fav-flights #container-show .txt-group .items .item-1 .rating h6 {
-  border: 1px solid #8DD3BB;
-  border-radius: 4px;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 0.28vw;
   font-weight: 500;
   font-size: 0.83vw;
   line-height: 1.01vw;
@@ -7413,7 +7413,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 3.32vw;
   height: 3.32vw;
   border: 0.07vw solid #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   margin: 0;
   display: flex;
   align-items: center;
@@ -7429,7 +7429,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 47.10vw;
   height: 3.32vw;
   background: #8DD3BB;
-  border-radius: 4px;
+  border-radius: 0.28vw;
   color: #112211;
   font-size: 0.97vw;
   font-weight: 600;
