@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hotel Listing | Golobe</title>
+</head>
+<body>
+  <div id="hotels-listing">
+    <!-- navbar -->
+    <nav id="navbar">
+      <div class="container">
+        <div class="flights-stays">
+          <a href="#" class="trans-btn-dark"><img src="./img/plane-dark.png" alt="">Find Flight</a>
+          <a href="#" class="trans-btn-dark"><img src="./img/bed-dark.png" alt="">Find Stays</a>
+        </div>
+        <div class="logo"><img src="./img/logo.png" alt="logo"></div>
+        <div class="profile-nav">
+          <a id="profile-favourites" href="#"><img id="heart" src="./img/heart.png" alt="">Favourites</a>
+          <a id="profile-btn" href="#"><img id="profile-img-s" src="./img/profile-img.png" alt="">John D.</a>
+        </div>
+    </nav>
+    <form class="inputs">
+      <div class="group">
+        <select name="destination" id="place">
+          <option value="Istanbul">Istanbul, Turkey</option>
+        </select>
+        <label id="destination-l" for="destination">Enter Destination</label>
+      </div>
+      <div class="group">
+        <input name="check-in" type="date">
+        <label id="check-in-l" for="check-in">Check In</label>
+      </div>
+      <div class="group">
+        <input name="check-out" type="date">
+        <label id="check-out-l" for="check-out">Check Out</label>
+      </div>
+      <div class="group">
+        <select name="rooms-guests" id="rooms-guests">
+          <option value="1room2guests"><img src="./img/face.png" alt="">1 room, 2 guests</option>
+        </select>        
+        <label id="rooms-guests-l" for="rooms-guests">Rooms & Guests</label>
+      </div>
+      <div class="item">
+        <input id="search" type="image" src="./img/search.png" value="">
+      </div>
+    </form>
+
+    <div class="split">
+      <div id="filter">
+        <h6>Filter</h6>
+        <div class="price">
+          <div class="container">
+            <h6>Price</h6>
+            <img src="./img/back.png" alt="">
+          </div>
+          <div class="wrapper">
+            <div class="container-range">
+              <div id="slider-track"></div>
+              <input type="range" min="0" max="650" value="0" id="range-slider-1" step="10" oninput="slideOne()">
+              <input type="range" min="0" max="650" value="650" id="range-slider-2" step="10" oninput="slideTwo()">
+              <div id="values-range">
+                <div id="range1">
+                  $0
+                </div>
+                <div id="range2">
+                  $650
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PRAZAN PROSTOR ZNAMO MI ZASTO -->
+
+        <div class="line"></div>
+
+        <div class="rating">
+          <div class="container">
+            <h6>Rating</h6>
+            <img src="./img/back.png" alt="">
+          </div>
+          <div class="buttons">
+            <button><p>0+</p></button>
+            <button><p>1+</p></button>
+            <button><p>2+</p></button>
+            <button><p>3+</p></button>
+            <button><p>4+</p></button>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="freebies">
+          <div class="container">
+            <h6>Freebies</h6>
+            <img src="./img/back.png" alt="">
+          </div>
+          <form action="get">
+            <div class="group">
+              <input type="checkbox" name="freebies" id="breakfast">
+              <label for="breakfast">Free breakfast</label>
+            </div>
+            <div class="group">
+              <input type="checkbox" name="freebies" id="internet">
+              <label for="internet">Free internet</label>
+            </div>
+            <div class="group">
+              <input type="checkbox" name="freebies" id="parking">
+              <label for="parking">Free parking</label>
+            </div>
+            <div class="group">
+              <input type="checkbox" name="freebies" id="shuttle">
+              <label for="shuttle">Free airport shuttle</label>
+            </div>
+            <div class="group">
+              <input type="checkbox" name="freebies" id="cancel">
+              <label for="cancel">Free cancellation</label>
+            </div>
+          </form>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="amenities">
+          <div class="container">
+            <h6>Amenities</h6>
+            <img src="./img/back.png" alt="">
+          </div>
+          <form action="get">
+            <div class="group">
+              <input type="checkbox" name="amenities" id="front-desk">
+              <label for="front-desk">24hr front desk</label>
+            </div>
+            <div class="group">
+              <input type="checkbox" name="amenities" id="ac">
+              <label for="ac">Air-conditioned</label>
+            </div>
+            <div class="group">
+              <input type="checkbox" name="amenities" id="fitness">
+              <label for="fitness">Fitness</label>
+            </div>
+            <div class="group">
+              <input type="checkbox" name="amenities" id="pool">
+              <label for="pool">Pool</label>
+            </div>
+          </form>
+          <p>+24 more</p>
+        </div>
+      </div>
+
+      <div id="data">
+        <div class="containers">
+          <div class="header">
+            <a id="hotels-select" onclick="hotelsSelect()">
+              <h6>Hotels</h6>
+              <p>10 places</p>
+            </a>
+            <div class="line"></div>
+            <a id="motels-select" onclick="motelsSelect()">
+              <h6>Motels</h6>
+              <p>0 places</p>
+            </a>
+            <div class="line"></div>
+            <a id="resorts-select" onclick="resortsSelect()">
+              <h6>Resorts</h6>
+              <p>0 places</p>
+            </a>
+          </div>
+          <span class="show">Showing <span id="num-places"></span> of </span><span class="show-span">10 places</span>
+          <div id="container-show" data-value="150">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$150</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+          <div id="container-show" data-value="200">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$200</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+          <div id="container-show" data-value="250">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$250</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+          <div id="container-show" data-value="300">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$300</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+          <div id="container-show" data-value="350">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$350</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+          <div id="container-show" data-value="400">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$400</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+          <div id="container-show" data-value="450">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$450</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+          <div id="container-show" data-value="500">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$500</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+          <div id="container-show" data-value="550">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$550</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+          <div id="container-show" data-value="600">
+            <div class="img-group">
+              <img src="./img/hl-1.png" alt="">
+              <p>9 images</p>
+            </div>
+            <div class="txt-group">
+              <div class="items">
+                <div class="item-1">
+                  <h6>CVK Park Bosphorus Hotel Istanbul</h6>
+                  <div class="location">
+                    <img src="./img/location.png" alt="">
+                    <p>Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+                  </div>
+                  <div class="str-amnt">
+                    <div class="stars">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <img src="./img/str.png" alt="">
+                      <p>5 Star Hotel</p>
+                    </div>
+                    <img src="./img/tea.png" alt="">
+                    <p><strong>20+</strong> Aminities</p>
+                  </div>
+                  <div class="rating">
+                    <h6>4.2</h6>
+                    <p><strong>Very Good</strong> 371 reviews</p>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <p>starting from</p>
+                  <h6><strong>$600</strong>/night</h6>
+                  <p>excl. tax</p>
+                </div>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="btns">
+                <div class="hrt"><img src="./img/heart.png" alt=""></div>
+                <a href="./hotel-listing.html">View Place</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button id="show-more" onclick="showMore()">
+          Show more results
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Newsletter -->
+  <div id="newsletter-0">
+    <div id="newsletter">
+      <div class="container">
+        <h3>Subscribe<br>Newsletter</h3>
+        <h5>The Travel</h5>
+        <p>Get inspired! Receive travel discounts, tips and behind the scenes stories.</p>
+        <form action="GET">
+          <input class="email" type="email" name="email" placeholder="Your email address">
+          <input class="submit" type="submit" name="subscribe" value="Subscribe">
+        </form>
+      </div>
+      <img src="./img/letter_box.png" alt="">
+    </div>
+  </div>
+  <footer>
+    <div class="logos">
+      <img class='logo-dark' src="./img/logo-dark.png" alt="logo">
+      <ul>
+        <li><a href="#"><img src="./img/fb.png" alt="fb"></a></li>
+        <li><a href="#"><img src="./img/tw.png" alt="tw"></a></li>
+        <li><a href="#"><img src="./img/yt.png" alt="yt"></a></li>
+        <li><a href="#"><img src="./img/ig.png" alt="ig"></a></li>
+      </ul>
+    </div>
+    <div class="destinations">
+      <h4>Our Destinations</h4>
+      <ul>
+        <li><a href="#">Canada</a></li>
+        <li><a href="#">Alaska</a></li>
+        <li><a href="#">France</a></li>
+        <li><a href="#">Iceland</a></li>
+      </ul>
+    </div>
+    <div class="activities">
+      <h4>Our Activities</h4>
+      <ul>
+        <li><a href="#">Northern Lights</a></li>
+        <li><a href="#">Cruising & sailing</a></li>
+        <li><a href="#">Multi-activities</a></li>
+        <li><a href="#">Kayaking</a></li>
+      </ul>
+    </div>
+    <div class="blogs">
+      <h4>Travel Blogs</h4>
+      <ul>
+        <li><a href="#">Bali Travel Guide</a></li>
+        <li><a href="#">Sri Lanka Travel Guide</a></li>
+        <li><a href="#">Peru Travel Guide</a></li>
+        <li><a href="#">Bali Travel Guide</a></li>
+      </ul>
+    </div>
+    <div class="about">
+      <h4>About Us</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Work with us</a></li>
+      </ul>
+    </div>
+    <div class="contact">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Work with us</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./listing.js"></script>
+</body>
+</html>

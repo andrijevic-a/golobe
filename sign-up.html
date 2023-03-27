@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>SignUp | Golobe</title>
+</head>
+<body>
+  <div id="sign-up">
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="./img/l-1.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./img/l-2.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./img/l-1.png" style="width:100%">
+      </div>
+      
+      <!-- The dots/circles -->
+      <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <div class="container">
+      <a href="index.html"><img src="./img/logo.png" alt=""></a>
+      <h2>Sign Up</h2>
+      <p>Let’s get you all set up so you can access your personal account.</p>
+      <form action="GET">
+        <div class="form-group">
+          <div class="subgroup">
+            <label for="first-name">First Name</label>
+            <input type="text-box" id="first-name" name="first-name" placeholder="John">
+          </div>
+          <div class="subgroup">
+            <label for="last-name">Last Name</label>
+            <input type="text-box" id="last-name" name="last-name" placeholder="Doe">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="subgroup">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="john.doe@email.com">
+          </div>
+          <div class="subgroup">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 55 555 55 55">
+          </div>
+        </div>
+        <div class="form-group-2">
+          <div class="group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" value="yourpassword">
+            <img id="show" src="./img/show.png" alt="" onclick="myFunction()">
+          </div>
+          <div class="group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" value="yourpassword">
+            <img id="show" src="./img/show.png" alt="" onclick="myFunction()">
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-2">
+            <input type="checkbox" id="agree" name="agree">
+            <label id="agree-l" for="agree">I agree to all the <a href="#">Terms</a> and <a href="#">Privacy Policies</a></label>
+          </div>
+        </div>
+        <a href="./payment.html" id="submit" type="submit" value="Create account">Create account</a>
+        <p>Already have an account? <a href="./login.html">Log In</a></p>
+      </form>
+      <div class="lines">
+        <div class="line"></div>
+        <p>Or Sign up with</p>
+        <div class="line"></div>
+      </div>
+      <div class="container-2">
+        <a href="./profile.html"><img src="./img/fb-color.png" alt=""></a>
+        <a href="./profile.html"><img src="./img/google-color.png" alt=""></a>
+        <a href="./profile.html"><img src="./img/apple.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

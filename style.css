@@ -1,0 +1,7439 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+body {
+  background: #fafafa;
+  font-family: 'Montserrat';
+}
+
+/* landing */
+
+#landing #btns-logo {
+  background-image: url('./img/header-update.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 94.75vw;
+  height: 41.49vw;
+  margin: 2.08vw;
+  border-radius: 24px;
+  color: #fefefe;
+  font-family: 'Montserrat';
+  font-size: 0.97vw;
+  font-weight: 600;
+}
+
+#landing #btns-logo .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.66vw 2.22vw;
+  margin: 0;
+}
+
+#landing #btns-logo .container .flights-stays,
+#landing #btns-logo .container .login-signup {
+  display: flex;
+  width: 19.95vw;
+  align-items: center;
+}
+
+#landing #btns-logo .container .flights-stays .trans-btn-light {
+  color: #fefefe;
+  text-align: center;
+  margin: 0.33vw;
+  margin-left: 0;
+  margin-right: 2.22vw;
+  display: flex;
+  align-items: center;
+}
+
+#landing #btns-logo .container .flights-stays .trans-btn-light img {
+  width: 1.56vw;
+  height: 1.36vw;
+  margin: 0.33vw;
+}
+
+#landing #btns-logo .container .login-signup {
+  justify-content: right;
+  align-items: center;
+}
+
+#landing #btns-logo .container .login-signup .trans-btn-light {
+  margin-right: 2.22vw;
+  color: #fefefe;
+}
+
+#landing #btns-logo .container .login-signup .light-btn {
+  padding: 0.69vw 1.66vw;
+  background-color: #fff;
+  color: #112211;
+  border-radius: 8px;
+}
+
+#landing #btns-logo .container .logo img {
+  width: 7.65vw;
+}
+
+#landing #btns-logo #headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+#landing #btns-logo #headings h3 {
+  font-size: 3.13vw;
+}
+
+#landing #btns-logo #headings h2 {
+  font-size: 5.55vw;
+}
+
+#landing #btns-logo #headings h4 {
+  font-size: 1.38vw;
+}
+
+/* booking */
+
+#landing #booking {
+  width: 85.34vw;
+  height: 19.40vw;
+  background: #fff;
+  margin: 0 7.20vw;
+  box-shadow: 0px 0.28vw 1.11vw rgba(141, 211, 187, 0.15);
+  border-radius: 16px;
+  margin-top: -6.72vw;
+  padding-top: 1.11vw;
+}
+
+#landing #booking #selection-btns {
+  display: flex;
+  align-items: center;
+  margin: 0 2.22vw;
+  margin-bottom: 3.32vw;
+  width: 15.86vw;
+  height: 3.32vw;
+}
+
+#landing #booking #selection-btns #tbd-srch-plcs,
+#landing #booking #selection-btns #tbd-srch-flghts {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.83vw;
+  font-weight: 600;
+  font-size: 1.11vw;
+  line-height: 1.38vw;
+  border-bottom: #8DD3BB solid 0.28vw;
+  cursor: pointer;
+}
+
+#landing #booking #selection-btns #tbd-srch-flghts {
+  border-bottom: none;
+}
+
+#landing #booking #selection-btns #tbd-srch-plcs img,
+#landing #booking #selection-btns #tbd-srch-flghts img {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin-right: 0.61vw;
+}
+
+#landing #booking #selection-btns .line {
+  width: 3.32vw;
+  height: 0.07vw;
+  margin: 0;
+  padding: 0;
+  background:  #D7E2EE;
+  transform: rotate(90deg);
+}
+
+#landing #booking #places-search .inputs-places,
+#landing #booking #flights-search .inputs-flights {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2.22vw;
+  margin-bottom: 2.22vw;
+  height: 3.88vw;
+}
+
+#landing #booking #flights-search {
+  display: none;
+}
+
+#landing #booking #places-search .inputs-places .group,
+#landing #booking #flights-search .inputs-flights .group {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.3vw;
+}
+
+#landing #booking #places-search .inputs-places .group input,
+#landing #booking #flights-search .inputs-flights .group input,
+#landing #booking #places-search .inputs-places .group select,
+#landing #booking #flights-search .inputs-flights .group select {
+  margin: 0;
+  width: 16.62vw;
+  height: 3.88vw;
+  background: #FFFFFF;
+  border: 0.07vw solid #79747E;
+  border-radius: 4px;
+  font-size: 1.11vw;
+  padding: 1.25vw 1.11vw;
+}
+
+#landing #booking #places-search .inputs-places .group #place,
+#landing #booking #flights-search .inputs-flights .group #place,
+#landing #booking #places-search .inputs-places .group #travel-date,
+#landing #booking #flights-search .inputs-flights .group #travel-date,
+#landing #booking #places-search .inputs-places .group #rooms-guests,
+#landing #booking #flights-search .inputs-flights .group #rooms-guests {
+  width: 22.44vw;
+}
+
+#landing #booking #places-search .inputs-places .group #trip-type,
+#landing #booking #flights-search .inputs-flights .group #trip-type {
+  width: 9.70vw;
+}
+
+#landing #booking #places-search .inputs-places .group label,
+#landing #booking #flights-search .inputs-flights .group label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 1.11vw;
+  margin-top: -4.47vw;
+  padding: 0 0.28vw;
+  background: #fff;
+  z-index: 3;
+}
+
+#landing #booking #places-search .srch-btns,
+#landing #booking #flights-search .srch-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 3.88vw;
+  margin: 0 2.22vw;
+}
+
+#landing #booking #places-search .srch-btns #promo-code-btn,
+#landing #booking #flights-search .srch-btns #promo-code-btn {
+  width: 9.84vw;
+  font-weight: 500;
+  line-height: 1.18vw;
+  font-size: 0.97vw;
+  margin: 0;
+  margin-right: 1.66vw;
+  color: #112211;
+}
+
+#landing #booking #places-search .srch-btns #srch-btn-pf,
+#landing #booking #flights-search .srch-btns #srch-btn-pf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.97vw;
+  height: 3.32vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+}
+
+#landing #booking #places-search .srch-btns #srch-btn-pf img,
+#landing #booking #flights-search .srch-btns #srch-btn-pf img {
+  width: 1.11vw;
+  height: 1.11vw;
+  margin-right: 0.28vw;
+}
+
+#landing #booking #places-search .srch-btns #srch-btn-pf p,
+#landing #booking #flights-search .srch-btns #srch-btn-pf p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  line-height: 1.18vw;
+  color: #112211;
+}
+
+
+/* pics */
+
+#landing #popular-pics {
+  font-family: 'Montserrat';
+  margin: 5.55vw 7.21vw;
+}
+
+#landing #popular-pics .container {margin: 0;}
+
+#landing #popular-pics .container:first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.77vw;
+}
+
+#landing #popular-pics .container .item {
+  width: 72vw;
+  color: #112211;
+}
+
+#landing #popular-pics .container .item h3 {
+  font-size: 2.22vw;
+  font-weight: 600;
+  margin-bottom: 1.10vw;
+}
+
+#landing #popular-pics .container .item p {
+  font-size: 1.10vw;
+}
+
+#landing #popular-pics .container .btn {
+  border: #8DD3BB solid 1px;
+  border-radius: 4px;
+  padding: 0.8vw 1.10vw;
+  color: #112211;
+  margin-left: 1.66vw;
+  font-size: 0.97vw;
+  margin-right: 0;
+}
+
+#landing #popular-pics .container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#landing #popular-pics .container-2 .item {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+  height: 8.45vw;
+  width: 26vw;
+  margin-bottom: 2.22vw;
+}
+
+#landing #popular-pics .container-2 .item img {
+  height: 6.23vw;
+  width: 6.23vw;
+  margin: 1.11vw;
+}
+
+#landing #popular-pics .container-2 .item-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#landing #popular-pics .container-2 .item-2 h4{
+  font-size: 1.11vw;
+  font-weight: 600;
+  margin-bottom: 0.55vw;
+}
+
+#landing #popular-pics .container-2 .item-2 ul {
+  display: flex;
+}
+
+#landing #popular-pics .container-2 .item-2 ul li {
+  list-style: circle;
+  font-size: 0.97vw;
+  font-weight: 500;
+  margin-right: 1.45vw;
+}
+
+#landing #popular-pics .container-2 .item-2 ul li:first-child {
+  list-style: none;
+}
+
+/* flights and hotel */
+
+#landing .container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin: 0 7.21vw;
+}
+
+#landing .container .flights {
+  background: url(./img/flights.png)center no-repeat;
+  height: 41.84vw;
+  width: 40.72vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 4.71vw;
+}
+
+#landing .container .hotels {
+  background: url(./img/hotels.png)center no-repeat;
+  height: 41.84vw;
+  width: 40.72vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 4.71vw;
+}
+
+#landing .container .flights h3,
+#landing .container .hotels h3 {
+  font-size: 2.77vw;
+  font-weight: 700;
+}
+
+#landing .container .flights p,
+#landing .container .hotels p {
+  font-size: 1.11vw;
+  font-weight: 400;
+  margin-bottom: 1.11vw;
+}
+
+#landing .container .flights .btn-blue,
+#landing .container .hotels .btn-blue {
+  font-size: 0.97vw;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  background-color: #8DD3BB;
+  padding: 1.1vw;
+  color: #112211;
+  margin-bottom: 1.66vw;
+  border-radius: 4px;
+}
+
+#landing .container .flights .btn-blue img,
+#landing .container .hotels .btn-blue img {
+  margin-right: 0.28vw;
+}
+
+/* reviews */
+
+#landing #reviews .container {
+  display: flex;
+  align-items: center;
+  color: #112211;
+  margin-bottom: 2.77vw;
+}
+
+#landing #reviews .container .item h3 {
+  font-size: 2.22vw;
+  font-weight: 600;
+  margin-bottom: 1.11vw;
+}
+
+#landing #reviews .container .item p {
+  font-size: 1.1vw;
+  font-weight: 400;
+}
+
+#landing #reviews .container .btn {
+  border: #8DD3BB solid 1px;
+  border-radius: 4px;
+  padding: 0.8vw 1.11vw;
+  color: #112211;
+  margin-left: 1.66vw;
+  font-size: 0.97vw;
+  margin-right: 0;
+}
+
+#landing #reviews .container-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 6.12vw;
+  margin-bottom: 9.60vw;
+  padding: 1.11vw;
+  padding-bottom: 2.22vw;
+  width: 85.34vw;
+  height: fit-content;
+  overflow-x: auto;
+}
+
+#landing #reviews .container-2::-webkit-scrollbar {
+  background: #fafafa;
+  height: 0.55vw;
+  width: 85.34vw;
+}
+
+#landing #reviews .container-2::-webkit-scrollbar-thumb {
+  background: #ada7b3;
+  border-radius: 0.55vw;
+}
+
+#landing #reviews .container-2 .item-2 {
+  width: 29.44vw;
+  height: fit-content;
+  background: #FFFFFF;
+  box-shadow: 0.14vw 0.28vw 1.1vw rgba(17, 34, 17, 0.1);
+  border-radius: 20px;
+  margin-right: 3.46vw;
+}
+
+#landing #reviews .container-2 .item-2 h4 {
+  font-size: 1.66vw;
+  font-weight: 700;
+  margin: 1.66vw;
+}
+
+#landing #reviews .container-2 .item-2 p {
+  font-size: 0.97vw;
+  font-weight: 500;
+  margin: 0 1.66vw;
+  text-align: justify;
+}
+
+#landing #reviews .container-2 .item-2 #more-txt,
+#landing #reviews .container-2 .item-2 #more-txt2,
+#landing #reviews .container-2 .item-2 #more-txt3,
+#landing #reviews .container-2 .item-2 #more-txt4,
+#landing #reviews .container-2 .item-2 #more-txt5,
+#landing #reviews .container-2 .item-2 #more-txt6 {
+  display: none;
+}
+
+#landing #reviews .container-2 .item-2 #show-more-txt,
+#landing #reviews .container-2 .item-2 #show-more-txt2, 
+#landing #reviews .container-2 .item-2 #show-more-txt3, 
+#landing #reviews .container-2 .item-2 #show-more-txt4, 
+#landing #reviews .container-2 .item-2 #show-more-txt5,
+#landing #reviews .container-2 .item-2 #show-more-txt6 {
+  font-size: 0.97vw;
+  font-weight: 700;
+  margin: 0 1.66vw;
+  text-align: right;
+  cursor: pointer;
+}
+
+#landing #reviews .container-2 .item-2 .stars {
+  font-size: 0.97vw;
+  font-weight: 700;
+  margin: 1.11vw 1.66vw;
+  margin-bottom: 1.38vw;
+}
+
+#landing #reviews .container-2 .item-2 .name {
+  font-size: 0.97vw;
+  font-weight: 700;
+  margin: 0 1.66vw;
+}
+
+#landing #reviews .container-2 .item-2 .name {
+  font-size: 0.97vw;
+  font-weight: 700;
+  margin: 0 1.66vw;
+}
+
+#landing #reviews .container-2 .item-2 .google {
+  font-size: 0.83vw;
+  font-weight: 700;
+  margin: 0.83vw 1.66vw;
+  margin-bottom: 2.77vw;
+  display: flex;
+  align-items: center;
+}
+
+#landing #reviews .container-2 .item-2 .google p {
+  margin: 0;
+  opacity: 40%;
+}
+
+#landing #reviews .container-2 .item-2 .rev-img {
+  width: 26.11vw;
+  height: 13.85vw;
+  margin: 1.66vw;
+  margin-top: 0;
+  border-radius: 8px;
+}
+
+#newsletter-0 {
+  background: linear-gradient(180deg, #fafafa 50%, #8DD3BB 50%);
+}
+
+#newsletter-0 #newsletter {
+  background: #CDEAE1;
+  display: flex;
+  justify-content: space-between;
+  height: 21.13vw;
+  width: 85.34vw;
+  margin: 0 7.13vw;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 20px;
+  
+}
+
+#newsletter-0 #newsletter .container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  color: #112211;
+  margin-left: 1.66vw;
+}
+
+#newsletter-0 #newsletter .container h3 {
+  font-size: 3.05vw;
+  font-weight: 700;
+  margin-top: 1.66vw;
+}
+
+#newsletter-0 #newsletter .container h5 {
+  font-size: 1.38vw;
+  font-weight: 700;
+  margin-top: 1.66vw;
+}
+
+#newsletter-0 #newsletter .container p {
+  font-size: 1.11vw;
+  font-weight: 500;
+  margin-top: 0.55vw;
+}
+
+#newsletter-0 #newsletter .container form .email {
+  border-radius: 0;
+  border: none;
+  background: #fff;
+  padding: 1.11vw;
+  padding-left: 1.25vw;
+  padding-right: 21.06vw;
+  color: #1C1B1F;
+  font-size: 1.11vw;
+  font-weight: 400;
+  margin-top: 1.11vw;
+}
+
+#newsletter-0 #newsletter .container form .submit {
+  border-radius: 0;
+  border: none;
+  background: #1C1B1F;
+  padding: 1.11vw 1.25vw;
+  color: #fff;
+  font-size: 1.11vw;
+  font-weight: 400;
+  margin-left: 1.11vw;
+}
+
+#newsletter-0 #newsletter img {
+  margin-right: 1.66vw;
+}
+
+/* footer */
+
+footer {
+  background: #8DD3BB;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .logos {
+  margin-left: 7.13vw;
+  margin-top: 4.43vw;
+  margin-right: 9.70vw;
+}
+
+footer .logos .logo-dark {
+  width: 8.31vw;
+  height: 2.71vw;
+}
+
+footer .logos ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .logos ul li {
+  list-style: none;
+}
+
+footer .logos ul li img {
+  height: 1.38vw;
+  width: 1.38vw;
+  margin-top: 1.66vw;
+}
+
+footer .destinations,
+footer .activities,
+footer .blogs,
+footer .about,
+footer .contact {
+  margin-top: 4.43vw;
+  margin-bottom: 4.43vw;
+}
+
+footer .destinations ul,
+footer .activities ul,
+footer .blogs ul,
+footer .about ul,
+footer .contact ul {
+  list-style: none;
+  color: #112211;
+}
+
+footer .destinations ul li a,
+footer .activities ul li a,
+footer .blogs ul li a,
+footer .about ul li a,
+footer .contact ul li a {
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 500;
+  margin-bottom: 0.83vw;
+}
+
+footer .destinations h4,
+footer .activities h4,
+footer .blogs h4,
+footer .about h4,
+footer .contact h4 {
+  color: #112211;
+  font-size: 1.11vw;
+  font-weight: 700;
+  margin-bottom: 1.11vw;
+}
+
+footer .contact {
+  margin-right: 7.13vw;
+}
+
+/* FLIGHTS & STAYS */
+
+/* navbar */
+
+#navbar {
+  margin-left: 7.20vw;
+  margin-right: 7.20vw;
+  height: 6.23vw;
+  font-family: 'Montserrat';
+  font-size: 0.97vw;
+  font-weight: 600;
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding-top: 1.87vw;
+}
+
+#navbar .container .flights-stays,
+#navbar .container .login-signup {
+  display: flex;
+  width: 16.76vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar .container .flights-stays .trans-btn-dark {
+  color: #112211;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#navbar .container .flights-stays .trans-btn-dark img {
+  width: 1.56vw;
+  height: 1.36vw;
+  margin: 0.33vw;
+}
+
+#navbar .container .login-signup {
+  justify-content: right;
+  align-items: center;
+}
+
+#navbar .container .login-signup .trans-btn-dark {
+  margin-right: 2.22vw;
+  color: #112211;
+}
+
+#navbar .container .login-signup .dark-btn {
+  padding: 0.69vw 1.66vw;
+  background-color: #112211;
+  color: #fff;
+  border-radius: 8px;
+}
+
+#navbar .container .logo img {
+  width: 7.65vw;
+}
+
+/* landing */
+
+#landing-fl-and-st {
+  background: url('./img/airplane-bg.png');
+  width: 100%;
+  height: 37.20vw;
+  color: #fff;
+}
+
+#landing-fl-and-st .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30.48vw;
+  height: 14.06vw;
+  margin: 0;
+  padding-top: 5.54vw;
+  margin-left: 8.73vw;
+}
+
+#landing-fl-and-st .container h2 {
+  font-weight: 700;
+  font-size: 3.12vw;
+}
+
+#landing-fl-and-st .container h4 {
+  font-weight: 500;
+  font-size: 1.38vw;
+}
+
+#places-container,
+#flights-container {
+  width: 85.34vw;
+  height: 18.84vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(141, 211, 187, 0.15);
+  border-radius: 16px;
+  margin: 0 7.20vw;
+  margin-top: -6.10vw;
+  padding: 2.22vw 1.66vw;
+}
+
+#places-container h6,
+#flights-container h6 {
+  margin-bottom: 2.22vw;
+  font-weight: 600;
+  font-size: 1.38vw;
+  line-height: 1.66vw;
+}
+
+#places-container #places-search .inputs-places,
+#flights-container #flights-search .inputs-flights {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.22vw;
+  height: 3.88vw;
+}
+
+#places-container #places-search .inputs-places .group,
+#flights-container #flights-search .inputs-flights .group {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.3vw;
+}
+
+#places-container #places-search .inputs-places .group input,
+#flights-container #flights-search .inputs-flights .group input,
+#places-container #places-search .inputs-places .group select,
+#flights-container #flights-search .inputs-flights .group select {
+  margin: 0;
+  width: 16.62vw;
+  height: 3.88vw;
+  background: #FFFFFF;
+  border: 0.07vw solid #79747E;
+  border-radius: 4px;
+  font-size: 1.11vw;
+  padding: 1.25vw 1.11vw;
+}
+
+#places-container #places-search .inputs-places .group #place,
+#flights-container #flights-search .inputs-flights .group #place,
+#places-container #places-search .inputs-places .group #travel-date,
+#flights-container #flights-search .inputs-flights .group #travel-date,
+#places-container #places-search .inputs-places .group #rooms-guests,
+#flights-container #flights-search .inputs-flights .group #rooms-guests {
+  width: 22.44vw;
+}
+
+#places-container #places-search .inputs-places .group #trip-type,
+#flights-container #flights-search .inputs-flights .group #trip-type {
+  width: 9.70vw;
+}
+
+#places-container #places-search .inputs-places .group label,
+#flights-container #flights-search .inputs-flights .group label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 1.11vw;
+  margin-top: -4.47vw;
+  padding: 0 0.28vw;
+  background: #fff;
+  z-index: 3;
+}
+
+#places-container #places-search .srch-btns,
+#flights-container #flights-search .srch-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 3.88vw;
+}
+
+#places-container #places-search .srch-btns #promo-code-btn,
+#flights-container #flights-search .srch-btns #promo-code-btn {
+  width: 9.84vw;
+  font-weight: 500;
+  line-height: 1.18vw;
+  font-size: 0.97vw;
+  margin: 0;
+  margin-right: 1.66vw;
+  color: #112211;
+}
+
+#places-container #places-search .srch-btns #srch-btn-pf,
+#flights-container #flights-search .srch-btns #srch-btn-pf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.97vw;
+  height: 3.32vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+}
+
+#places-container #places-search .srch-btns #srch-btn-pf img,
+#flights-container #flights-search .srch-btns #srch-btn-pf img {
+  width: 1.11vw;
+  height: 1.11vw;
+  margin-right: 0.28vw;
+}
+
+#places-container #places-search .srch-btns #srch-btn-pf p,
+#flights-container #flights-search .srch-btns #srch-btn-pf p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  line-height: 1.18vw;
+  color: #112211;
+}
+
+/* Places */
+
+#places {
+  font-family: 'Montserrat';
+  margin: 5.55vw 7.21vw;
+}
+
+#places .container {margin: 0;}
+
+#places .container:first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.77vw;
+}
+
+#places .container .item {
+  width: 78vw;
+  color: #112211;
+}
+
+#places .container .item h3 {
+  font-size: 2.22vw;
+  font-weight: 600;
+  margin-bottom: 1.10vw;
+}
+
+#places .container .item p {
+  font-size: 1.10vw;
+}
+
+#places .container .btn {
+  border: #8DD3BB solid 1px;
+  border-radius: 4px;
+  padding: 0.8vw 1.10vw;
+  color: #112211;
+  font-size: 0.97vw;
+  margin-right: 0;
+}
+
+/* worldwide */
+#worldwide img {
+  height: 40.52vw;
+  width: 100%;
+}
+
+/* Fall into travel */
+#fall-into-travel {
+  margin-left: 7.20vw;
+  margin-right: 7.20vw;
+  margin-top: 5.54vw;
+}
+
+#fall-into-travel .container {
+  display: flex;
+  color: #112211;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5.54vw;
+  margin-bottom: 2.77vw;
+}
+
+#fall-into-travel .container .item {
+  display: flex;
+  flex-direction: column;
+  width: 58.95vw;
+}
+
+#fall-into-travel .container .item h2 {
+  font-weight: 600;
+  font-size: 2.22vw;
+  margin-bottom: 1.11vw;
+}
+
+#fall-into-travel .container .item p {
+  font-weight: 400;
+  font-size: 1.10vw;
+}
+
+
+#fall-into-travel .container .btn {
+  border: #8DD3BB solid 1px;
+  border-radius: 4px;
+  padding: 0.8vw 1.10vw;
+  color: #112211;
+  margin-left: 1.66vw;
+  font-size: 0.97vw;
+  margin-right: 0;
+}
+
+#fall-into-travel .container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#fall-into-travel .container-2 .btn-blue {
+  font-size: 0.97vw;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8DD3BB;
+  padding: 1.1vw;
+  color: #112211;
+  margin-bottom: 1.66vw;
+  border-radius: 4px;
+  margin-left: 1.66vw;
+  margin-right: 1.66vw;
+  text-align: center;
+}
+
+#fall-into-travel .container-2 .melbourne,
+#fall-into-travel .container-2 .paris,
+#fall-into-travel .container-2 .london,
+#fall-into-travel .container-2 .columbia {
+  width: 20.50vw;
+  height: 29.09vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 12px;
+  color: #fff;
+}
+
+#fall-into-travel .container-2 .melbourne {background: url(./img/melbourne.png);}
+#fall-into-travel .container-2 .paris {background: url(./img/paris-eifel.png);}
+#fall-into-travel .container-2 .london {background: url(./img/london-eye.png);}
+#fall-into-travel .container-2 .columbia {background: url(./img/columbia.png);}
+
+#fall-into-travel .container-2 .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1.66vw;
+  margin-right: 1.66vw;
+  margin-bottom: 1.10vw;
+}
+
+#fall-into-travel .container-2 .item h2 {
+  font-weight: 600;
+  font-size: 2.22vw;
+}
+#fall-into-travel .container-2 .item p {
+  font-weight: 400;
+  font-size: 0.97vw;
+}
+
+#fall-into-travel .price {
+  font-weight: 600;
+  font-size: 1.66vw;
+}
+
+/* BP-SriLanka */
+#bp-srilanka {
+  margin-left: 7.20vw;
+  margin-right: 7.20vw;
+  margin-top: 5.54vw;
+  margin-bottom: 8.31vw;
+}
+
+#bp-srilanka .container {
+  display: flex;
+  color: #112211;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5.54vw;
+  margin-bottom: 2.77vw;
+}
+
+#bp-srilanka .container .item {
+  display: flex;
+  flex-direction: column;
+  width: 58.95vw;
+}
+
+#bp-srilanka .container .item h2 {
+  font-weight: 600;
+  font-size: 2.22vw;
+  margin-bottom: 1.11vw;
+}
+
+#bp-srilanka .container .item p {
+  font-weight: 400;
+  font-size: 1.10vw;
+}
+
+
+#bp-srilanka .container .btn {
+  border: #8DD3BB solid 1px;
+  border-radius: 4px;
+  padding: 0.8vw 1.10vw;
+  color: #112211;
+  margin-left: 1.66vw;
+  font-size: 0.97vw;
+  margin-right: 0;
+}
+
+#bp-srilanka .container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bp-srilanka .container-2 .item-1 {
+  background: #8DD3BB;
+  width: 38.24vw;
+  height: 29.37vw;
+  border-radius: 20px;
+  margin-right: 1.66vw;
+}
+
+#bp-srilanka .container-2 .item-1 .item-1a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 1.66vw;
+}
+
+#bp-srilanka .container-2 .item-1 .item-1a h2 {
+  font-weight: 700;
+  font-size: 2.77vw;
+}
+
+#bp-srilanka .container-2 .item-1 .item-1a p {
+  padding: 0.55vw;
+  width: 4.71vw;
+  height: 4.29vw;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-size: 0.97vw;
+  font-weight: 400;
+  margin-right: 0;
+  text-align: center;
+}
+
+#bp-srilanka .container-2 .item-1 .item-1a p s {
+  font-weight: 600;
+  font-size: 1.38vw;
+}
+
+#bp-srilanka .container-2 .item-1 p {
+  font-weight: 400;
+  font-size: 0.97vw;
+  margin: 0vw 1.66vw;
+  text-align: justify;
+}
+
+#bp-srilanka .container-2 .item-1 .btn-light {
+  margin: 0vw 1.66vw;
+  padding: 1.10vw;
+  width: 34.91vw;
+  height: 3.32vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-top: 8.31vw;
+  text-align: center;
+  line-height: normal;
+  font-weight: 500;
+  font-size: 0.97vw;
+}
+
+#bp-srilanka .container-2 .item-2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45.44vw;
+  height: 29.37vw;
+}
+
+#bp-srilanka .container-2 .item-2 img {
+  width: 21.50vw;
+  height: 14.35vw;
+}
+
+/* HOTELS */
+
+/* landing */
+
+#hotels {
+  background: url('./img/hotel-stay.png');
+  width: 100%;
+  height: 37.20vw;
+  color: #fff;
+}
+
+#hotels .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30.48vw;
+  height: 14.06vw;
+  margin: 0;
+  padding-top: 5.54vw;
+  margin-left: 8.73vw;
+}
+
+#hotels .container h2 {
+  font-weight: 700;
+  font-size: 3.12vw;
+}
+
+#hotels .container h4 {
+  font-weight: 500;
+  font-size: 1.38vw;
+}
+
+/* recent-searches */
+
+#recent-searches {
+  margin: 5.54vw 7.2vw;
+}
+
+#recent-searches h2 {
+  font-weight: 700;
+  font-size: 2.22vw;
+  color: #000000;
+  margin-bottom: 2.22vw;
+}
+
+#recent-searches .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+#recent-searches .container .container-2 {
+  display: flex;
+  align-items: center;
+  color: #112211;
+  height: 6.23vw;
+  width: 16.49vw;
+}
+
+#recent-searches .container .container-2 img {
+  width: 6.23vw;
+  height: 6.23vw;
+  margin-right: 1.11vw;
+}
+
+#recent-searches .container .container-2 .item h4 {
+  font-size: 1.11vw;
+  font-weight: 600;
+}
+
+#recent-searches .container .container-2 .item p {
+  font-weight: 400;
+  font-size: 0.83vw;
+}
+
+/* LOGIN */
+
+#login {
+  display: flex;
+  justify-content: space-between;
+}
+
+#login .container {
+  display: flex;
+  flex-direction: column;
+  margin: 7.20vw;
+  color: #000000;
+}
+
+#login .container a {
+  margin-bottom: 4.43vw;
+}
+
+#login .container img {
+  width: 9.03vw;
+  height: 2.43vw;
+}
+
+#login .container h2 {
+  font-weight: 700;
+  font-size: 2.77vw;
+  margin-bottom: 1.11vw;
+}
+
+#login .container p {
+  font-weight: 400;
+  font-size: 1.11vw;
+  color: #112211;
+  opacity: 0.75;
+  margin-bottom: 3.32vw;
+}
+
+#login .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#login .container form label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fafafa;
+  z-index: 1;
+}
+
+#login .container form #email {
+  width: 35.47vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 1.66vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+#login .container form #password {
+  width: 35.47vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 1.66vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+#login .container form .item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 2.77vw;
+}
+
+#login .container form .item .item-2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+#login .container form .item .item-2 #remember-me {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+#login .container form .item .item-2 #remember {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 0.97vw;
+}
+
+#login .container form .item {
+  margin-top: 3.32vw;
+  margin-bottom: 2.22vw;
+}
+
+#login .container form .item a {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #FF8682;
+  margin: 0;
+}
+
+#login .container form #submit {
+  height: 3.32vw;
+  width: 35.47vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin-bottom: 1.11vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #112211;
+}
+
+#login .container form p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  text-align: center;
+}
+
+#login .container form p a {
+  color: #FF8682;
+}
+
+#login .container .lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.77vw;
+}
+
+#login .container .lines .line {
+  width: 13.44vw;
+  height: 0.5px;
+  background: #112211;
+  opacity: 0.25;
+}
+
+#login .container .lines p {
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #112211;
+  opacity: 0.5;
+  margin: 0 1.11vw;
+}
+
+#login .container .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+#login .container .container-2 a {
+  width: 11.08vw;
+  height: 3.88vw;
+  padding: 1.11vw 1.66vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#login .container .container-2 img {
+  height: 1.66vw;
+  width: 1.66vw;
+}
+
+#login .container form #show {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin-top: -4.4vw;
+  margin-left: 32.97vw;
+}
+
+.slideshow-container {
+  margin: 7.20vw;
+  margin-left: 0;
+}
+
+.mySlides {
+  display: none;
+  width: 42.67vw;
+  height: 56.25vw;
+  border-radius: 30px;
+  margin-bottom: 0;
+}
+
+.dots {
+  margin-top: -2.35vw;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 0.69vw;
+  width: 0.69vw;
+  margin: 0 0.28vw;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  transition: background-color 0.6s ease;
+  z-index: 5;
+}
+
+.active, .dot:hover {
+  width: 2.22vw;
+  background: #8DD3BB;
+  border-radius: 5px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* SIGN UP */
+
+#sign-up {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sign-up .container {
+  display: flex;
+  flex-direction: column;
+  margin: 7.20vw;
+  color: #000000;
+  width: 44.33vw;
+}
+
+#sign-up .container a {
+  margin-bottom: 4.43vw;
+}
+
+#sign-up .container img {
+  width: 9.03vw;
+  height: 2.43vw;
+}
+
+#sign-up .container h2 {
+  font-weight: 700;
+  font-size: 2.77vw;
+  margin-bottom: 1.11vw;
+}
+
+#sign-up .container p {
+  font-weight: 400;
+  font-size: 1.11vw;
+  color: #112211;
+  opacity: 0.75;
+  margin-bottom: 3.32vw;
+}
+
+#sign-up .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#sign-up .container form .form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#sign-up .container form .form-group .subgroup {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+#sign-up .container form .form-group .subgroup label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fafafa;
+  z-index: 1;
+}
+
+#sign-up .container form .form-group-2 label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fafafa;
+  z-index: 1;
+}
+
+#sign-up .container form .form-group #first-name, 
+#sign-up .container form .form-group #last-name, 
+#sign-up .container form .form-group #email, 
+#sign-up .container form .form-group #phone {
+  width: 21.33vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 1.66vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+#sign-up .container form .form-group-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#sign-up .container form .form-group-2 .group {
+  height: 3.88vw;
+  margin-bottom: 1.66vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#sign-up .container form .form-group-2 .group #password {
+  width: 44.33vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+#sign-up .container form .form-group-2 .group #show {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin-top: -2.7vw;
+  margin-left: 41.84vw;
+  margin-bottom: 0;
+}
+
+#sign-up .container form .item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 2.77vw;
+}
+
+#sign-up .container form .item .item-2 {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+}
+
+#sign-up .container form .item .item-2 #agree {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+#sign-up .container form .item .item-2 #agree-l {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 0.97vw;
+  width: 21.4vw;
+}
+
+#sign-up .container form .item a {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #FF8682;
+}
+
+#sign-up .container form #submit {
+  height: 3.32vw;
+  width: 44.33vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin-bottom: 1.11vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #112211;
+}
+
+#sign-up .container form p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  text-align: center;
+  color: #112211;
+}
+
+#sign-up .container form p a {
+  color: #FF8682;
+}
+
+#sign-up .container .lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.77vw;
+}
+
+#sign-up .container .lines .line {
+  width: 13.44vw;
+  height: 0.5px;
+  background: #112211;
+  opacity: 0.25;
+}
+
+#sign-up .container .lines p {
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #112211;
+  opacity: 0.5;
+  margin: 0 1.11vw;
+}
+
+#sign-up .container .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+#sign-up .container .container-2 a {
+  width: 14.04vw;
+  height: 3.88vw;
+  padding: 1.11vw 1.66vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#sign-up .container .container-2 img {
+  height: 1.66vw;
+  width: 1.66vw;
+}
+
+#sign-up .slideshow-container {
+  margin: 7.20vw;
+  margin-right: 0;
+}
+
+#sign-up .mySlides {
+  display: none;
+  width: 33.80vw;
+  height: 56.52vw;
+  border-radius: 30px;
+  margin-bottom: 0;
+}
+
+#sign-up .mySlides img {
+  width: 33.80vw;
+  height: 56.52vw;
+}
+
+#sign-up .dots {
+  margin-top: -2.35vw;
+  text-align: center;
+}
+
+#sign-up .dot {
+  cursor: pointer;
+  height: 0.69vw;
+  width: 0.69vw;
+  margin: 0 0.28vw;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  transition: background-color 0.6s ease;
+  z-index: 5;
+}
+
+#sign-up .active, .dot:hover {
+  width: 2.22vw;
+  background: #8DD3BB;
+  border-radius: 5px;
+}
+
+#sign-up .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* FORGOT PASSWORD */
+
+#forgot-password {
+  display: flex;
+  justify-content: space-between;
+}
+
+#forgot-password .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 7.20vw;
+  color: #000000;
+}
+
+#forgot-password .container a {
+  margin-bottom: 4.43vw;
+}
+
+#forgot-password .container img {
+  width: 9.03vw;
+  height: 2.43vw;
+}
+
+#forgot-password .container h2 {
+  font-weight: 700;
+  font-size: 2.77vw;
+  margin-bottom: 1.11vw;
+}
+
+#forgot-password .container p {
+  font-weight: 400;
+  font-size: 1.11vw;
+  color: #112211;
+  opacity: 0.75;
+  margin-bottom: 3.32vw;
+}
+
+#forgot-password .container #back {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 3.32vw;
+}
+
+#forgot-password .container #back img {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+  
+}
+
+#forgot-password .container #back p {
+  font-weight: 400;
+  font-size: 1.11vw;
+  color: #112211;
+  opacity: 0.75;
+  margin: 0;
+}
+
+#forgot-password .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#forgot-password .container form label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fafafa;
+  z-index: 1;
+}
+
+#forgot-password .container form #email {
+  width: 35.47vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 1.66vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+#forgot-password .container form #submit {
+  height: 3.32vw;
+  width: 35.47vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin-bottom: 3.32vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #112211;
+}
+
+#forgot-password .container form p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  text-align: center;
+}
+
+#forgot-password .container form p a {
+  color: #FF8682;
+}
+
+#forgot-password .container .lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.77vw;
+}
+
+#forgot-password .container .lines .line {
+  width: 13.44vw;
+  height: 0.5px;
+  background: #112211;
+  opacity: 0.25;
+}
+
+#forgot-password .container .lines p {
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #112211;
+  opacity: 0.5;
+  margin: 0 1.11vw;
+}
+
+#forgot-password .container .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 35.47vw;
+}
+
+#forgot-password .container .container-2 a {
+  width: 11.08vw;
+  height: 3.88vw;
+  padding: 1.11vw 1.66vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#forgot-password .container .container-2 img {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+}
+
+#forgot-password .container form #show {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin-top: -4.4vw;
+  margin-left: 32.97vw;
+}
+
+.slideshow-container {
+  margin: 7.20vw;
+  margin-left: 0;
+}
+
+.mySlides {
+  display: none;
+  width: 42.67vw;
+  height: 56.25vw;
+  border-radius: 30px;
+  margin-bottom: 0;
+}
+
+.dots {
+  margin-top: -2.35vw;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 0.69vw;
+  width: 0.69vw;
+  margin: 0 0.28vw;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  transition: background-color 0.6s ease;
+  z-index: 5;
+}
+
+.active, .dot:hover {
+  width: 2.22vw;
+  background: #8DD3BB;
+  border-radius: 5px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* ADD PAYMENT */
+
+#payment {
+  display: flex;
+  justify-content: space-between;
+}
+
+#payment .container {
+  display: flex;
+  flex-direction: column;
+  margin: 7.20vw;
+  color: #000000;
+  width: 44.33vw;
+}
+
+#payment .container img {
+  width: 9.03vw;
+  height: 2.43vw;
+  margin-bottom: 4.43vw;
+}
+
+#payment .container #back {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 1.11vw;
+}
+
+#payment .container #back img {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+}
+
+#payment .container #back p {
+  font-weight: 500;
+  font-size: 1.11vw;
+  color: #112211;
+  opacity: 0.75;
+  margin: 0;
+}
+
+#payment .container h2 {
+  font-weight: 700;
+  font-size: 2.77vw;
+  margin-bottom: 1.11vw;
+}
+
+#payment .container p {
+  font-weight: 400;
+  font-size: 1.11vw;
+  color: #112211;
+  opacity: 0.75;
+  margin-bottom: 3.32vw;
+}
+
+#payment .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#payment .container form .form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#payment .container form .group,
+#payment .container form .form-group .subgroup {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+#payment .container form .form-group .subgroup label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fafafa;
+  z-index: 1;
+}
+
+#payment .container form label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fafafa;
+  z-index: 1;
+}
+
+#payment .container form .form-group .subgroup #date, 
+#payment .container form .form-group .subgroup #cvc, 
+#payment .container form .form-group-2 #name-on-card, 
+#payment .container form .group #user_card_number_input,
+#payment .container form .form-group-2 #country {
+  width: 21.33vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 1.66vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+#payment .container form .form-group-2 #name-on-card, 
+#payment .container form .group #user_card_number_input,
+#payment .container form .form-group-2 #country {
+  width: 44.33vw;
+  height: 3.74vw;
+}
+
+#payment .container form .form-group-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#payment .container form .item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 2.77vw;
+}
+
+#payment .container form .item .item-2 {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+}
+
+#payment .container form .item .item-2 #agree {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+#payment .container form .item .item-2 #agree-l {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 0.97vw;
+  width: 40vw;
+}
+
+#payment .container form .item a {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #FF8682;
+}
+
+#payment .container form #submit {
+  height: 3.32vw;
+  width: 44.33vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin-bottom: 1.11vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #112211;
+}
+
+#payment .container form p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  text-align: center;
+  color: #112211;
+}
+
+#payment .container form p a {
+  color: #FF8682;
+}
+
+#payment .slideshow-container {
+  margin: 7.20vw;
+  margin-right: 0;
+}
+
+#payment .mySlides {
+  display: none;
+  width: 33.80vw;
+  height: 56.52vw;
+  border-radius: 30px;
+  margin-bottom: 0;
+}
+
+#payment .mySlides img {
+  width: 33.80vw;
+  height: 56.52vw;
+}
+
+#payment .dots {
+  margin-top: -2.35vw;
+  text-align: center;
+}
+
+#payment .dot {
+  cursor: pointer;
+  height: 0.69vw;
+  width: 0.69vw;
+  margin: 0 0.28vw;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  transition: background-color 0.6s ease;
+  z-index: 5;
+}
+
+#payment .active, .dot:hover {
+  width: 2.22vw;
+  background: #8DD3BB;
+  border-radius: 5px;
+}
+
+#payment .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* VERIFY CODE */
+
+#verify-code {
+  display: flex;
+  justify-content: space-between;
+}
+
+#verify-code .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 7.20vw;
+  color: #000000;
+}
+
+#verify-code .container a {
+  margin-bottom: 4.43vw;
+}
+
+#verify-code .container img {
+  width: 9.03vw;
+  height: 2.43vw;
+}
+
+#verify-code .container h2 {
+  font-weight: 700;
+  font-size: 2.77vw;
+  margin-bottom: 1.11vw;
+}
+
+#verify-code .container p {
+  font-weight: 400;
+  font-size: 1.11vw;
+  color: #112211;
+  opacity: 0.75;
+  margin-bottom: 3.32vw;
+}
+
+#verify-code .container #back {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 1.11vw;
+}
+
+#verify-code .container #back img {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+  
+}
+
+#verify-code .container #back p {
+  font-weight: 400;
+  font-size: 1.11vw;
+  color: #112211;
+  opacity: 0.75;
+  margin: 0;
+}
+
+#verify-code .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#verify-code .container form label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fafafa;
+  z-index: 1;
+}
+
+#verify-code .container form #code {
+  width: 35.47vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 1.11vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+#verify-code .container form #submit {
+  height: 3.32vw;
+  width: 35.47vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin-bottom: 3.32vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #112211;
+}
+
+#verify-code .container form p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 2.22vw;
+}
+
+#verify-code .container form p a {
+  color: #FF8682;
+}
+
+#verify-code .container .lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.77vw;
+}
+
+#verify-code .container .lines .line {
+  width: 13.44vw;
+  height: 0.5px;
+  background: #112211;
+  opacity: 0.25;
+}
+
+#verify-code .container .lines p {
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #112211;
+  opacity: 0.5;
+  margin: 0 1.11vw;
+}
+
+#verify-code .container .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 35.47vw;
+}
+
+#verify-code .container .container-2 a {
+  width: 11.08vw;
+  height: 3.88vw;
+  padding: 1.11vw 1.66vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#verify-code .container .container-2 img {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+}
+
+#verify-code .container form #show {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin-top: -4.4vw;
+  margin-left: 32.97vw;
+}
+
+/* SET A PASSWORD */
+
+#set-a-password {
+  display: flex;
+  justify-content: space-between;
+}
+
+#set-a-password .container {
+  display: flex;
+  flex-direction: column;
+  margin: 7.20vw;
+  color: #000000;
+  justify-content: flex-start;
+}
+
+#set-a-password .container a {
+  margin-bottom: 4.43vw;
+}
+
+#set-a-password .container img {
+  width: 9.03vw;
+  height: 2.43vw;
+}
+
+#set-a-password .container h2 {
+  font-weight: 700;
+  font-size: 2.77vw;
+  margin-bottom: 1.11vw;
+}
+
+#set-a-password .container p {
+  font-weight: 400;
+  font-size: 1.11vw;
+  color: #112211;
+  opacity: 0.75;
+  margin-bottom: 3.32vw;
+}
+
+#set-a-password .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#set-a-password .container form label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fafafa;
+  z-index: 1;
+}
+
+#set-a-password .container form #password {
+  width: 35.47vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 1.66vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+#set-a-password .container form #password:last-child {
+  margin-bottom: 12.22vw;
+}
+
+#set-a-password .container form .item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 1.66vw;
+  height: 4.16vw;
+}
+
+#set-a-password .container form .item:last-child {margin-bottom: 12.22vw;}
+
+#set-a-password .container form #submit {
+  height: 3.32vw;
+  width: 35.47vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin: 0;
+  margin-top: 0.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#set-a-password .container form #show {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin-bottom: 0;
+  margin-top: -4.4vw;
+  margin-left: 32.97vw;
+}
+
+/* PROFILE */
+
+#profile #navbar {
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  margin: 0;
+  margin-bottom: 3.32vw;
+  height: 6.03vw;
+}
+
+#profile #navbar .container {
+  margin-left: 7.20vw;
+  margin-right: 7.20vw;
+}
+
+#profile #navbar .container .profile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile #navbar .container .profile-nav #profile-favourites {
+  display: flex;
+  align-items: center;
+  padding-right: 1.11vw;
+  border-right: #000000 solid 1px;
+  color: #000000;
+}
+
+#profile #navbar .container .profile-nav #profile-favourites #heart {
+  height: 1.25vw;
+  width: 1.35vw;
+  margin-right: 0.43vw;
+}
+
+#profile #navbar .container .profile-nav #profile-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 2.22vw;
+  color: #000000;
+}
+
+#profile #navbar .container .profile-nav #profile-btn #profile-img-s {
+  height: 3.12vw;
+  width: 3.12vw;
+}
+
+#profile #profile-bg {
+  background: url('./img/profile-bg.png');
+  height: 24.24vw;
+  width: 85.34vw;
+  margin: 0 7.20vw;
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#profile #profile-bg .btn-green {
+  margin: 1.80vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  height: 3.32vw;
+  width: 12.47vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.97vw;
+}
+
+#profile #profile-bg .btn-green img {
+  height: 1.11vw;
+  width: 1.11vw;
+  margin-right: 0.28vw;
+}
+
+#profile #profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 7.20vw;
+  margin-top: -4.85vw;
+  margin-bottom: 2.22vw;
+}
+
+#profile #profile-info .imgs {
+  display: flex;
+  flex-direction: column;
+  height: 11.08vw;
+  width: 11.08vw;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: url('./img/profile-img.png') center no-repeat;
+  background-size: 13vw 13vw;
+  margin-bottom: 1.66vw;
+}
+
+#profile #profile-info .imgs #edit {
+  height: 3.05vw;
+  width: 3.05vw;
+  margin: 0;
+  padding: 0;
+}
+
+#profile #profile-info h5 {
+  font-weight: 600;
+  font-size: 1.66vw;
+  margin-bottom: 0.55vw;
+}
+
+#profile #profile-info p {
+  font-weight: 400;
+  font-size: 1.1vw;
+  opacity: 0.75;
+}
+
+#profile .account-nav {
+  display: flex;
+  align-items: center;
+  margin: 0 7.20vw;
+  width: 85.34vw;
+  height: 5.54vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  margin-bottom: 2.77vw;
+}
+
+#profile .account-nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  height: 5.54vw;
+}
+
+#profile .account-nav .container #account,
+#profile .account-nav .container #history, 
+#profile .account-nav #payment-methods {
+  margin: 0;
+  font-size: 1.11vw;
+  font-weight: 600;
+  color: #112211;
+  line-height: 1.38vw;
+  margin-left: 1.66vw;
+  margin-top: 1.85vw;
+  padding-bottom: 1.85vw;
+  cursor: pointer;
+}
+
+#profile .account-nav .container #history, 
+#profile .account-nav #payment-methods {
+  margin-left: 0;
+}
+
+#profile .account-nav .container #account{
+  border-bottom: #8DD3BB solid 0.28vw;
+}
+
+
+#profile .account-nav .container #account,
+#profile .account-nav .container #history,
+#profile .account-nav #payment-methods {
+  width: 25.12vw;
+}
+
+#profile .account-nav .container .line {
+  width: 3.32vw;
+  height: 0px;
+  border: 1px solid #D7E2EE;
+  transform: rotate(90deg);
+  margin: 0;
+}
+
+#profile h2 {
+  margin: 0 7.20vw;
+  margin-bottom: 1.11vw;
+  font-weight: 700;
+  font-size: 2.22vw;
+}
+
+#profile #htb,
+#profile #hpay {
+  display: block;
+  display: none;
+}
+
+#profile #his-info {
+  display: none;
+}
+
+#profile #acc-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 7.20vw;
+  margin-bottom: 8.31vw;
+  width: 85.34vw;
+  height: 37.13vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+  color: #112211;
+
+}
+
+#profile #acc-info .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.60vw;
+  color: #112211;
+  margin: 0 1.66vw;
+}
+
+#profile #acc-info .container .change {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 9.70vw;
+  height: 3.32vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.97vw;
+}
+
+#profile #acc-info .container .item-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#profile #acc-info .container .item-2 .add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 12.81vw;
+  height: 3.32vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.97vw;
+  margin-right: 0.55vw;
+}
+
+#profile #acc-info .container .item-1 p {
+  font-weight: 400;
+  font-size: 1.1vw;
+  opacity: 0.75;
+}
+
+#profile #acc-info .container .item-1 h3 {
+  font-weight: 600;
+  font-size: 1.38vw;
+}
+
+/* PROFILE HISTORY */
+
+#profile .t-b-nav {
+  width: 85.34vw;
+  height: 5.54vw;
+  margin: 0 7.20vw;
+  margin-bottom: 1.11vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#profile .t-b-nav .container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 1.66vw;
+}
+
+#profile .t-b-nav .container #fl-slct,
+#profile .t-b-nav #st-slct {
+  width: 41.01vw;
+  margin-top: 1.94vw;
+  padding-bottom: 1.94vw;
+}
+
+#profile .t-b-nav .container #fl-slct {
+  border-bottom: #8DD3BB solid 0.28vw;
+}
+
+#profile .t-b-nav .container #fl-slct img,
+#profile .t-b-nav #st-slct img {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin-right: 0.55vw;
+}
+
+#profile .t-b-nav .container .line {
+  width: 3.32vw;
+  height: 0px;
+  border: 1px solid #D7E2EE;
+  transform: rotate(90deg);
+  margin: 0;
+}
+
+#profile #his-info .t-b-nav .container #fl-slct,
+#profile #his-info .t-b-nav #st-slct {
+  display: flex;
+  align-items: center;
+  color: #112211;
+  font-size: 1.11vw;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* FLIGHT ELEMENTS */
+
+#profile .fl-elements {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 85.34vw;
+  height: 9.98vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+  margin: 0 7.20vw;
+  margin-bottom: 1.11vw;
+}
+
+#profile .fl-elements img {
+  height: 5.54vw;
+  width: 5.54vw;
+  margin-left: 1.66vw;
+  margin-right: 2.22vw;
+}
+
+#profile .fl-elements .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#profile .fl-elements .container .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#profile .fl-elements .container .item p {
+  font-size: 1.11vw;
+  font-weight: 400;
+  opacity: 0.75;
+  color: #112211;
+  margin-bottom: 0.55vw;
+}
+
+#profile .fl-elements .container .item h5 {
+  font-size: 1.38vw;
+  font-weight: 600;
+  color: #112211;
+}
+
+#profile .fl-elements .container .dash {
+  width: 1.38vw;
+  height: 0.14vw;
+  background: #112211;
+  margin: 0 1.11vw;
+}
+
+#profile .fl-elements .line {
+  width: 3.32vw;
+  height: 0px;
+  border: 1px solid #D7E2EE;
+  transform: rotate(90deg);
+}
+
+#profile .fl-elements .container-2 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 18.56vw;
+  height: 5.40vw;
+}
+
+#profile .fl-elements .container-2 .item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#profile .fl-elements .container-2 .item img {
+  height: 2.22vw;
+  width: 2.22vw;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+#profile .fl-elements .container-2 .item-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#profile .fl-elements .container-2 .item-2 p {
+  font-weight: 600;
+  font-size: 0.83vw;
+  opacity: 1;
+}
+
+#profile .fl-elements .container-2 .item-2 h5 {
+  font-weight: 500;
+  font-size: 1.11vw;
+}
+
+#profile .fl-elements .d-ticket {
+  margin: 0;
+  margin-left: 18.29vw;
+  width: 10.53vw;
+  height: 3.32vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile .fl-elements .fwd {
+  margin: 0;
+  width: 3.32vw;
+  height: 3.32vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.1vw;
+}
+
+#profile .fl-elements .fwd img {
+  transform: rotate(180deg);
+  width: 1.11vw;
+  height: 1.11vw;
+  margin: 0;
+}
+
+#profile .fl-elements:last-child {
+  margin-bottom: 8.31vw;
+}
+
+#profile .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 7.20vw;
+  margin-bottom: 1.11vw;
+}
+
+#profile .container h2 {
+  font-weight: 700;
+  font-size: 2.22vw;
+  color: #112211;
+  margin: 0;
+}
+
+#profile .container .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profile .container .item p {
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 600;
+}
+
+#profile .container .item img {
+  width: 1.25vw;
+  height: 1.25vw;
+  transform: rotate(270deg);
+}
+
+/* STAYS ELEMENTS */
+
+#profile #his-info #his-st-info {
+  display: none;
+}
+
+#profile .st-elements {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 85.34vw;
+  height: 9.98vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+  margin: 0 7.20vw;
+  margin-bottom: 1.11vw;
+}
+
+#profile .st-elements img {
+  height: 5.54vw;
+  width: 5.54vw;
+  margin-left: 1.66vw;
+  margin-right: 2.22vw;
+}
+
+#profile .st-elements .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#profile .st-elements .container .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#profile .st-elements .container .item p {
+  font-size: 1.11vw;
+  font-weight: 400;
+  opacity: 0.75;
+  color: #112211;
+  margin-bottom: 0.55vw;
+}
+
+#profile .st-elements .container .item h5 {
+  font-size: 1.38vw;
+  font-weight: 600;
+  color: #112211;
+}
+
+#profile .st-elements .container .dash {
+  width: 1.38vw;
+  height: 0.14vw;
+  background: #112211;
+  margin: 0 1.11vw;
+}
+
+#profile .st-elements .line {
+  width: 3.32vw;
+  height: 0px;
+  border: 1px solid #D7E2EE;
+  transform: rotate(90deg);
+}
+
+#profile .st-elements .container-2 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 18.56vw;
+  height: 5.40vw;
+}
+
+#profile .st-elements .container-2 .item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#profile .st-elements .container-2 .item img {
+  height: 2.22vw;
+  width: 2.22vw;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+#profile .st-elements .container-2 .item-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#profile .st-elements .container-2 .item-2 p {
+  font-weight: 600;
+  font-size: 0.83vw;
+  opacity: 1;
+}
+
+#profile .st-elements .container-2 .item-2 h5 {
+  font-weight: 500;
+  font-size: 1.11vw;
+}
+
+#profile .st-elements .d-ticket {
+  margin: 0;
+  margin-left: 18.29vw;
+  width: 10.53vw;
+  height: 3.32vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile .st-elements .fwd {
+  margin: 0;
+  width: 3.32vw;
+  height: 3.32vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.1vw;
+}
+
+#profile .st-elements .fwd img {
+  transform: rotate(180deg);
+  width: 1.11vw;
+  height: 1.11vw;
+  margin: 0;
+}
+
+#profile .st-elements:last-child {
+  margin-bottom: 8.31vw;
+}
+
+/* PAYMENT METHODS */
+
+#profile .cards {
+  margin: 0 7.20vw;
+  margin-bottom: 8.31vw;
+  display: flex;
+  align-items: center;
+  width: 85.34vw;
+  height: 18.01vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 24px;
+}
+
+#profile .cards .card-new:hover {
+  cursor: pointer;
+}
+
+#profile .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 1.66vw;
+  background: #8DD3BB;
+  border-radius: 16px;
+  width: 26.18vw;
+  height: 14.68vw;
+}
+
+#profile .cards .card .item {
+  width: 23.97vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.1vw;
+  margin-bottom: 0;
+}
+
+#profile .cards .card .item p {
+  font-size: 1.66vw;
+  font-weight: 600;
+}
+
+#profile .cards .card .item img {
+  width: 1.66vw;
+  height: 1.66vw;
+}
+
+#profile .cards .card h5 {
+  font-size: 2.22vw;
+  font-weight: 600;
+  margin-left: 1.11vw;
+  margin-bottom: 4.19vw;
+}
+
+#profile .cards .card .item-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 23.97vw;
+  margin: 0 1.11vw;
+}
+
+#profile .cards .card .item-2 .item-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#profile .cards .card .item-2 .item-3 p {
+  font-weight: 500;
+  font-size: 0.83vw;
+}
+
+#profile .cards .card .item-2 .item-3 h6 {
+  font-weight: 600;
+  font-size: 1.38vw;
+}
+
+#profile .cards .card-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border-radius: 16px;
+  border: 2px dashed #8DD3BB;
+  width: 26.18vw;
+  height: 14.68vw;
+}
+
+#profile .cards .card-new img {
+  width: 4.43vw;
+  height: 4.43vw;
+}
+
+#profile .cards .card-new p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  opacity: 0.75;
+}
+
+/* POP-UP FORM */
+
+ #form-bg {
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 124.25vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+}
+
+ #new-card-form {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  left: 27.71vw;
+  top: 37.13vw;
+  width: 44.33vw;
+  height: 51.61vw;
+  z-index: 5;
+  background: #fff;
+  border-radius: 12px;
+}
+
+ #new-card-form img {
+  width: 0.99vw;
+  height: 0.99vw;
+  align-self: flex-end;
+  margin: 4.43vw;
+  margin-bottom: 0;
+}
+
+ #new-card-form img:hover {
+  cursor: pointer;
+}
+
+ #new-card-form h2 {
+  align-self: flex-start;
+  margin: 0;
+  margin-left: 4.43vw;
+  margin-bottom: 3.32vw;
+  font-weight: 700;
+  font-size: 2.77vw;
+  color: #000000;
+}
+
+ #new-card-form form {
+  margin: 0 4.43vw;
+}
+
+ #new-card-form form .form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+ #new-card-form form .group,
+ #new-card-form form .form-group .subgroup {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+ #new-card-form form .form-group .subgroup label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fff;
+  z-index: 1;
+}
+
+ #new-card-form form label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fff;
+  z-index: 1;
+}
+
+ #new-card-form form .form-group .subgroup #date, 
+ #new-card-form form .form-group .subgroup #cvc, 
+ #new-card-form form .form-group-2 #name-on-card, 
+ #new-card-form form .group #user_card_number_input,
+ #new-card-form form .form-group-2 #country {
+  width: 16.90vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 1.66vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+ #new-card-form form .form-group-2 #name-on-card, 
+ #new-card-form form .group #user_card_number_input,
+ #new-card-form form .form-group-2 #country {
+  width: 35.46vw;
+  height: 3.74vw;
+}
+
+ #new-card-form form .form-group-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+ #new-card-form form .item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 2.77vw;
+}
+
+ #new-card-form form .item .item-2 {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+}
+
+ #new-card-form form .item .item-2 #agree {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+ #new-card-form form .item .item-2 #agree-l {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 0.97vw;
+  width: 35.46vw;
+}
+
+ #new-card-form form .item a {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #FF8682;
+}
+
+ #new-card-form form #submit {
+  height: 3.32vw;
+  width: 35.46vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #112211;
+  background: #8DD3BB;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin-bottom: 1.11vw;
+  cursor: pointer;
+}
+
+ #new-card-form form p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  text-align: center;
+  color: #112211;
+}
+
+/* FLIGHT DETAIL */
+
+#flight-detail #navbar {
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  margin: 0;
+  margin-bottom: 3.32vw;
+  height: 6.03vw;
+}
+
+#flight-detail #navbar .container {
+  margin-left: 7.20vw;
+  margin-right: 7.20vw;
+}
+
+#flight-detail #navbar .container .profile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#flight-detail #navbar .container .profile-nav #profile-favourites {
+  display: flex;
+  align-items: center;
+  padding-right: 1.11vw;
+  border-right: #000000 solid 1px;
+  color: #000000;
+}
+
+#flight-detail #navbar .container .profile-nav #profile-favourites #heart {
+  height: 1.25vw;
+  width: 1.35vw;
+  margin-right: 0.43vw;
+}
+
+#flight-detail #navbar .container .profile-nav #profile-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 2.22vw;
+  color: #000000;
+}
+
+#flight-detail #navbar .container .profile-nav #profile-btn #profile-img-s {
+  height: 3.12vw;
+  width: 3.12vw;
+}
+
+#flight-detail .navigation {
+  display: flex;
+  align-items: center;
+  margin: 0 7.20vw;
+  margin-bottom: 2.22vw;
+}
+
+#flight-detail .navigation img {
+  transform: rotate(180deg);
+  width: 1.11vw;
+  height: 1.11vw;
+  margin: 0 0.55vw;
+}
+
+#flight-detail .navigation a {
+  color: #FF8682;
+  font-size: 0.97vw;
+  font-weight: 500;
+}
+
+#flight-detail .navigation p {
+  font-size: 0.97vw;
+  font-weight: 500;
+}
+
+#flight-detail .heading {
+  margin: 0 7.20vw;
+  margin-bottom: 2.22vw;
+  display: flex;
+  justify-content: space-between;
+  width: 85.34vw;
+  height: 7.20vw;
+}
+
+#flight-detail .heading .container, 
+#flight-detail .heading .container-2 { 
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#flight-detail .heading .container-2 {
+  align-items: flex-end;
+}
+
+#flight-detail .heading .container h2 {
+  font-weight: 700;
+  font-size: 1.66vw;
+  color: #112211;
+}
+
+#flight-detail .heading .container .item {
+  display: flex;
+  margin: 0;
+}
+
+#flight-detail .heading .container .item img {
+  width: 1.25vw;
+  height: 1.25vw;
+  margin-right: 0.28vw;
+}
+
+#flight-detail .heading .container .item p {
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 500;
+}
+
+#flight-detail .heading .container .item-2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#flight-detail .heading .container .item-2 h5 {
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.97vw;
+  padding: 0.59vw 0.76vw;
+  margin-right: 0.55vw;
+  color: #112211;
+}
+
+#flight-detail .heading .container .item-2 p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+}
+
+#flight-detail .heading .container .item-2 p s {
+  font-weight: 700;
+}
+
+#flight-detail .heading .container-2 div {
+  font-weight: 700;
+  font-size: 2.22vw;
+  color: #FF8682;
+}
+
+#flight-detail .heading .container-2 .item {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 19.12vw;
+  height: 3.33vw;
+}
+
+#flight-detail .heading .container-2 .item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.33vw;
+  height: 3.33vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+}
+
+#flight-detail .heading .container-2 .item a img {
+  width: 1.38vw;
+  height: 1.38vw;
+}
+
+#flight-detail .heading .container-2 .item .btn-green {
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  height: 3.32vw;
+  width: 10.39vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.97vw;
+}
+
+#flight-detail .emirates-plane {
+  width: 85.34vw;
+  height: 27.36vw;
+  margin: 0 7.20vw;
+  margin-right: 0;
+  margin-bottom: 2.77vw;
+}
+
+#flight-detail .features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 7.20vw;
+  margin-bottom: 2.77vw;
+  width: 85.34vw;
+  height: 12.05vw;
+}
+
+#flight-detail .features .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#flight-detail .features .container h5 {
+  color: #112211;
+  font-size: 1.66vw;
+  font-weight: 700;
+}
+
+#flight-detail .features .container .item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 26.32vw;
+}
+
+#flight-detail .features .container .item p {
+  display: flex;
+  align-items: center;
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 500;
+}
+
+#flight-detail .features .container .item p input {
+  width: 1.25vw;
+  height: 1.25vw;
+  margin-right: 0.55vw;
+}
+
+#flight-detail .features .container .item p input:checked {
+  background: #8DD3BB;
+  color: #8DD3BB;
+  z-index: 5;
+}
+
+#flight-detail .features .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#flight-detail .features .container-2 img {
+  width: 8.31vw;
+  height: 8.31vw;
+  border-radius: 12px;
+  align-self: center;
+  justify-self: center;
+}
+
+#flight-detail .policies {
+  margin: 0 7.20vw;
+  margin-bottom: 2.77vw;
+  background: #8DD3BB;
+  width: 85.34vw;
+  height: 7.06vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+#flight-detail .policies h5 {
+  margin: 1.11vw;
+  font-size: 1.66vw;
+  font-weight: 700;
+}
+
+#flight-detail .policies .container {
+  display: flex;
+  margin: 1.11vw;
+  margin-top: 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#flight-detail .policies .container .item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 39.55vw;
+  margin-right: 1.11vw;
+}
+
+#flight-detail .policies .container .item img {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin-right: 1.11vw;
+}
+
+#flight-detail .policies .container .item p {
+  color: #112211;
+  font-weight: 500;
+  font-size: 1.11vw;
+}
+
+#flight-detail .flight-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 7.2vw;
+  margin-bottom: 2.77vw;
+  width: 85.34vw;
+  height: 19.88vw;
+  background: #fff;
+  box-shadow: 0px 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+}
+
+#flight-detail .flight-info:last-child {margin-bottom: 8.31vw;}
+
+#flight-detail .flight-info .container,
+#flight-detail .flight-info .container-2,
+#flight-detail .flight-info .container-3 {
+  margin: 0 1.66vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: centar;
+}
+
+#flight-detail .flight-info .container {
+  margin-top: 2.22vw;
+  margin-bottom: 1.66vw;
+}
+
+#flight-detail .flight-info .container h6 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.38vw;
+  color: #112211;
+}
+
+#flight-detail .flight-info .container p {
+  font-weight: 500;
+  font-size: 1.38vw;
+  color: #112211;
+  opacity: 0.75;
+}
+
+#flight-detail .flight-info .container-2 {
+  margin-bottom: 2.77vw;
+}
+
+#flight-detail .flight-info .container-2 .item {
+  display: flex;
+  border: 0.5px solid #8DD3BB;
+  border-radius: 8px;
+  width: 18.15vw;
+  height: 5.96vw;
+}
+
+#flight-detail .flight-info .container-2 .item img {
+  width: 4.43vw;
+  height: 3.08vw;
+  margin: 1.44vw 2.22vw;
+  margin-right: 1.66vw;
+}
+
+#flight-detail .flight-info .container-2 .item .item-21 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  margin-top: 1.44vw;
+  width: 7.62vw;
+  height: 3.74vw;
+}
+
+
+#flight-detail .flight-info .container-2 .item .item-21 h5 {
+  font-weight: 600;
+  font-size: 1.66vw;
+}
+
+#flight-detail .flight-info .container-2 .item .item-21 p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  opacity: 0.6;
+  margin: 0;
+}
+
+#flight-detail .flight-info .container-2 .item-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 24.94vw;
+  height: 5.42vw;
+}
+
+#flight-detail .flight-info .container-2 .item-2 img {
+  width: 1.66vw;
+  height: 1.66vw;
+}
+
+#flight-detail .flight-info .container-2 .item-2 .line {
+  width: 3.32vw;
+  height: 0px;
+  border: 0.07vw solid #D7E2EE;
+  transform: rotate(90deg);
+}
+
+#flight-detail .flight-info .container-3 {
+  margin: 0 13.58vw;
+  margin-bottom: 2.22vw;
+  align-items: center;
+}
+
+#flight-detail .flight-info .container-3 h6 {
+  font-weight: 600;
+  font-size: 1.66vw;
+}
+
+#flight-detail .flight-info .container-3 p {
+  font-weight: 500;
+  font-size: 1.11vw;
+  opacity: 0.6;
+}
+
+#flight-detail .flight-info .container-3 .l-arrow, 
+#flight-detail .flight-info .container-3 .r-arrow {
+  width: 2.49vw;
+  height: 0.3vw;
+}
+
+#flight-detail .flight-info .container-3 .r-arrow {
+  transform: rotate(180deg);
+}
+
+#flight-detail .flight-info .container-3 .plane-img {
+  width: 3.12vw;
+  height: 2.70vw;
+}
+
+/* FLIGHT DETAIL BOOKING */
+
+#flight-detail-booking {
+  display: flex;
+  margin: 0 5.54vw;
+}
+
+#flight-detail-booking .split {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-right: 2.77vw;
+  justify-content: space-between;
+  width: 88.67vw;
+}
+
+#flight-detail-booking .split .container-1,
+#flight-detail-booking .split .container-2,
+#flight-detail-booking .split .container-3 {
+  margin: 0;
+  margin-bottom: 2.77vw;
+  width: 54.72vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+#flight-detail-booking .split .container-1 .heading {
+  margin: 2.22vw 1.66vw;
+  margin-bottom: 1.66vw;
+  display: flex;
+  justify-content: space-between;
+  width: 51.40vw;
+  height: 2.70vw;
+}
+
+#flight-detail-booking .split .container-1 .heading h2 {
+  font-weight: 700;
+  font-size: 1.66vw;
+}
+
+#flight-detail-booking .split .container-1 .heading div {
+  font-weight: 700;
+  font-size: 2.22vw;
+  color: #FF8682;
+}
+
+#flight-detail-booking .split .container-1 .date-time {
+  margin: 0 1.66vw;
+  margin-bottom: 1.66vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#flight-detail-booking .split .container-1 .date-time h6 {
+  font-weight: 700;
+  font-size: 1.11vw;
+}
+
+#flight-detail-booking .split .container-1 .date-time p {
+  font-weight: 500;
+  font-size: 1.38vw;
+}
+
+#flight-detail-booking .split .container-1 .emirates-flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1.66vw;
+  margin-bottom: 2.77vw;
+}
+
+#flight-detail-booking .split .container-1 .emirates-flow .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 18.15vw;
+  height: 5.96vw;
+  border: 0.5px solid #8DD3BB;
+  border-radius: 8px;
+}
+
+#flight-detail-booking .split .container-1 .emirates-flow .item img {
+  margin-left: 2.22vw;
+  width: 4.43vw;
+  height: 3.08vw;
+}
+
+#flight-detail-booking .split .container-1 .emirates-flow .item .item-21 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.22vw;
+}
+
+#flight-detail-booking .split .container-1 .emirates-flow .item .item-21 h5 {
+  font-size: 1.66vw;
+  font-weight: 600;
+}
+
+#flight-detail-booking .split .container-1 .emirates-flow .item .item-21 p {
+  font-size: 0.97vw;
+  font-weight: 500;
+}
+
+#flight-detail-booking .split .container-1 .emirates-flow .item-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 24.94vw;
+  height: 5.54vw;
+}
+
+#flight-detail-booking .split .container-1 .emirates-flow .item-2 img {
+  width: 1.66vw;
+  height: 1.66vw;
+}
+
+#flight-detail-booking .split .container-1 .emirates-flow .item-2 .line {
+  width: 3.32vw;
+  height: 0px;
+  border: 0.07vw solid #D7E2EE;
+  transform: rotate(90deg);
+}
+
+#flight-detail-booking .split .container-1 .plane-flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1.66vw;
+  margin-bottom: 2.22vw;
+  width: 51.40vw;
+  height: 3.32vw;
+}
+
+#flight-detail-booking .split .container-1 .plane-flow h6 {
+  font-weight: 600;
+  font-size: 1.66vw;
+}
+
+#flight-detail-booking .split .container-1 .plane-flow p {
+  font-weight: 500;
+  font-size: 1.11vw;
+  opacity: 0.6;
+}
+
+#flight-detail-booking .split .container-1 .plane-flow .l-arrow, 
+#flight-detail-booking .split .container-1 .plane-flow .r-arrow {
+  width: 2.49vw;
+  height: 0.3vw;
+}
+
+#flight-detail-booking .split .container-1 .plane-flow .r-arrow {
+  transform: rotate(180deg);
+}
+
+#flight-detail-booking .split .container-1 .plane-flow .plane-img {
+  width: 3.12vw;
+  height: 2.70vw;
+}
+
+#flight-detail-booking .split .container-2 .group {
+  display: flex;
+  flex-direction: column;
+  margin: 1.11vw;
+  justify-content: space-between;
+}
+
+#flight-detail-booking .split .container-2 .group form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#flight-detail-booking .split .container-2 .group #form-1,
+#flight-detail-booking .split .container-2 .group #form-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 52.51vw;
+  height: 5.54vw;
+  border-radius: 12px;
+}
+
+#flight-detail-booking .split .container-2 .group #form-2 .item {
+  width: 43.78vw;
+}
+
+#flight-detail-booking .split .container-2 .group #form-1 .item h6,
+#flight-detail-booking .split .container-2 .group #form-2 .item h6 {
+  font-weight: 700;
+  font-size: 1.11vw;
+  margin: 1.11vw;
+  margin-bottom: 0.55vw;
+  margin-right: 0;
+}
+
+#flight-detail-booking .split .container-2 .group #form-1 .item p, 
+#flight-detail-booking .split .container-2 .group #form-2 .item p {
+  font-weight: 400;
+  font-size: 0.97vw;
+  margin-left: 1.11vw;
+}
+
+#flight-detail-booking .split .container-2 .group #form-2 .item p {
+  height: 3.81vw;
+}
+
+#flight-detail-booking .split .container-2 .group #form-1 input, 
+#flight-detail-booking .split .container-2 .group #form-2 #pay-partly {
+  margin-top: 2.08vw;
+  margin-right: 2.08vw;
+  width: 1.38vw;
+  height: 1.38vw;
+  cursor: pointer;
+}
+
+
+#flight-detail-booking .split .container-2 .group a {
+  font-weight: 500;
+  font-size: 0.83vw;
+  margin: 1.11vw;
+  margin-top: 0.83vw;
+  text-decoration: underline 0.07vw solid;
+  color: #112211;
+}
+
+#flight-detail-booking .split .container-3 {
+  flex-direction: column;
+  margin: 0;
+}
+
+#flight-detail-booking .split .container-3 h6 {
+  font-weight: 700;
+  font-size: 1.38vw;
+  margin: 1.66vw;
+  margin-bottom: 0;
+}
+
+#flight-detail-booking .split .container-3 form input {
+  width: 51.40vw;
+  height: 3.88vw;
+  margin: 1.11vw 1.66vw;
+  padding: 0.55vw 1.11vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  color: #1C1B1F;
+  border: 1px solid #79747E;
+  border-radius: 4px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+}
+
+#flight-detail-booking .split .container-3 form p {
+  font-size: 0.97vw;
+  font-weight: 400;
+  margin: 0 1.66vw;
+  margin-bottom: 1.11vw;
+}
+
+#flight-detail-booking .split .container-3 form p a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#flight-detail-booking .split .container-3 form #continue {
+  width: 51.40vw;
+  height: 3.32vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #8DD3BB;
+  border-radius: 4px;
+  font-size: 1.1vw;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  margin-left: 1.66vw;
+}
+
+#flight-detail-booking .split .container-3 .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 51.40vw;
+  margin: 1.66vw;
+  margin-top: 0.83vw;
+}
+
+#flight-detail-booking .split .container-3 .item .line {
+  width: 23.34vw;
+  height: 0px;
+  opacity: 0.25;
+  border: 1px solid #112211;
+}
+
+#flight-detail-booking .split .container-3 .item p {
+  font-weight: 500;
+  font-size: 1.11vw;
+}
+
+#flight-detail-booking .split .container-3 .item-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1.66vw;
+  margin-bottom: 1.11vw;
+}
+
+#flight-detail-booking .split .container-3 .item-2 a {
+  width: 16.40vw;
+  height: 3.88vw;
+  padding: 1.11vw 1.66vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#flight-detail-booking .split .container-3 .item-2 a img {
+  height: 1.66vw;
+  width: 1.66vw;
+}
+
+#flight-detail-booking .split .container-3 #continue-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 51.40vw;
+  height: 3.88vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  margin: 0 1.66vw;
+  margin-bottom: 1.66vw;
+}
+
+#flight-detail-booking .split .container-3 #continue-email img {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin-right: 1.11vw;
+}
+
+#flight-detail-booking .split .container-3 #continue-email p {
+  font-weight: 500;
+  font-size: 1.11vw;
+}
+
+#flight-detail-booking .split .container-3 {
+  margin-bottom: 8.31vw;
+}
+
+#flight-detail-booking .review-flight {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 31.17vw;
+  height: 32.52vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+}
+
+#flight-detail-booking .review-flight .container-1 {
+  display: flex;
+  margin: 1.66vw;
+  margin-bottom: 1.11vw;
+}
+
+#flight-detail-booking .review-flight .container-1 img {
+  width: 8.31vw;
+  height: 8.31vw;
+  margin-right: 1.66vw;
+}
+
+#flight-detail-booking .review-flight .container-1 .item-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#flight-detail-booking .review-flight .container-1 .item-1 p{
+  font-weight: 500;
+  font-size: 1.11vw;
+  margin-bottom: 0.28vw;
+}
+
+#flight-detail-booking .review-flight .container-1 .item-1 h5 {
+  font-weight: 600;
+  font-size: 1.38vw;
+  margin-bottom: 1.38vw;
+}
+
+#flight-detail-booking .review-flight .container-1 .item-1 .item-21 {
+  display: flex;
+  align-items: center;
+}
+
+#flight-detail-booking .review-flight .container-1 .item-1 .item-21 .rating {
+  padding: 0.59vw 0.76vw;
+  margin-right: 0.55vw;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.83vw;
+  align-self: center;
+  justify-self: center;
+}
+
+#flight-detail-booking .review-flight .container-1 .item-1 .item-21 p {
+  font-weight: 500;
+  font-size: 0.83vw;
+}
+
+#flight-detail-booking .review-flight .container-1 .item-1 .item-21 p s {
+  font-weight: 700;
+}
+
+#flight-detail-booking .review-flight .line {
+  width: 27.85vw;
+  height: 0.035vw;
+  background: #112211;
+  opacity: 0.25;
+  display: flex;
+  justify-content: center;
+  margin: 0 1.66vw;
+  font-size: 1.11vw;
+}
+
+#flight-detail-booking .review-flight h6 {
+  font-size: 1.11vw;
+  font-weight: 500;
+  margin: 1.11vw 1.66vw;
+}
+
+#flight-detail-booking .review-flight h6 s {
+  font-weight: 700;
+}
+
+#flight-detail-booking .review-flight .price-details {
+  margin: 0 1.66vw;
+  margin-bottom: 1.66vw;
+}
+
+#flight-detail-booking .review-flight .price-details h6 {
+  font-weight: 700;
+  font-size: 1.11vw;
+  margin: 1.11vw 0;
+}
+
+#flight-detail-booking .review-flight .price-details .group {
+  display: flex;
+  margin: 0;
+  margin-bottom: 1.11vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#flight-detail-booking .review-flight .price-details .group:last-child {
+  margin-bottom: 0;
+}
+
+#flight-detail-booking .review-flight .price-details .group h6 {
+  font-weight: 500;
+  font-size: 1.11vw;
+  margin: 0;
+}
+
+#flight-detail-booking .review-flight .price-details .group p {
+  font-weight: 600;
+  font-size: 1.11vw;
+}
+
+#flight-detail-booking .review-flight .price-details .line {
+  width: 27.85vw;
+  height: 0.035vw;
+  background: #112211;
+  opacity: 0.25;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 1.11vw;
+  font-size: 1.11vw;
+}
+
+#flight-detail-booking .split .container-3-li {
+  margin: 0;
+  margin-bottom: 8.32vw;
+  width: 54.72vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.1vw rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+#flight-detail-booking .split .container-3-li #card-selected {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.11vw;
+  border-radius: 12px;
+}
+
+#flight-detail-booking .split .container-3-li #card-selected .group {
+  display: flex;
+  align-items: center;
+  width: 13.51vw;
+  height: 5.54vw;
+}
+
+#flight-detail-booking .split .container-3-li #card-selected .group img {
+  width: 2.22vw;
+  margin-right: 2.22vw;
+  margin-left: 1.11vw;
+}
+
+#flight-detail-booking .split .container-3-li #card-selected .group p {
+  font-size: 0.97vw;
+  font-weight: 400;
+}
+
+#flight-detail-booking .split .container-3-li #card-selected .group p s {
+  font-weight: 700;
+  font-size: 1.11vw;
+}
+
+#flight-detail-booking .split .container-3-li #card-selected input {
+  width: 1.38vw;
+  height: 1.38vw;
+  margin: 2.08vw;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+#flight-detail-booking .split .container-3-li .item-2 {
+  width: 52.51vw;
+  height: 13.08vw;
+  margin: 1.11vw;
+  margin-top: 0;
+  border: 0.14vw dashed #8DD3BB;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#flight-detail-booking .split .container-3-li .item-2 img {
+  width: 4.43vw;
+  height: 4.43vw;
+  margin-bottom: 1.25vw;
+}
+
+#flight-detail-booking .split .container-3-li .item-2 p {
+  font-weight: 500;
+  font-size: 0.83vw;
+}
+
+/* POP-UP */
+
+#flight-detail-booking #form-bg {
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 124.25vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+}
+
+#flight-detail-booking #new-card-form {
+  display: flex;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  left: 27.71vw;
+  top: 37.13vw;
+  width: 44.33vw;
+  height: 51.61vw;
+  z-index: 5;
+  background: #fff;
+  border-radius: 12px;
+}
+
+#flight-detail-booking #new-card-form img {
+  width: 0.99vw;
+  height: 0.99vw;
+  align-self: flex-end;
+  margin: 4.43vw;
+  margin-bottom: 0;
+}
+
+#flight-detail-booking #new-card-form img:hover {
+  cursor: pointer;
+}
+
+#flight-detail-booking #new-card-form h2 {
+  align-self: flex-start;
+  margin: 0;
+  margin-left: 4.43vw;
+  margin-bottom: 3.32vw;
+  font-weight: 700;
+  font-size: 2.77vw;
+  color: #000000;
+}
+
+#flight-detail-booking #new-card-form form {
+  margin: 0 4.43vw;
+}
+
+#flight-detail-booking #new-card-form form .form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#flight-detail-booking #new-card-form form .group,
+#flight-detail-booking #new-card-form form .form-group .subgroup {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+#flight-detail-booking #new-card-form form .form-group .subgroup label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fff;
+  z-index: 1;
+}
+
+#flight-detail-booking #new-card-form form label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 0.83vw;
+  margin-bottom: -0.59vw;
+  padding: 0 0.28vw;
+  background: #fff;
+  z-index: 1;
+}
+
+#flight-detail-booking #new-card-form form .form-group .subgroup #date, 
+#flight-detail-booking #new-card-form form .form-group .subgroup #cvc, 
+#flight-detail-booking #new-card-form form .form-group-2 #name-on-card, 
+#flight-detail-booking #new-card-form form .group #user_card_number_input,
+#flight-detail-booking #new-card-form form .form-group-2 #country {
+  width: 16.90vw;
+  height: 3.74vw;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 1.66vw;
+  font-weight: 400;
+  font-size: 1.11vw;
+  padding: 0 1.11vw;
+}
+
+#flight-detail-booking #new-card-form form .form-group-2 #name-on-card, 
+#flight-detail-booking #new-card-form form .group #user_card_number_input,
+#flight-detail-booking #new-card-form form .form-group-2 #country {
+  width: 35.46vw;
+  height: 3.74vw;
+}
+
+#flight-detail-booking #new-card-form form .form-group-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#flight-detail-booking #new-card-form form .item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 2.77vw;
+}
+
+#flight-detail-booking #new-card-form form .item .item-2 {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+}
+
+#flight-detail-booking #new-card-form form .item .item-2 #agree {
+  height: 1.66vw;
+  width: 1.66vw;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+#flight-detail-booking #new-card-form form .item .item-2 #agree-l {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 0.97vw;
+  width: 35.46vw;
+}
+
+#flight-detail-booking #new-card-form form .item a {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #FF8682;
+}
+
+#flight-detail-booking #new-card-form form #submit {
+  height: 3.32vw;
+  width: 35.46vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin-bottom: 1.11vw;
+  cursor: pointer;
+}
+
+#flight-detail-booking #new-card-form form p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  text-align: center;
+  color: #112211;
+}
+
+/* FLIGHT DETAIL BOOKING TICKET */
+
+#flight-detail #flight-detail-booking-ticket .heading {
+  margin: 0 7.20vw;
+  margin-bottom: 2.22vw;
+  display: flex;
+  justify-content: space-between;
+  width: 85.34vw;
+  height: 7.20vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container, 
+#flight-detail #flight-detail-booking-ticket .heading .container-2 { 
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 7.13vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container-2 {
+  align-items: flex-end;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container h2 {
+  font-weight: 700;
+  font-size: 1.66vw;
+  color: #112211;
+  margin-top: 1.35vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container .item {
+  display: flex;
+  margin: 0;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container .item img {
+  width: 1.25vw;
+  height: 1.25vw;
+  margin-right: 0.28vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container .item p {
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 500;
+  margin-bottom: 1.35vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container .item-2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container .item-2 h5 {
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.97vw;
+  padding: 0.59vw 0.76vw;
+  margin-right: 0.55vw;
+  color: #112211;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container .item-2 p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container .item-2 p s {
+  font-weight: 700;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container-2 div {
+  font-weight: 700;
+  font-size: 2.22vw;
+  color: #112211;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container-2 .item {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 14.75vw;
+  height: 3.33vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container-2 .item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.33vw;
+  height: 3.33vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container-2 .item a img {
+  width: 1.38vw;
+  height: 1.38vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .heading .container-2 .item .btn-green {
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  height: 3.32vw;
+  width: 10.39vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.97vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split {
+  display: flex;
+  margin: 0 7.20vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 {
+  display: flex;
+  width: 59.30vw;
+  height: 21.40vw;
+  background: #FFFFFF;
+  border: 0.07vw solid #EAEAEA;
+  border-radius: 16px;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 17.04vw;
+  background: #EBF6F2;
+  padding: 1.66vw;
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-1 h6 {
+  font-weight: 600;
+  font-size: 2.22vw;
+  color: #112211;
+  margin-bottom: 0.28vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-1 p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  opacity: 0.6;
+  margin-bottom: 1.11vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-1 img {
+  margin-bottom: 1.11vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-1 {
+  display: flex;
+  align-items: center;
+  background: #8DD3BB;
+  border-top-right-radius: 16px;
+  padding: 1.66vw;
+  width: 42.25vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-1 img {
+  width: 3.32vw;
+  height: 3.32vw;
+  margin-right: 1.11vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-1 .group-12 h6 {
+  font-weight: 700;
+  font-size: 1.38vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-1 .group-12 p {
+  font-weight: 400;
+  font-size: 0.97vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-1 .p {
+  margin-left: 16.55vw;
+  font-weight: 700;
+  font-size: 0.97vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.66vw 0;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-2 .group-22 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-2 .group-22 img {
+  width: 2.22vw;
+  height: 2.22vw;
+  margin-right: 0.55vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-2 .group-22 p {
+  font-weight: 600;
+  font-size: 0.97vw;
+  opacity: 0.6;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-2 .group-22 p s {
+  font-weight: 500;
+  font-size: 0.83vw;
+  opacity: 1;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-3 {
+  margin-top: 3.20vw;
+  margin-left: 2.08vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-3 .group-31 h6 {
+  font-weight: 600;
+  font-size: 2.22vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-3 .group-31 p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  opacity: 0.6;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-1 .item-2 .group-3 img {
+  width: 17.18vw;
+  height: 5.61vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-2 {
+  width: 25.98vw;
+  height: 21.40vw;
+}
+
+#flight-detail #flight-detail-booking-ticket .split .container-2 img {
+  width: 25.98vw;
+  height: 21.40vw;
+  border: 0.07vw solid #EAEAEA;
+  border-radius: 16px;
+}
+
+#flight-detail #flight-detail-booking-ticket #terms-conditions {
+  margin: 0 7.20vw;
+  margin-top: 4.43vw;
+  margin-bottom: 8.31vw;
+}
+
+#flight-detail #flight-detail-booking-ticket #terms-conditions h5 {
+  font-weight: 600;
+  font-size: 1.66vw;
+  margin-bottom: 2.35vw;
+}
+
+#flight-detail #flight-detail-booking-ticket #terms-conditions h6 {
+  font-weight: 500;
+  font-size: 1.38vw;
+  margin-bottom: 1.11vw;
+}
+
+#flight-detail #flight-detail-booking-ticket #terms-conditions ul li {
+  margin-left: 1.66vw;
+  margin-bottom: 1.11vw;
+  font-size: 0.97vw;
+  line-height: 1.38vw;
+}
+
+#flight-detail #flight-detail-booking-ticket #terms-conditions p {
+  font-size: 0.97vw;
+  font-weight: 400;
+  line-height: 1.38vw;
+}
+
+/* HOTEL LISTING */
+
+#hotel-listing #navbar {
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  margin: 0;
+  margin-bottom: 3.32vw;
+  height: 6.03vw;
+}
+
+#hotel-listing #navbar .container {
+  margin-left: 7.20vw;
+  margin-right: 7.20vw;
+}
+
+#hotel-listing #navbar .container .profile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hotel-listing #navbar .container .profile-nav #profile-favourites {
+  display: flex;
+  align-items: center;
+  padding-right: 1.11vw;
+  border-right: #000000 solid 1px;
+  color: #000000;
+}
+
+#hotel-listing #navbar .container .profile-nav #profile-favourites #heart {
+  height: 1.25vw;
+  width: 1.35vw;
+  margin-right: 0.43vw;
+}
+
+#hotel-listing #navbar .container .profile-nav #profile-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 2.22vw;
+  color: #000000;
+}
+
+#hotel-listing #navbar .container .profile-nav #profile-btn #profile-img-s {
+  height: 3.12vw;
+  width: 3.12vw;
+}
+
+#hotel-listing .navigation {
+  display: flex;
+  align-items: center;
+  margin: 0 7.20vw;
+  margin-bottom: 2.22vw;
+}
+
+#hotel-listing .navigation img {
+  transform: rotate(180deg);
+  width: 1.11vw;
+  height: 1.11vw;
+  margin: 0 0.55vw;
+}
+
+#hotel-listing .navigation a {
+  color: #FF8682;
+  font-size: 0.97vw;
+  font-weight: 500;
+}
+
+#hotel-listing .navigation p {
+  font-size: 0.97vw;
+  font-weight: 500;
+}
+
+#hotel-listing .heading {
+  margin: 0 7.20vw;
+  margin-bottom: 2.22vw;
+  display: flex;
+  justify-content: space-between;
+  width: 85.34vw;
+  height: 7.20vw;
+}
+
+#hotel-listing .heading .container, 
+#hotel-listing .heading .container-2 { 
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#hotel-listing .heading .container-2 {
+  align-items: flex-end;
+}
+
+#hotel-listing .heading .container .group {
+  display: flex;
+  align-items: center;
+  color: #112211;
+} 
+
+#hotel-listing .heading .container .group h2 {
+  font-weight: 700;
+  font-size: 1.66vw;
+  color: #112211;
+  margin-right: 1.11vw;
+}
+
+#hotel-listing .heading .container .group .stars {
+  display: flex;
+  margin-right: 0.55vw;
+  align-items: center;
+}
+
+#hotel-listing .heading .container .group .stars img {
+  width: 1.11vw;
+  height: 1.11vw;
+}
+
+#hotel-listing .heading .container .group .starly {
+  color: #112211;
+  font-size: 0.83vw;
+  font-weight: 500;
+}
+
+#hotel-listing .heading .container .item {
+  display: flex;
+  margin: 0;
+}
+
+#hotel-listing .heading .container .item img {
+  width: 1.25vw;
+  height: 1.25vw;
+  margin-right: 0.28vw;
+}
+
+#hotel-listing .heading .container .item p {
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 500;
+}
+
+#hotel-listing .heading .container .item-2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#hotel-listing .heading .container .item-2 h5 {
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.97vw;
+  padding: 0.59vw 0.76vw;
+  margin-right: 0.55vw;
+  color: #112211;
+}
+
+#hotel-listing .heading .container .item-2 p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+}
+
+#hotel-listing .heading .container .item-2 p s {
+  font-weight: 700;
+}
+
+#hotel-listing .heading .container-2 div {
+  font-weight: 700;
+  font-size: 2.22vw;
+  color: #FF8682;
+}
+
+#hotel-listing .heading .container-2 .item {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 19.12vw;
+  height: 3.33vw;
+}
+
+#hotel-listing .heading .container-2 .item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.33vw;
+  height: 3.33vw;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+}
+
+#hotel-listing .heading .container-2 .item a img {
+  width: 1.38vw;
+  height: 1.38vw;
+}
+
+#hotel-listing .heading .container-2 .item .btn-green {
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  height: 3.32vw;
+  width: 10.39vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.97vw;
+}
+
+#hotel-listing .img-container {
+  margin-right: 0;
+  margin: 0 7.20vw;
+  margin-bottom: 4.43vw;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 85.34vw;
+}
+
+#hotel-listing .img-container img {
+  width: 42.39vw;
+  height: 38.10vw;
+  margin: 0;
+}
+
+#hotel-listing .img-container .container {
+  display: flex;
+  margin: 0;
+}
+
+#hotel-listing .img-container .container .container-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-left: 0.55vw;
+  width: 42.39vw;
+  height: 38.10vw;
+}
+
+#hotel-listing .img-container .container .container-1 img {
+  width: 20.91vw;
+  height: 18.77vw;
+  margin: 0;
+}
+
+#hotel-listing .img-container .container .container-1 img:first-child,
+#hotel-listing .img-container .container .container-1 img:nth-child(2) {
+  margin-bottom: 0.55vw;
+}
+
+#hotel-listing .img-container .container .container-1 .item {
+  display: flex;
+  width: 20.91vw;
+  height: 18.77vw;
+  margin: 0;
+}
+
+#hotel-listing .img-container .container .container-1 .item .btn-green {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #8DD3BB;
+  border-radius: 4px;
+  width: 9.91vw;
+  height: 3.32vw;
+  margin-left: -11.02vw;
+  margin-top: 14.34vw;
+  z-index: 8;
+}
+
+#hotel-listing .img-container .container .container-1 .item .btn-green a {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+}
+
+#hotel-listing .line {
+  width: 85.34vw;
+  height: 0.07vw;
+  background: #112211;
+  opacity: 0.25;
+  margin: 0 7.20vw;
+  margin-bottom: 4.43vw;
+}
+
+#hotel-listing .overview-h {
+  margin: 0 7.20vw;
+  margin-bottom: 1.11vw;
+  font-weight: 700;
+  font-size: 1.38vw;
+}
+
+#hotel-listing .overview-p {
+  margin: 0 7.20vw;
+  margin-bottom: 2.22vw;
+  font-weight: 500;
+  font-size: 1.11vw;
+}
+
+#hotel-listing .btn-container {
+  margin: 0 7.20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60.26vw;
+  margin-bottom: 4.43vw;
+}
+
+#hotel-listing .btn-container .btn-green,
+#hotel-listing .btn-container .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: #8DD3BB;
+  border-radius: 12px;
+  width: 11.50vw;
+  height: 10.04vw;
+  margin: 0;
+}
+
+#hotel-listing .btn-container .btn {
+  background: transparent;
+  border: 0.07vw solid #8DD3BB;
+}
+
+#hotel-listing .btn-container .btn-green h6 {
+  font-weight: 700;
+  font-size: 2.22vw;
+  margin: 1.11vw;
+  margin-bottom: 2.22vw;
+}
+
+#hotel-listing .btn-container .btn-green p,
+#hotel-listing .btn-container .btn p {
+  font-weight: 500;
+  font-size: 1.11vw;
+  color: #112211;
+  margin: 0 1.11vw;
+  margin-bottom: 0.28vw;
+}
+
+#hotel-listing .btn-container .btn p {
+  margin-bottom: 1.11vw;
+}
+
+#hotel-listing .btn-container .btn-green p:last-child {
+  font-size: 0.97vw;
+  font-weight: 500;
+}
+
+#hotel-listing .btn-container .btn-green p s {
+  font-weight: 700;
+  font-size: 1.11vw;
+  line-height: 1.38vw;
+  margin: 0;
+}
+
+#hotel-listing .btn-container .btn img {
+  width: 2.22vw;
+  height: 2.22vw;
+  margin: 1.11vw;
+  margin-bottom: 4.22vw;
+}
+
+#hotel-listing .rooms {
+  margin: 0 7.20vw;
+  margin-bottom: 4.43vw;
+}
+
+#hotel-listing .rooms h6 {
+  font-weight: 700;
+  font-size: 1.38vw;
+  margin-bottom: 2.22vw;
+}
+
+#hotel-listing .rooms .container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#hotel-listing .rooms .container .group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85.34vw;
+  height: 3.32vw;
+}
+
+#hotel-listing .rooms .container .group .item-1 {
+  display: flex;
+  align-items: center;
+}
+
+#hotel-listing .rooms .container .group .item-1 img {
+  width: 3.32vw;
+  height: 3.32vw;
+  border-radius: 4px;
+  margin-right: 1.11vw;
+}
+
+#hotel-listing .rooms .container .group .item-1 p {
+  color: #112211;
+  font-weight: 500;
+  font-size: 1.11vw;
+}
+
+#hotel-listing .rooms .container .group .item-2 {
+  display: flex;
+  align-items: center;
+}
+
+#hotel-listing .rooms .container .group .item-2 h6 {
+  font-weight: 600;
+  font-size: 1.66vw;
+  color: #112211;
+  margin: 0;
+  margin-right: 4.43vw;
+}
+
+#hotel-listing .rooms .container .group .item-2 a {
+  color: #112211;
+  background: #8DD3BB;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.97vw;
+  padding: 1.07vw 2.46vw;
+}
+
+#hotel-listing .rooms .container .line {
+  margin: 1.11vw 0;
+}
+
+#hotel-listing #location-map {
+  margin: 0 7.20vw;
+  margin-bottom: 4.43vw;
+}
+
+#hotel-listing #location-map .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 2.22vw;
+  width: 85.34vw;
+}
+
+#hotel-listing #location-map .container h6 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.38vw;
+  color: #112211;
+}
+
+#hotel-listing #location-map .container a {
+  margin: 0;
+  color: #112211;
+  background: #8DD3BB;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.97vw;
+  padding: 1.07vw 1.11vw;
+}
+
+#hotel-listing #location-map img {
+  width: 85.34vw;
+  height: 31.17vw;
+  border-radius: 16px;
+  margin-bottom: 0.55vw;
+}
+
+#hotel-listing #location-map .container-2 {
+  display: flex;
+  margin: 0;
+}
+
+#hotel-listing #location-map .container-2 img {
+  width: 1.25vw;
+  height: 1.25vw;
+}
+
+#hotel-listing #location-map .container-2 p {
+  font-weight: 500;
+  font-size: 0.97vw;
+}
+
+#hotel-listing #amenities {
+  margin: 0 7.20vw;
+  margin-bottom: 4.43vw;
+}
+
+#hotel-listing #amenities h6 {
+  font-weight: 700;
+  font-size: 1.38vw;
+  color: #112211;
+  margin: 0;
+  margin-bottom: 2.22vw;
+}
+
+#hotel-listing #amenities .container {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 49.87vw;
+  height: 14.96vw;
+}
+
+#hotel-listing #amenities .container .group {
+  margin: 0;
+}
+
+#hotel-listing #amenities .container .group .item {
+  display: flex;
+  margin: 0;
+  margin-bottom: 1.66vw;
+}
+
+#hotel-listing #amenities .container .group .item:last-child {
+  margin: 0;
+}
+
+#hotel-listing #amenities .container .group .item img {
+  width: 1.66vw;
+  height: 1.66vw;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+#hotel-listing #amenities .container .group .item p {
+  font-weight: 500;
+  font-size: 1.11vw;
+  color: #112211;
+}
+
+#hotel-listing #amenities .container .group p {
+  font-weight: 600;
+  font-size: 1.11vw;
+  color: #FF8682;
+  margin: 0;
+}
+
+#hotel-listing #reviews {
+  margin: 0 7.20vw;
+  margin-bottom: 8.31vw;
+  width: 85.34vw;
+}
+
+#hotel-listing #reviews .container-1 {
+  margin: 0;
+  margin-bottom: 1.66vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.32vw;
+}
+
+#hotel-listing #reviews .container-1 h6 {
+  font-weight: 700;
+  font-size: 1.38vw;
+  margin: 0;
+}
+
+#hotel-listing #reviews .container-1 .btn-green {
+  background: #8DD3BB;
+  border-radius: 4px;
+  padding: 1.07vw 1.11vw;
+  font-weight: 600;
+  font-size: 0.97vw;
+  color: #112211;
+}
+
+#hotel-listing #reviews .container-2 {
+  display: flex;
+  margin: 0;
+}
+
+#hotel-listing #reviews .container-2 h6 {
+  font-weight: 700;
+  font-size: 3.46vw;
+  margin: 0;
+  margin-right: 1.11vw;
+  margin-bottom: 1.66vw;
+}
+
+#hotel-listing #reviews .container-2 .group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hotel-listing #reviews .container-2 .group p:first-child {
+  font-weight: 600;
+  font-size: 1.38vw;
+  margin: 0;
+  margin-bottom: 0.55vw;
+}
+
+#hotel-listing #reviews .container-2 .group p:last-child {
+  font-weight: 400;
+  font-size: 0.97vw;
+}
+
+#hotel-listing #reviews .line {
+  margin: 0;
+  margin-bottom: 1.66vw;
+}
+
+#hotel-listing #reviews .container-3 {
+  margin: 0;
+  margin-bottom: 1.66vw;
+  display: flex;
+}
+
+#hotel-listing #reviews .container-3 img {
+  width: 3.12vw;
+  height: 3.12vw;
+  margin: 0;
+  margin-right: 1.11vw;
+}
+
+#hotel-listing #reviews .container-3 .group {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 78.62vw;
+}
+
+#hotel-listing #reviews .container-3 .group .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 14.62vw;
+}
+
+#hotel-listing #reviews .container-3 .group .item p {
+  font-weight: 400;
+  font-size: 0.97vw;
+}
+
+#hotel-listing #reviews .container-3 .group .item p:first-child {
+  font-weight: 600;
+  font-size: 0.97vw;
+}
+
+#hotel-listing #reviews .container-3 .group p {
+  font-weight: 400;
+  font-size: 0.97vw;
+}
+
+/* HOTELS LISTING */
+ 
+#hotels-listing #navbar {
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  margin: 0;
+  margin-bottom: 3.32vw;
+  height: 6.03vw;
+}
+
+#hotels-listing #navbar .container {
+  margin-left: 7.20vw;
+  margin-right: 7.20vw;
+}
+
+#hotels-listing #navbar .container .profile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hotels-listing #navbar .container .profile-nav #profile-favourites {
+  display: flex;
+  align-items: center;
+  padding-right: 1.11vw;
+  border-right: #000000 solid 1px;
+  color: #000000;
+}
+
+#hotels-listing #navbar .container .profile-nav #profile-favourites #heart {
+  height: 1.25vw;
+  width: 1.35vw;
+  margin-right: 0.43vw;
+}
+
+#hotels-listing #navbar .container .profile-nav #profile-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 2.22vw;
+  color: #000000;
+}
+
+#hotels-listing #navbar .container .profile-nav #profile-btn #profile-img-s {
+  height: 3.12vw;
+  width: 3.12vw;
+}
+
+#hotels-listing .inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85.34vw;
+  height: 8.31vw;
+  background: #fff;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+  margin: 0 7.2vw;
+  margin-bottom: 2.22vw;
+}
+
+#hotels-listing .inputs .group {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.3vw;
+}
+
+#hotels-listing .inputs .group:first-child {
+  margin-left: 1.66vw;
+}
+
+#hotels-listing .inputs .group input,
+#hotels-listing .inputs .group select {
+  margin: 0;
+  width: 16.62vw;
+  height: 3.88vw;
+  background: #FFFFFF;
+  border: 0.07vw solid #79747E;
+  border-radius: 4px;
+  font-size: 1.11vw;
+  padding: 1.25vw 1.11vw;
+}
+
+#hotels-listing .inputs .group #place {
+  width: 23.55vw;
+}
+
+#hotels-listing .inputs .group label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 1.11vw;
+  margin-top: -4.47vw;
+  padding: 0 0.28vw;
+  background: #fff;
+  z-index: 3;
+}
+
+#hotels-listing .inputs .item {
+  background: #8DD3BB;
+  border: none;
+  width: 3.88vw;
+  height: 3.88vw;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.66vw;
+}
+
+#hotels-listing .inputs .item #search {
+  border: none;
+  width: 1.66vw;
+  height: 1.66vw;
+}
+
+#hotels-listing .split {
+  display: flex;
+  margin: 0;
+  margin-bottom: 8.31vw;
+}
+
+#hotels-listing .split #filter {
+  margin-left: 4.92vw;
+  margin-right: 3.95vw;
+  width: 23.76vw;
+}
+
+#hotels-listing .split #filter h6 {
+  font-weight: 600;
+  font-size: 1.38vw;
+  margin-bottom: 2.22vw;
+}
+
+#hotels-listing .split #filter .line {
+  margin: 2.22vw 0;
+  width: 23.76vw;
+  height: 0.035vw;
+  background: #112211;
+  opacity: 0.25;
+}
+
+#hotels-listing .split #filter .price .container,
+#hotels-listing .split #filter .rating .container,
+#hotels-listing .split #filter .freebies .container,
+#hotels-listing .split #filter .amenities .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 1.11vw;
+  height: 1.66vw;
+}
+
+#hotels-listing .split #filter .price .container h6,
+#hotels-listing .split #filter .rating .container h6,
+#hotels-listing .split #filter .freebies .container h6,
+#hotels-listing .split #filter .amenities .container h6 {
+  font-weight: 600;
+  font-size: 1.11vw;
+  color: #112211;
+  margin: 0;
+}
+
+#hotels-listing .split #filter .price .container img,
+#hotels-listing .split #filter .rating .container img,
+#hotels-listing .split #filter .freebies .container img,
+#hotels-listing .split #filter .amenities .container img {
+  transform: rotate(90deg);
+  width: 1.66vw;
+  height: 1.66vw;
+  margin: 0;
+}
+
+#hotels-listing .split #fliter .wrapper {
+  position: relative;
+  width: 23.76vw;
+  height: 3.26vw;
+}
+
+#hotels-listing .split #fliter .wrapper .container-range {
+  margin: 0;
+  display: block;
+  width: 23.76vw;
+  height: 3.26vw;
+}
+
+input[type="range"] {
+  appearance: none;
+  width: 23.76vw;
+  height: 0.14vw;
+  outline: none;
+  position: absolute;
+  margin-top: -1.5vw;
+  background: transparent;
+  pointer-events: none;
+}
+
+#slider-track {
+  width: 23.76vw;
+  height: 0.14vw;
+  margin: 0;
+  background: #112211;
+  border-radius: 0.14vw;
+  margin-top: 1.94vw;
+}
+
+input[type="range"]::-webkit-slider-runnable-track, 
+input[type="range"]::-moz-range-track, 
+input[type="range"]::-ms-track {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 1vw;
+  margin-top: 1.94vw;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 1.66vw;
+  height: 1.66vw;
+  background: #8DD3BB;
+  border-radius: 50%;
+  cursor: pointer;
+  pointer-events: auto;
+  margin-top: 2.5vw;
+}
+
+#values-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.38vw;
+}
+
+#range1,
+#range2 {
+  margin-top: 0.55vw;
+  color: #112211;
+  text-align: center;
+  font-size: 0.83vw;
+  font-weight: 500;
+}
+
+#hotels-listing .split #filter .rating .buttons {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#hotels-listing .split #filter .rating .buttons button {
+  margin: 0;
+  margin-right: 1.11vw;
+  width: 2.77vw;
+  height: 2.22vw;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 4px;
+}
+
+#hotels-listing .split #filter .rating .buttons button p {
+  font-weight: 500;
+  font-size: 0.83vw;
+}
+
+#hotels-listing .split #filter .freebies form .group,
+#hotels-listing .split #filter .amenities form .group {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 0.55vw;
+} 
+
+#hotels-listing .split #filter .freebies form .group input,
+#hotels-listing .split #filter .amenities form .group input {
+  width: 1.66vw;
+  height: 1.66vw;
+  border: 0.14vw solid #112211;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+#hotels-listing .split #filter .freebies form .group label,
+#hotels-listing .split #filter .amenities form .group label {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.97vw;
+}
+
+#hotels-listing .split #filter .amenities p {
+  color: #FF8682;
+  margin: 0;
+  font-size: 0.97vw;
+  font-weight: 700;
+}
+
+#hotels-listing .split #data {
+  margin: 0;
+  margin-right: 7.20vw;
+}
+
+#hotels-listing .split #data .containers {
+  border-left: 0.035vw solid rgba(17, 34, 17, 0.25);
+  padding-left: 1.66vw;
+}
+
+#hotels-listing .split #data .header {
+  width: 58.19vw;
+  height: 5.54vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  margin: 0;
+  margin-bottom: 2.22vw;
+  display: flex;
+  align-items: center;
+}
+
+#hotels-listing .split #data .header .line {
+  width: 3.32vw;
+  height: 0.07vw;
+  background: #D7E2EE;
+  transform: rotate(90deg);
+  margin: 0;
+  padding: 0;
+}
+
+#hotels-listing .split #data .header #hotels-select,
+#hotels-listing .split #data .header #motels-select,
+#hotels-listing .split #data .header #resorts-select {
+  margin: 1.11vw 0;
+  margin-bottom: 0;
+  padding-bottom: 1.11vw;
+  width: 16.07vw;
+  cursor: pointer;
+}
+
+#hotels-listing .split #data .header #hotels-select {
+  margin-left: 1.66vw;
+  border-bottom: 0.28vw solid #8DD3BB;
+}
+
+#hotels-listing .split #data .header #hotels-select h6,
+#hotels-listing .split #data .header #motels-select h6,
+#hotels-listing .split #data .header #resorts-select h6 {
+  font-weight: 600;
+  font-size: 1.11vw;
+  margin: 0;
+  margin-bottom: 0.55vw;
+  line-height: 1.38vw;
+}
+
+#hotels-listing .split #data .header #hotels-select p,
+#hotels-listing .split #data .header #motels-select p,
+#hotels-listing .split #data .header #resorts-select p {
+  font-size: 0.97vw;
+  font-weight: 400;
+  opacity: 0.4;
+}
+
+#hotels-listing .split #data .show {
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin: 0;
+  margin-bottom: 2.22vw;
+}
+
+#hotels-listing .split #data .show-span {
+  color: #FF8682;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin: 0;
+  margin-bottom: 2.22vw;
+}
+
+#hotels-listing .split #data #container-show {
+  margin: 0;
+  margin-bottom: 1.66vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 58.19vw;
+  height: 20.68vw;
+  background: #FFFFFF;
+  border-radius: 0px 12px 12px 0px;
+  filter: drop-shadow(0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
+}
+
+#hotels-listing .split #data #container-show:nth-child(8),
+#hotels-listing .split #data #container-show:nth-child(9),
+#hotels-listing .split #data #container-show:nth-child(10),
+#hotels-listing .split #data #container-show:nth-child(11),
+#hotels-listing .split #data #container-show:nth-child(12),
+#hotels-listing .split #data #container-show:nth-child(13) {
+  display: none;
+}
+
+#hotels-listing .split #data #container-show:last-child {
+  margin-bottom: 2.22vw;
+}
+
+#hotels-listing .split #data #container-show .img-group {
+  width: 20.78vw;
+  height: 20.68vw;
+  display: flex;
+}
+
+#hotels-listing .split #data #container-show .img-group img {
+  width: 20.78vw;
+  height: 20.68vw;
+}
+
+#hotels-listing .split #data #container-show .img-group p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  display: flex;
+  color: #112211;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2px);
+  border-radius: 8px;
+  width: 4.99vw;
+  height: 2.22vw;
+  margin-left: -5.54vw;
+  margin-top: 0.55vw;
+  padding: 0.59vw 0.55vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group {
+  margin: 1.66vw 0;
+  margin-left: 1.66vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 {
+  width: 25.01vw;
+  height: 10.67vw;
+  margin-right: 1.66vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 h6 {
+  color: #112211;
+  margin: 0;
+  margin-bottom: 1.11vw;
+  font-weight: 700;
+  font-size: 1.45vw;
+  line-height: 1.75vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .location {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 0.83vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .location img {
+  width: 1.11vw;
+  height: 1.11vw;
+  margin-right: 0.14vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .location p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  color: #112211;
+  margin: 0;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .str-amnt {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 0.83vw;
+  width: 20.16vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .str-amnt .stars {
+  height: 1.11vw;
+  margin: 0;
+  margin-right: 2.22vw;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .str-amnt .stars img {
+  width: 1.04vw;
+  height: 1.11vw;
+  padding: 0;
+  margin: 0;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .str-amnt .stars p {
+  color: #112211;
+  font-weight: 500;
+  font-size: 0.83vw;
+  margin: 0;
+  margin-left: 0.28vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .str-amnt img {
+  margin: 0;
+  margin-right: 0.28vw;
+  width: 1.11vw;
+  height: 1.11vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .str-amnt p {
+  color: #112211;
+  font-weight: 500;
+  font-size: 0.83vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .str-amnt p strong {
+  font-weight: 700;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .rating {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .rating h6 {
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.83vw;
+  line-height: 1.01vw;
+  padding: 0.59vw 0.76vw;
+  margin: 0;
+  margin-right: 0.55vw;
+  color: #112211;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .rating p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-1 .rating p strong {
+  font-weight: 700;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-2 p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  color: #112211;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-2 p:last-child {
+  text-align: right;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-2 h6 {
+  font-weight: 700;
+  font-size: 0.97vw;
+  color: #FF8682;
+}
+
+#hotels-listing .split #data #container-show .txt-group .items .item-2 h6 strong {
+  font-size: 1.66vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .line {
+  width: 34.08vw;
+  height: 0.035vw;  
+  background: #112211;
+  opacity: 0.25;
+  margin: 1.66vw 0;
+}
+
+#hotels-listing .split #data #container-show .txt-group .btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hotels-listing .split #data #container-show .txt-group .btns .hrt {
+  width: 3.32vw;
+  height: 3.32vw;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 4px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hotels-listing .split #data #container-show .txt-group .btns .hrt img {
+  width: 1.38vw;
+  height: 1.38vw;
+}
+
+#hotels-listing .split #data #container-show .txt-group .btns a {
+  width: 29.65vw;
+  height: 3.32vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 600;
+  line-height: 1.18vw;
+  text-align: center;
+  padding: 1.07vw 0;
+}
+
+#hotels-listing .split #data #show-more {
+  width: 58.19vw;
+  height: 3.32vw;
+  background: #112211;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.97vw;
+  line-height: 1.18vw;
+  margin-left: 1.66vw;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* FAVOURITES */
+
+#favourites #navbar {
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  margin: 0;
+  margin-bottom: 3.32vw;
+  height: 6.03vw;
+}
+
+#favourites #navbar .container {
+  margin-left: 7.20vw;
+  margin-right: 7.20vw;
+}
+
+#favourites #navbar .container .profile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#favourites #navbar .container .profile-nav #profile-favourites {
+  display: flex;
+  align-items: center;
+  padding-right: 1.11vw;
+  border-right: #000000 solid 1px;
+  color: #000000;
+}
+
+#favourites #navbar .container .profile-nav #profile-favourites #heart {
+  height: 1.25vw;
+  width: 1.35vw;
+  margin-right: 0.43vw;
+}
+
+#favourites #navbar .container .profile-nav #profile-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 2.22vw;
+  color: #000000;
+}
+
+#favourites #navbar .container .profile-nav #profile-btn #profile-img-s {
+  height: 3.12vw;
+  width: 3.12vw;
+}
+
+#favourites .fav-h {
+  font-weight: 700;
+  font-size: 2.22vw;
+  line-height: 2.80vw;
+  margin: 1.66vw 7.20vw; 
+  margin-top: 3.22vw;
+}
+
+#favourites .fav-flights-hotels {
+  display: flex;
+  align-items: center;
+  width: 85.34vw;
+  height: 5.54vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  margin: 0 7.20vw;
+  margin-bottom: 2.77vw;
+}
+
+#favourites .fav-flights-hotels #fav-flights-sel,
+#favourites .fav-flights-hotels #fav-hotels-sel {
+  margin: 1.21vw 1.66vw;
+  margin-bottom: 0;
+  padding-bottom: 1.21vw;
+  width: 39.35vw;
+  cursor: pointer;
+}
+
+#favourites .fav-flights-hotels #fav-flights-sel {
+  margin-right: 0;
+}
+
+#favourites .fav-flights-hotels #fav-hotels-sel {
+  margin-left: 0;
+  border-bottom: 0.28vw solid #8DD3BB;
+}
+
+#favourites .fav-flights-hotels #fav-flights-sel h6,
+#favourites .fav-flights-hotels #fav-hotels-sel h6 {
+  font-weight: 600;
+  font-size: 1.11vw;
+  line-height: 1.38vw;
+  margin-bottom: 0.55vw;
+}
+
+#favourites .fav-flights-hotels #fav-flights-sel p,
+#favourites .fav-flights-hotels #fav-hotels-sel p {
+  font-weight: 400;
+  font-size: 0.97vw;
+  line-height: 1.18vw;
+  opacity: 0.4;
+}
+
+#favourites .fav-flights-hotels .line {
+  width: 3.32vw;
+  height: 0.07vw;
+  background: #D7E2EE;
+  transform: rotate(90deg);
+}
+
+#favourites #fav-flights,
+#favourites #fav-hotels {
+  margin: 0 7.20vw;
+  margin-bottom: 8.31vw;
+}
+
+#favourites #fav-flights {
+  display: none;
+}
+
+#favourites #fav-hotels #container-show,
+#favourites #fav-flights #container-show {
+  margin: 0;
+  margin-bottom: 1.66vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 85.34vw;
+  height: 18.96vw;
+  background: #FFFFFF;
+  border-radius: 0px 12px 12px 0px;
+  filter: drop-shadow(0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
+}
+
+#favourites #fav-hotels #container-show .img-group,
+#favourites #fav-flights #container-show .img-group {
+  width: 30.48vw;
+  height: 18.96vw;
+  display: flex;
+}
+
+#favourites #fav-hotels #container-show .img-group img,
+#favourites #fav-flights #container-show .img-group img {
+  width: 30.48vw;
+  height: 18.96vw;
+}
+
+#favourites #fav-hotels #container-show .img-group p,
+#favourites #fav-flights #container-show .img-group p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  display: flex;
+  color: #112211;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2px);
+  border-radius: 8px;
+  width: 4.99vw;
+  height: 2.22vw;
+  margin-left: -5.54vw;
+  margin-top: 0.55vw;
+  padding: 0.59vw 0.55vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group,
+#favourites #fav-flights #container-show .txt-group {
+  margin: 1.66vw 0;
+  margin-left: 1.66vw;
+  width: 51.54vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items,
+#favourites #fav-flights #container-show .txt-group .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1,
+#favourites #fav-flights #container-show .txt-group .items .item-1 {
+  height: 8.94vw;
+  margin-right: 1.66vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 h6,
+#favourites #fav-flights #container-show .txt-group .items .item-1 h6 {
+  color: #112211;
+  margin: 0;
+  margin-bottom: 1.11vw;
+  font-weight: 700;
+  font-size: 1.45vw;
+  line-height: 1.75vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .location,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .location {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 0.83vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .location img,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .location img {
+  width: 1.11vw;
+  height: 1.11vw;
+  margin-right: 0.14vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .location p,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .location p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  color: #112211;
+  margin: 0;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .str-amnt,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .str-amnt {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 0.83vw;
+  width: 20.16vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .str-amnt .stars,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .str-amnt .stars {
+  height: 1.11vw;
+  margin: 0;
+  margin-right: 2.22vw;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .str-amnt .stars img,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .str-amnt .stars img {
+  width: 1.04vw;
+  height: 1.11vw;
+  padding: 0;
+  margin: 0;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .str-amnt .stars p,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .str-amnt .stars p {
+  color: #112211;
+  font-weight: 500;
+  font-size: 0.83vw;
+  margin: 0;
+  margin-left: 0.28vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .str-amnt img,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .str-amnt img {
+  margin: 0;
+  margin-right: 0.28vw;
+  width: 1.11vw;
+  height: 1.11vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .str-amnt p,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .str-amnt p {
+  color: #112211;
+  font-weight: 500;
+  font-size: 0.83vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .str-amnt p strong,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .str-amnt p strong {
+  font-weight: 700;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .rating,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .rating {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .rating h6,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .rating h6 {
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.83vw;
+  line-height: 1.01vw;
+  padding: 0.59vw 0.76vw;
+  margin: 0;
+  margin-right: 0.55vw;
+  color: #112211;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .rating p,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .rating p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-1 .rating p strong,
+#favourites #fav-flights #container-show .txt-group .items .item-1 .rating p strong {
+  font-weight: 700;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-2 p,
+#favourites #fav-flights #container-show .txt-group .items .item-2 p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  color: #112211;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-2 p:last-child,
+#favourites #fav-flights #container-show .txt-group .items .item-2 p:last-child {
+  text-align: right;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-2 h6,
+#favourites #fav-flights #container-show .txt-group .items .item-2 h6 {
+  font-weight: 700;
+  font-size: 0.97vw;
+  color: #FF8682;
+}
+
+#favourites #fav-hotels #container-show .txt-group .items .item-2 h6 strong,
+#favourites #fav-flights #container-show .txt-group .items .item-2 h6 strong {
+  font-size: 1.66vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .line,
+#favourites #fav-flights #container-show .txt-group .line {
+  width: 51.54vw;
+  height: 0.035vw;  
+  background: #112211;
+  opacity: 0.25;
+  margin: 1.66vw 0;
+}
+
+#favourites #fav-hotels #container-show .txt-group .btns,
+#favourites #fav-flights #container-show .txt-group .btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#favourites #fav-hotels #container-show .txt-group .btns .hrt,
+#favourites #fav-flights #container-show .txt-group .btns .hrt {
+  width: 3.32vw;
+  height: 3.32vw;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 4px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#favourites #fav-hotels #container-show .txt-group .btns .hrt img,
+#favourites #fav-flights #container-show .txt-group .btns .hrt img {
+  width: 1.38vw;
+  height: 1.38vw;
+}
+
+#favourites #fav-hotels #container-show .txt-group .btns a,
+#favourites #fav-flights #container-show .txt-group .btns a {
+  width: 47.10vw;
+  height: 3.32vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 600;
+  line-height: 1.18vw;
+  text-align: center;
+  padding: 1.07vw 0;
+}
+ 
+/* FLIGHTS LISTING */
+
+#flights-listing #navbar {
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  margin: 0;
+  margin-bottom: 3.32vw;
+  height: 6.03vw;
+}
+
+#flights-listing #navbar .container {
+  margin-left: 7.20vw;
+  margin-right: 7.20vw;
+}
+
+#flights-listing #navbar .container .profile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#flights-listing #navbar .container .profile-nav #profile-favourites {
+  display: flex;
+  align-items: center;
+  padding-right: 1.11vw;
+  border-right: #000000 solid 1px;
+  color: #000000;
+}
+
+#flights-listing #navbar .container .profile-nav #profile-favourites #heart {
+  height: 1.25vw;
+  width: 1.35vw;
+  margin-right: 0.43vw;
+}
+
+#flights-listing #navbar .container .profile-nav #profile-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 2.22vw;
+  color: #000000;
+}
+
+#flights-listing #navbar .container .profile-nav #profile-btn #profile-img-s {
+  height: 3.12vw;
+  width: 3.12vw;
+}
+
+#flights-listing .inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85.34vw;
+  height: 8.31vw;
+  background: #fff;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+  margin: 0 7.2vw;
+  margin-bottom: 2.22vw;
+}
+
+#flights-listing .inputs .group {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.3vw;
+}
+
+#flights-listing .inputs .group:first-child {
+  margin-left: 1.66vw;
+}
+
+#flights-listing .inputs .group input,
+#flights-listing .inputs .group select {
+  margin: 0;
+  width: 16.62vw;
+  height: 3.88vw;
+  background: #FFFFFF;
+  border: 0.07vw solid #79747E;
+  border-radius: 4px;
+  font-size: 1.11vw;
+  padding: 1.25vw 1.11vw;
+}
+
+#flights-listing .inputs .group #place {
+  width: 23.55vw;
+}
+
+#flights-listing .inputs .group label {
+  width: fit-content;
+  height: 1.18vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  color: #1C1B1F;
+  margin-left: 1.11vw;
+  margin-top: -4.47vw;
+  padding: 0 0.28vw;
+  background: #fff;
+  z-index: 3;
+}
+
+#flights-listing .inputs .item {
+  background: #8DD3BB;
+  border: none;
+  width: 3.88vw;
+  height: 3.88vw;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.66vw;
+}
+
+#flights-listing .inputs .item #search {
+  border: none;
+  width: 1.66vw;
+  height: 1.66vw;
+}
+
+#flights-listing .split {
+  display: flex;
+  margin: 0;
+  margin-bottom: 8.31vw;
+}
+
+#flights-listing .split #filter {
+  margin-left: 4.92vw;
+  margin-right: 3.95vw;
+  width: 23.76vw;
+}
+
+#flights-listing .split #filter h6 {
+  font-weight: 600;
+  font-size: 1.38vw;
+  margin-bottom: 2.22vw;
+}
+
+#flights-listing .split #filter .line {
+  margin: 2.22vw 0;
+  width: 23.76vw;
+  height: 0.035vw;
+  background: #112211;
+  opacity: 0.25;
+}
+
+#flights-listing .split #filter .price .container,
+#flights-listing .split #filter .rating .container,
+#flights-listing .split #filter .freebies .container,
+#flights-listing .split #filter .amenities .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 1.11vw;
+  height: 1.66vw;
+}
+
+#flights-listing .split #filter .price .container h6,
+#flights-listing .split #filter .rating .container h6,
+#flights-listing .split #filter .freebies .container h6,
+#flights-listing .split #filter .amenities .container h6 {
+  font-weight: 600;
+  font-size: 1.11vw;
+  color: #112211;
+  margin: 0;
+}
+
+#flights-listing .split #filter .price .container img,
+#flights-listing .split #filter .rating .container img,
+#flights-listing .split #filter .freebies .container img,
+#flights-listing .split #filter .amenities .container img {
+  transform: rotate(90deg);
+  width: 1.66vw;
+  height: 1.66vw;
+  margin: 0;
+}
+
+#flights-listing .split #fliter .wrapper {
+  position: relative;
+  width: 23.76vw;
+  height: 3.26vw;
+}
+
+#flights-listing .split #fliter .wrapper .container-range {
+  margin: 0;
+  display: block;
+  width: 23.76vw;
+  height: 3.26vw;
+}
+
+input[type="range"] {
+  appearance: none;
+  width: 23.76vw;
+  height: 0.14vw;
+  outline: none;
+  position: absolute;
+  margin-top: -1.5vw;
+  background: transparent;
+  pointer-events: none;
+}
+
+#slider-track {
+  width: 23.76vw;
+  height: 0.14vw;
+  margin: 0;
+  background: #112211;
+  border-radius: 0.14vw;
+  margin-top: 1.94vw;
+}
+
+input[type="range"]::-webkit-slider-runnable-track, 
+input[type="range"]::-moz-range-track, 
+input[type="range"]::-ms-track {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 1vw;
+  margin-top: 1.94vw;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 1.66vw;
+  height: 1.66vw;
+  background: #8DD3BB;
+  border-radius: 50%;
+  cursor: pointer;
+  pointer-events: auto;
+  margin-top: 2.5vw;
+}
+
+#values-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.38vw;
+}
+
+#range1,
+#range2 {
+  margin-top: 0.55vw;
+  color: #112211;
+  text-align: center;
+  font-size: 0.83vw;
+  font-weight: 500;
+}
+
+#flights-listing .split #filter .rating .buttons {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#flights-listing .split #filter .rating .buttons button {
+  margin: 0;
+  margin-right: 1.11vw;
+  width: 2.77vw;
+  height: 2.22vw;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 4px;
+}
+
+#flights-listing .split #filter .rating .buttons button p {
+  font-weight: 500;
+  font-size: 0.83vw;
+}
+
+#flights-listing .split #filter .freebies form .group,
+#flights-listing .split #filter .amenities form .group {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 0.55vw;
+} 
+
+#flights-listing .split #filter .freebies form .group input,
+#flights-listing .split #filter .amenities form .group input {
+  width: 1.66vw;
+  height: 1.66vw;
+  border: 0.14vw solid #112211;
+  margin: 0;
+  margin-right: 0.55vw;
+}
+
+#flights-listing .split #filter .freebies form .group label,
+#flights-listing .split #filter .amenities form .group label {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.97vw;
+}
+
+#flights-listing .split #filter .amenities p {
+  color: #FF8682;
+  margin: 0;
+  font-size: 0.97vw;
+  font-weight: 700;
+}
+
+#flights-listing .split #data {
+  margin: 0;
+  margin-right: 7.20vw;
+}
+
+#flights-listing .split #data .containers {
+  border-left: 0.035vw solid rgba(17, 34, 17, 0.25);
+  padding-left: 1.66vw;
+}
+
+#flights-listing .split #data .header {
+  width: 58.19vw;
+  height: 5.54vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  margin: 0;
+  margin-bottom: 2.22vw;
+  display: flex;
+  align-items: center;
+}
+
+#flights-listing .split #data .header .line {
+  width: 3.32vw;
+  height: 0.07vw;
+  background: #D7E2EE;
+  transform: rotate(90deg);
+  margin: 0;
+  padding: 0;
+}
+
+#flights-listing .split #data .header #hotels-select,
+#flights-listing .split #data .header #motels-select,
+#flights-listing .split #data .header #resorts-select {
+  margin: 1.11vw 0;
+  margin-bottom: 0;
+  padding-bottom: 1.11vw;
+  width: 16.07vw;
+  cursor: pointer;
+}
+
+#flights-listing .split #data .header #hotels-select {
+  margin-left: 1.66vw;
+  border-bottom: 0.28vw solid #8DD3BB;
+}
+
+#flights-listing .split #data .header #hotels-select h6,
+#flights-listing .split #data .header #motels-select h6,
+#flights-listing .split #data .header #resorts-select h6 {
+  font-weight: 600;
+  font-size: 1.11vw;
+  margin: 0;
+  margin-bottom: 0.55vw;
+  line-height: 1.38vw;
+}
+
+#flights-listing .split #data .header #hotels-select p,
+#flights-listing .split #data .header #motels-select p,
+#flights-listing .split #data .header #resorts-select p {
+  font-size: 0.97vw;
+  font-weight: 400;
+  opacity: 0.4;
+}
+
+#flights-listing .split #data .show {
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin: 0;
+  margin-bottom: 2.22vw;
+}
+
+#flights-listing .split #data .show-span {
+  color: #FF8682;
+  font-weight: 600;
+  font-size: 0.97vw;
+  margin: 0;
+  margin-bottom: 2.22vw;
+}
+
+#flights-listing .split #data #container-show {
+  margin: 0;
+  margin-bottom: 1.66vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 58.19vw;
+  height: 20.68vw;
+  background: #FFFFFF;
+  border-radius: 12px;
+  filter: drop-shadow(0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
+}
+
+#flights-listing .split #data #container-show:nth-child(8),
+#flights-listing .split #data #container-show:nth-child(9),
+#flights-listing .split #data #container-show:nth-child(10),
+#flights-listing .split #data #container-show:nth-child(11),
+#flights-listing .split #data #container-show:nth-child(12),
+#flights-listing .split #data #container-show:nth-child(13) {
+  display: none;
+}
+
+#flights-listing .split #data #container-show:last-child {
+  margin-bottom: 2.22vw;
+}
+
+#flights-listing .split #data #container-show .img-group {
+  width: 12.74vw;
+  height: 20.68vw;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+#flights-listing .split #data #container-show .img-group img {
+  width: 11.08vw;
+  height: 7.68vw;
+  margin: 1.11vw 1.66vw;
+}
+
+#flights-listing .split #data #container-show .txt-group {
+  margin: 1.66vw 0;
+  margin-left: 1.66vw;
+  width: 41.56vw;
+  height: 16.52vw;
+}
+
+#flights-listing .split #data #container-show .txt-group .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 {
+  width: 25.01vw;
+  height: 10.67vw;
+  margin-right: 1.66vw;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 .rating {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 1.11vw;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 .rating h6 {
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.83vw;
+  line-height: 1.01vw;
+  padding: 0.59vw 0.76vw;
+  margin: 0;
+  margin-right: 0.55vw;
+  color: #112211;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 .rating p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 .rating p strong {
+  font-weight: 700;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 #slct-trvl-plns {
+  width: 29.30vw;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper,
+#flights-listing .split #data #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .lower {
+  display: flex;
+  align-items: center;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper input {
+  appearance: none;
+  width: 1.25vw;
+  height: 1.25vw;
+  border: 0.14vw solid #112211;
+  border-radius: 2px;
+  margin-right: 1.11vw;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper input:checked {
+  background: #9de6cc;
+  border: 0.14vw solid #ada7b3;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper label {
+  font-weight: 600;
+  font-size: 1.11vw;
+  line-height: 1.38vw;
+  margin-right: 2.77vw;
+  margin-bottom: 0.28vw;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper .nnstp {
+  font-weight: 600;
+  font-size: 0.97vw;
+  line-height: 1.38vw;
+  margin-right: 2.77vw;
+  opacity: 0.78;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper .flghtlngth {
+  font-weight: 600;
+  font-size: 1.11vw;
+  line-height: 1.38vw;
+  margin-bottom: 0.28vw;
+  opacity: 0.78;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .lower {
+  display: flex;
+  align-items: center;
+  gap: 16.28vw;
+  margin-left: 2.49vw;
+  margin-bottom: 1.11vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  line-height: 1.18vw;
+  opacity: 0.4;
+}
+
+#flights-listing .split #data #container-show .txt-group .line {
+  width: 41.56vw;
+  height: 0.035vw;  
+  background: #112211;
+  opacity: 0.25;
+  margin: 1.66vw 0;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-2 p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  color: #112211;
+}
+
+#flights-listing .split #data #container-show .txt-group .items .item-2 h6 {
+  font-weight: 700;
+  font-size: 1.66vw;
+  color: #FF8682;
+}
+
+#flights-listing .split #data #container-show .txt-group .btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#flights-listing .split #data #container-show .txt-group .btns .hrt {
+  width: 3.32vw;
+  height: 3.32vw;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 4px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#flights-listing .split #data #container-show .txt-group .btns .hrt img {
+  width: 1.38vw;
+  height: 1.38vw;
+}
+
+#flights-listing .split #data #container-show .txt-group .btns a {
+  width: 37.133vw;
+  height: 3.32vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 600;
+  line-height: 1.18vw;
+  text-align: center;
+  padding: 1.07vw 0;
+}
+
+#flights-listing .split #data #show-more {
+  width: 58.19vw;
+  height: 3.32vw;
+  background: #112211;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.97vw;
+  line-height: 1.18vw;
+  margin-left: 1.66vw;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#pay-info {
+  display: none;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1.66vw;
+  margin-bottom: 2.77vw;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow .item {
+  display: flex;
+  align-items: center;
+  width: 51.40vw;
+  height: 5.96vw;
+  border: 0.5px solid #8DD3BB;
+  border-radius: 8px;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow .item img {
+  margin: 1.11vw 0;
+  margin-left: 2.22vw;
+  margin-right: 1.66vw;
+  width: 4.43vw;
+  height: 3.08vw;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow .item .item-21 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow .item .item-21 h5 {
+  font-size: 1.66vw;
+  font-weight: 600;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow .item .item-21 p {
+  font-size: 0.97vw;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 1.28vw;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow .item .item-21 p img {
+  width: 1.25vw;
+  height: 1.25vw;
+  margin: 0;
+  margin-right: 0.28vw;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow .item-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 24.94vw;
+  height: 5.54vw;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow .item-2 img {
+  width: 1.66vw;
+  height: 1.66vw;
+}
+
+#flight-detail-booking .split .container-1 .cvk-flow .item-2 .line {
+  width: 3.32vw;
+  height: 0px;
+  border: 0.07vw solid #D7E2EE;
+  transform: rotate(90deg);
+}
+
+
+
+#favourites #fav-flights #container-show {
+  margin: 0;
+  margin-bottom: 1.66vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 85.34vw;
+  height: 18.95vw;
+  background: #FFFFFF;
+  border-radius: 12px;
+  filter: drop-shadow(0px 0.28vw 1.11vw rgba(17, 34, 17, 0.05));
+}
+
+#favourites #fav-flights #container-show:last-child {
+  margin-bottom: 2.22vw;
+}
+
+#favourites #fav-flights #container-show .img-group {
+  width: 30.48vw;
+  height: 20.68vw;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+#favourites #fav-flights #container-show .img-group img {
+  width: 22.17vw;
+  height: 15.36vw;
+  margin: auto;
+}
+
+#favourites #fav-flights #container-show .txt-group {
+  margin: auto;
+  width: 51.54vw;
+  height: 16.52vw;
+}
+
+#favourites #fav-flights #container-show .txt-group .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 {
+  width: 25.01vw;
+  height: 10.67vw;
+  margin-right: 1.66vw;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 .rating {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 1.11vw;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 .rating h6 {
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.83vw;
+  line-height: 1.01vw;
+  padding: 0.59vw 0.76vw;
+  margin: 0;
+  margin-right: 0.55vw;
+  color: #112211;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 .rating p {
+  font-weight: 500;
+  font-size: 0.97vw;
+  color: #112211;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 .rating p strong {
+  font-weight: 700;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 #slct-trvl-plns {
+  width: 29.30vw;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper,
+#favourites #fav-flights #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .lower {
+  display: flex;
+  align-items: center;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper input {
+  appearance: none;
+  width: 1.25vw;
+  height: 1.25vw;
+  border: 0.14vw solid #112211;
+  border-radius: 2px;
+  margin-right: 1.11vw;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper input:checked {
+  background: #9de6cc;
+  border: 0.14vw solid #ada7b3;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper label {
+  font-weight: 600;
+  font-size: 1.11vw;
+  line-height: 1.38vw;
+  margin-right: 2.77vw;
+  margin-bottom: 0.28vw;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper .nnstp {
+  font-weight: 600;
+  font-size: 0.97vw;
+  line-height: 1.38vw;
+  margin-right: 2.77vw;
+  opacity: 0.78;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .upper .flghtlngth {
+  font-weight: 600;
+  font-size: 1.11vw;
+  line-height: 1.38vw;
+  margin-bottom: 0.28vw;
+  opacity: 0.78;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-1 #slct-trvl-plns .colect .lower {
+  display: flex;
+  align-items: center;
+  gap: 16.28vw;
+  margin-left: 2.49vw;
+  margin-bottom: 1.11vw;
+  font-weight: 400;
+  font-size: 0.97vw;
+  line-height: 1.18vw;
+  opacity: 0.4;
+}
+
+#favourites #fav-flights #container-show .txt-group .line {
+  width: 51.54vw;
+  height: 0.035vw;  
+  background: #112211;
+  opacity: 0.25;
+  margin: 1.11vw 0;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-2 p {
+  font-weight: 500;
+  font-size: 0.83vw;
+  color: #112211;
+}
+
+#favourites #fav-flights #container-show .txt-group .items .item-2 h6 {
+  font-weight: 700;
+  font-size: 1.66vw;
+  color: #FF8682;
+}
+
+#favourites #fav-flights #container-show .txt-group .btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#favourites #fav-flights #container-show .txt-group .btns .hrt {
+  width: 3.32vw;
+  height: 3.32vw;
+  border: 0.07vw solid #8DD3BB;
+  border-radius: 4px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#favourites #fav-flights #container-show .txt-group .btns .hrt img {
+  width: 1.38vw;
+  height: 1.38vw;
+}
+
+#favourites #fav-flights #container-show .txt-group .btns a {
+  width: 47.10vw;
+  height: 3.32vw;
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  font-size: 0.97vw;
+  font-weight: 600;
+  line-height: 1.18vw;
+  text-align: center;
+  padding: 1.07vw 0;
+}

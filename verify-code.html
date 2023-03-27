@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Verify Code | Golobe</title>
+</head>
+<body>
+  <div id="verify-code">
+    <div class="container">
+      <a href="index.html"><img src="./img/logo.png" alt=""></a>
+      <a id="back" href="./login.html"><img src="./img/back.png" alt=""><p>Back to login</p></a>
+      <h2>Verify code</h2>
+      <p>An authentication code has been sent to your email.</p>
+      <form action="GET">
+        <label for="code">Enter Code</label>
+        <input type="text" id="code" name="code" placeholder="xxxxxxxxx">
+        <p>Didn’t receive a code? <a href="#">Resend</a></p>
+        <a href="./set-a-password.html" id="submit" type="submit" value="Verify">Verify</a>
+      </form>
+    </div>
+
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="./img/l-1.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./img/l-2.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./img/l-1.png" style="width:100%">
+      </div>
+      
+      <!-- The dots/circles -->
+      <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+  </div>
+    
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

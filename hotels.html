@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hotels | Golobe</title>
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="flights-stays">
+        <a href="./flights.html" class="trans-btn-dark"><img src="./img/plane-dark.png" alt="">Find Flight</a>
+        <a href="./hotels.html" class="trans-btn-dark"><img src="./img/bed-dark.png" alt="">Find Stays</a>
+      </div>
+      <a href="./index.html" class="logo"><img src="./img/logo.png" alt="logo"></a>
+      <div class="login-signup">
+        <a href="./login.html" class="trans-btn-dark">Login</a>
+        <a href="./sign-up.html" class="dark-btn">Sign up</a>
+      </div>
+  </nav>
+
+  <!-- landing -->
+  <div id="hotels">
+    <div class="container">
+      <h2>Make your travel wishlist, we'll do the rest</h2>
+      <h4>Special offers to suit your plan</h4>
+    </div>
+  </div>
+  
+  <!-- Booking -->
+
+  <div id="places-container">
+    <h6>Where are you flying?</h6>
+    <div id="places-search">
+      <form class="inputs-places">
+        <div class="group">
+          <select name="destination" id="place">
+            <option value="Istanbul">Istanbul, Turkey</option>
+          </select>
+          <label id="destination-l" for="destination">From - To</label>
+        </div>
+        <div class="group">
+          <select name="destination" id="trip-type">
+            <option value="One-way">One - way</option>
+            <option value="Two-way">Two - way</option>
+            <option value="Return">Return</option>
+          </select>
+          <label id="destination-l" for="destination">Trip</label>
+        </div>
+        <div class="group">
+          <input name="check-out" id="travel-date" type="date">
+          <label id="check-out-l" for="check-out">Depart - Return</label>
+        </div>
+        <div class="group">
+          <select name="rooms-guests" id="rooms-guests">
+            <option value="1room2guests"><img src="./img/face.png" alt="">1 room, 2 guests</option>
+          </select>        
+          <label id="rooms-guests-l" for="rooms-guests">Rooms & Guests</label>
+        </div>
+      </form>
+
+      <div class="srch-btns">
+        <div id="promo-code-btn">
+          <p>+ Add Promo Code</p>
+        </div>
+        <a href="hotels.html" id="srch-btn-pf">
+          <img src="./img/arrow.png" alt="">
+          <p>Show hotels</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Places -->
+  <div id="recent-searches">
+    <h2>Your recent searches</h2>
+    <div class="container">
+      <div class="container-2">
+        <img src="./img/istanbul.png" alt="">
+        <div class="item">
+          <h4>Istanbul, Turkey</h4>
+          <p>325 places</p>
+        </div>
+      </div>
+      <div class="container-2">
+        <img src="./img/sydney.png" alt="">
+        <div class="item">
+          <h4>Sydney, Australia</h4>
+          <p>325 places</p>
+        </div>
+      </div>
+      <div class="container-2">
+        <img src="./img/baku.png" alt="">
+        <div class="item">
+          <h4>Baku, Azerbaijan</h4>
+          <p>325 places</p>
+        </div>
+      </div>
+      <div class="container-2">
+        <img src="./img/male.png" alt="">
+        <div class="item">
+          <h4>Malé, Maldives</h4>
+          <p>325 places</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fall into travel -->
+
+  <div id="fall-into-travel">
+    <div class="container">
+      <div class="item">
+        <h2>Fall into travel</h2>
+        <p>Going somewhere to celebrate this season? Whether you’re going home or somewhere to roam, we’ve got the travel tools to get you to your destination.</p>
+      </div>
+      <a href="./hotels-listing.html" class="btn">See All</a>
+    </div>
+    <div class="container-2">
+      <div class="melbourne">
+        <div class="item">
+          <div class="item-2">
+            <h2>Melbourne</h2>
+            <p>An amazing journey</p>
+          </div>
+          <div class="price">$700</div>
+        </div>
+        <a href="./hotels-listing.html" class="btn-blue">Book A Hotel</a>
+      </div>
+      <div class="paris">
+        <div class="item">
+          <div class="item-2">
+            <h2>Paris</h2>
+            <p>A Paris adventure</p>
+          </div>
+          <div class="price">$600</div>
+        </div>
+        <a href="./hotels-listing.html" class="btn-blue">Book A Hotel</a>
+      </div>
+      <div class="london">
+        <div class="item">
+          <div class="item-2">
+            <h2>London</h2>
+            <p>London eye adventure</p>
+          </div>
+          <div class="price">$350</div>
+        </div>
+        <a href="./hotels-listing.html" class="btn-blue">Book A Hotel</a>
+      </div>
+      <div class="columbia">
+        <div class="item">
+          <div class="item-2">
+            <h2>Columbia</h2>
+            <p>Amazing streets</p>
+          </div>
+          <div class="price">$700</div>
+        </div>
+        <a href="./hotels-listing.html" class="btn-blue">Book A Hotel</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BP-SriLanka -->
+  <div id="bp-srilanka">
+    <div class="container">
+      <div class="item">
+        <h2>Fall into travel</h2>
+        <p>Going somewhere to celebrate this season? Whether you’re going home or somewhere to roam, we’ve got the travel tools to get you to your destination.</p>
+      </div>
+      <a href="hotels-listing.html" class="btn">See All</a>
+    </div>
+    <div class="container-2">
+      <div class="item-1">
+        <div class="item-1a">
+          <h2>Backpacking <br>Sri Lanka</h2>
+          <p>From <br><s>$700</s></p>
+        </div>
+        <p>Traveling is a unique experience as it's the best way to unplug from the pushes and pulls of daily life. It helps us to forget about our problems, frustrations, and fears at home. During our journey, we experience life in different ways. We explore new places, cultures, cuisines, traditions, and ways of living.</p>
+        <a href="./hotels-listing.html" class="btn-light">Book Flight</a>
+      </div>
+      <div class="item-2">
+        <img src="./img/sl-1.png" alt="">
+        <img src="./img/sl-2.png" alt="">
+        <img src="./img/sl-3.png" alt="">
+        <img src="./img/sl-4.png" alt="">
+      </div>
+    </div>
+  </div>
+   <!-- Newsletter -->
+   <div id="newsletter-0">
+    <div id="newsletter">
+      <div class="container">
+        <h3>Subscribe<br>Newsletter</h3>
+        <h5>The Travel</h5>
+        <p>Get inspired! Receive travel discounts, tips and behind the scenes stories.</p>
+        <form action="GET">
+          <input class="email" type="email" name="email" placeholder="Your email address">
+          <input class="submit" type="submit" name="subscribe" value="Subscribe">
+        </form>
+      </div>
+      <img src="./img/letter_box.png" alt="">
+    </div>
+  </div>
+  <footer>
+    <div class="logos">
+      <img class='logo-dark' src="./img/logo-dark.png" alt="logo">
+      <ul>
+        <li><a href="#"><img src="./img/fb.png" alt="fb"></a></li>
+        <li><a href="#"><img src="./img/tw.png" alt="tw"></a></li>
+        <li><a href="#"><img src="./img/yt.png" alt="yt"></a></li>
+        <li><a href="#"><img src="./img/ig.png" alt="ig"></a></li>
+      </ul>
+    </div>
+    <div class="destinations">
+      <h4>Our Destinations</h4>
+      <ul>
+        <li><a href="#">Canada</a></li>
+        <li><a href="#">Alaska</a></li>
+        <li><a href="#">France</a></li>
+        <li><a href="#">Iceland</a></li>
+      </ul>
+    </div>
+    <div class="activities">
+      <h4>Our Activities</h4>
+      <ul>
+        <li><a href="#">Northern Lights</a></li>
+        <li><a href="#">Cruising & sailing</a></li>
+        <li><a href="#">Multi-activities</a></li>
+        <li><a href="#">Kayaking</a></li>
+      </ul>
+    </div>
+    <div class="blogs">
+      <h4>Travel Blogs</h4>
+      <ul>
+        <li><a href="#">Bali Travel Guide</a></li>
+        <li><a href="#">Sri Lanka Travel Guide</a></li>
+        <li><a href="#">Peru Travel Guide</a></li>
+        <li><a href="#">Bali Travel Guide</a></li>
+      </ul>
+    </div>
+    <div class="about">
+      <h4>About Us</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Work with us</a></li>
+      </ul>
+    </div>
+    <div class="contact">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Work with us</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Golobe | Travel Agency</title>
+</head>
+<body>  
+
+<div id="landing">
+  <!-- heading -->
+  <div id="btns-logo">
+    <div class="container">
+      <div class="flights-stays">
+        <a href="./flights.html" class="trans-btn-light"><img src="./img/plane.png" alt="">Find Flight</a>
+        <a href="./hotels.html" class="trans-btn-light"><img src="./img/bed.png" alt="">Find Stays</a>
+      </div>
+      <div class="logo"><img src="./img/logo-light.png" alt="logo"></div>
+      <div class="login-signup">
+        <a href="./login.html" class="trans-btn-light">Login</a>
+        <a href="./sign-up.html" class="light-btn">Sign up</a>
+      </div>
+    </div>
+    
+    <!-- landing -->
+    <div id="headings">
+      <h3>Helping Others</h3>
+      <h2>LIVE & TRAVEL</h2>
+      <h4>Special offers to suit your plan</h4>
+    </div>
+  </div>
+  
+  <!-- Booking -->
+  <div id="booking">
+    <div id="selection-btns">
+      <div id="tbd-srch-flghts" onclick="flghtsSelect()"><img src="./img/plane-dark.png" alt=""> Flights</div>
+
+      <div class="line"></div>
+
+      <div id="tbd-srch-plcs" onclick="htlsSelect()"><img src="./img/bed-dark.png" alt=""> Stays</div>
+    </div>
+
+    <div id="places-search">
+      <form class="inputs-places">
+        <div class="group">
+          <select name="destination" id="place">
+            <option value="Istanbul">Istanbul, Turkey</option>
+          </select>
+          <label id="destination-l" for="destination">From - To</label>
+        </div>
+        <div class="group">
+          <select name="destination" id="trip-type">
+            <option value="One-way">One - way</option>
+            <option value="Two-way">Two - way</option>
+            <option value="Return">Return</option>
+          </select>
+          <label id="destination-l" for="destination">Trip</label>
+        </div>
+        <div class="group">
+          <input name="check-out" id="travel-date" type="date">
+          <label id="check-out-l" for="check-out">Depart - Return</label>
+        </div>
+        <div class="group">
+          <select name="rooms-guests" id="rooms-guests">
+            <option value="1room2guests"><img src="./img/face.png" alt="">1 room, 2 guests</option>
+          </select>        
+          <label id="rooms-guests-l" for="rooms-guests">Rooms & Guests</label>
+        </div>
+      </form>
+
+      <div class="srch-btns">
+        <div id="promo-code-btn">
+          <p>+ Add Promo Code</p>
+        </div>
+        <a href="hotels.html" id="srch-btn-pf">
+          <img src="./img/arrow.png" alt="">
+          <p>Show hotels</p>
+        </a>
+      </div>
+    </div>
+
+    <div id="flights-search">
+      <form class="inputs-flights">
+        <div class="group">
+          <select name="destination" id="place">
+            <option value="Istanbul">Istanbul, Turkey</option>
+          </select>
+          <label id="destination-l" for="destination">From - To</label>
+        </div>
+        <div class="group">
+          <select name="destination" id="trip-type">
+            <option value="One-way">One - way</option>
+            <option value="Two-way">Two - way</option>
+            <option value="Return">Return</option>
+          </select>
+          <label id="destination-l" for="destination">Trip</label>
+        </div>
+        <div class="group">
+          <input name="check-out" id="travel-date" type="date">
+          <label id="check-out-l" for="check-out">Depart - Return</label>
+        </div>
+        <div class="group">
+          <select name="rooms-guests" id="rooms-guests">
+            <option value="1room2guests"><img src="./img/face.png" alt="">1 seat</option>
+          </select>        
+          <label id="rooms-guests-l" for="rooms-guests">Seats</label>
+        </div>
+      </form>
+
+      <div class="srch-btns">
+        <div id="promo-code-btn">
+          <p>+ Add Promo Code</p>
+        </div>
+        <a href="flights.html" id="srch-btn-pf">
+          <img src="./img/arrow.png" alt="">
+          <p>Show flights</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  
+  <!-- Popular pics -->
+  <div id="popular-pics">
+    <div class="container">
+      <div class="item">
+        <h3>Plan your perfect trip</h3>
+        <p>Search Flights & Places to our most popular destinations </p>
+      </div>
+      <a href="./hotels.html" class="btn">See more places</a>
+    </div>
+    <div class="container-2">
+      <a href="./hotels.html" class="item">
+        <img src="./img/istanbul.png" alt="place">
+        <div class="item-2">
+          <h4>Istanbul, Turkey</h4>
+          <ul>
+          <li>Flights</li> <li>Hotels</li> <li>Resorts</li>
+          </ul>
+        </div>
+      </a>
+      <a href="./hotels.html" class="item">
+        <img src="./img/sydney.png" alt="place">
+        <div class="item-2">
+          <h4>Sydney, Australia</h4>
+          <ul>
+          <li>Flights</li> <li>Hotels</li> <li>Resorts</li>
+          </ul>
+        </div>
+      </a>
+      <a href="./hotels.html" class="item">
+        <img src="./img/baku.png" alt="place">
+        <div class="item-2">
+          <h4>Baku, Azerbaijan</h4>
+          <ul>
+          <li>Flights</li> <li>Hotels</li> <li>Resorts</li>
+          </ul>
+        </div>
+      </a>
+      <a href="./hotels.html" class="item">
+        <img src="./img/male.png" alt="place">
+        <div class="item-2">
+          <h4>Malé, Maldives</h4>
+          <ul>
+          <li>Flights</li> <li>Hotels</li> <li>Resorts</li>
+          </ul>
+        </div>
+      </a>
+      <a href="./hotels.html" class="item">
+        <img src="./img/paris.png" alt="place">
+        <div class="item-2">
+          <h4>Paris, France</h4>
+          <ul>
+          <li>Flights</li> <li>Hotels</li> <li>Resorts</li>
+          </ul>
+        </div>
+      </a>
+      <a href="./hotels.html" class="item">
+        <img src="./img/new_york.png" alt="place">
+        <div class="item-2">
+          <h4>New York, US</h4>
+          <ul>
+          <li>Flights</li> <li>Hotels</li> <li>Resorts</li>
+          </ul>
+        </div>
+      </a>
+      <a href="./hotels.html" class="item">
+        <img src="./img/london.png" alt="place">
+        <div class="item-2">
+          <h4>London, UK</h4>
+          <ul>
+          <li>Flights</li> <li>Hotels</li> <li>Resorts</li>
+          </ul>
+        </div>
+      </a>
+      <a href="./hotels.html" class="item">
+        <img src="./img/tokyo.png" alt="place">
+        <div class="item-2">
+          <h4>Tokyo, Japan</h4>
+          <ul>
+          <li>Flights</li> <li>Hotels</li> <li>Resorts</li>
+          </ul>
+        </div>
+      </a>
+      <a href="./hotels.html" class="item">
+        <img src="./img/dubai.png" alt="place">
+        <div class="item-2">
+          <h4>Dubai, UAE</h4>
+          <ul>
+          <li>Flights</li> <li>Hotels</li> <li>Resorts</li>
+          </ul>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- Flights & Hotels -->
+  <div class="container">
+    <div class="flights">
+      <h3>Flights</h3>
+      <p>Search Flights & Places to our most popular destinations</p>
+      <a href="./flights.html" class="btn-blue"><img src="./img/arrow.png" alt="">Show Flights</a>
+    </div>
+    <div class="hotels">
+      <h3>Hotels</h3>
+      <p>Search Hotels & Places to our most popular destinations</p>
+      <a href="./hotels.html" class="btn-blue"><img src="./img/arrow.png" alt="">Show Hotels</a>
+    </div>
+  </div>
+  <!-- Reviews -->
+  <div id="reviews">
+    <div class="container">
+      <div class="item">
+        <h3>Reviews</h3>
+        <p>What people say about Golobe</p>
+      </div>
+      <a href="#see-all-reviews" id="see-all-reviews" class="btn">See all</a>
+    </div>
+    <div class="container-2">
+      <div class="item-2">
+        <h4>A real sense of community nurtured</h4>
+        <p>Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for<span id="dots">...</span><span id="more-txt"> helping me always, even when I was out of the country. And always available when needed.</span></p>
+        <div id="show-more-txt" onclick="showTxt1()">View more</div>
+        <div class="stars"><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""></div>
+        <p class="name" >Olga</p>
+        <p class="from" >Weave Studios - Kai Tak</p>
+        <div class="google"><img src="./img/google.png" alt=""><p>Google</p></div>
+        <img class="rev-img" src="./img/rev01.png" alt="img">
+      </div>
+      <div class="item-2">
+        <h4>A real sense of community nurtured</h4>
+        <p>Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for<span id="dots2">...</span><span id="more-txt2"> helping me always, even when I was out of the country. And always available when needed.</span></p>
+        <div id="show-more-txt2" onclick="showTxt2()">View more</div>
+        <div class="stars"><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""></div>
+        <p class="name" >Thomas</p>
+        <p class="from" >Weave Studios - Kai Tak</p>
+        <div class="google"><img src="./img/google.png" alt=""><p>Google</p></div>
+        <img class="rev-img" src="./img/rev02.png" alt="img">
+      </div>
+      <div class="item-2">
+        <h4>A real sense of community nurtured</h4>
+        <p>Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for<span id="dots3">...</span><span id="more-txt3"> helping me always, even when I was out of the country. And always available when needed.</span></p>
+        <div id="show-more-txt3" onclick="showTxt3()">View more</div>
+        <div class="stars"><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""></div>
+        <p class="name" >Olga</p>
+        <p class="from" >Weave Studios - Kai Tak</p>
+        <div class="google"><img src="./img/google.png" alt=""><p>Google</p></div>
+        <img class="rev-img" src="./img/rev03.png" alt="img">
+      </div>
+      <div class="item-2">
+        <h4>A real sense of community nurtured</h4>
+        <p>Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for<span id="dots4">...</span><span id="more-txt4"> helping me always, even when I was out of the country. And always available when needed.</span></p>
+        <div id="show-more-txt4" onclick="showTxt4()">View more</div>
+        <div class="stars"><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""></div>
+        <p class="name" >Thomas</p>
+        <p class="from" >Weave Studios - Kai Tak</p>
+        <div class="google"><img src="./img/google.png" alt=""><p>Google</p></div>
+        <img class="rev-img" src="./img/rev01.png" alt="img">
+      </div>
+      <div class="item-2">
+        <h4>A real sense of community nurtured</h4>
+        <p>Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for<span id="dots5">...</span><span id="more-txt5"> helping me always, even when I was out of the country. And always available when needed.</span></p>
+        <div id="show-more-txt5" onclick="showTxt5()">View more</div>
+        <div class="stars"><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""></div>
+        <p class="name" >Olga</p>
+        <p class="from" >Weave Studios - Kai Tak</p>
+        <div class="google"><img src="./img/google.png" alt=""><p>Google</p></div>
+        <img class="rev-img" src="./img/rev02.png" alt="img">
+      </div>
+      <div class="item-2">
+        <h4>A real sense of community nurtured</h4>
+        <p>Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for<span id="dots6">...</span><span id="more-txt6"> helping me always, even when I was out of the country. And always available when needed.</span></p>
+        <div id="show-more-txt6" onclick="showTxt6()">View more</div>
+        <div class="stars"><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""><img src="./img/star.png" alt=""></div>
+        <p class="name" >Thomas</p>
+        <p class="from" >Weave Studios - Kai Tak</p>
+        <div class="google"><img src="./img/google.png" alt=""><p>Google</p></div>
+        <img class="rev-img" src="./img/rev03.png" alt="img">
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Newsletter -->
+  <div id="newsletter-0">
+    <div id="newsletter">
+      <div class="container">
+        <h3>Subscribe<br>Newsletter</h3>
+        <h5>The Travel</h5>
+        <p>Get inspired! Receive travel discounts, tips and behind the scenes stories.</p>
+        <form action="GET">
+          <input class="email" type="email" name="email" placeholder="Your email address">
+          <input class="submit" type="submit" name="subscribe" value="Subscribe">
+        </form>
+      </div>
+      <img src="./img/letter_box.png" alt="">
+    </div>
+  </div>
+  <footer>
+    <div class="logos">
+      <img class='logo-dark' src="./img/logo-dark.png" alt="logo">
+      <ul>
+        <li><a href="#"><img src="./img/fb.png" alt="fb"></a></li>
+        <li><a href="#"><img src="./img/tw.png" alt="tw"></a></li>
+        <li><a href="#"><img src="./img/yt.png" alt="yt"></a></li>
+        <li><a href="#"><img src="./img/ig.png" alt="ig"></a></li>
+      </ul>
+    </div>
+    <div class="destinations">
+      <h4>Our Destinations</h4>
+      <ul>
+        <li><a href="#">Canada</a></li>
+        <li><a href="#">Alaska</a></li>
+        <li><a href="#">France</a></li>
+        <li><a href="#">Iceland</a></li>
+      </ul>
+    </div>
+    <div class="activities">
+      <h4>Our Activities</h4>
+      <ul>
+        <li><a href="#">Northern Lights</a></li>
+        <li><a href="#">Cruising & sailing</a></li>
+        <li><a href="#">Multi-activities</a></li>
+        <li><a href="#">Kayaking</a></li>
+      </ul>
+    </div>
+    <div class="blogs">
+      <h4>Travel Blogs</h4>
+      <ul>
+        <li><a href="#">Bali Travel Guide</a></li>
+        <li><a href="#">Sri Lanka Travel Guide</a></li>
+        <li><a href="#">Peru Travel Guide</a></li>
+        <li><a href="#">Bali Travel Guide</a></li>
+      </ul>
+    </div>
+    <div class="about">
+      <h4>About Us</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Work with us</a></li>
+      </ul>
+    </div>
+    <div class="contact">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Work with us</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./show-more.js"></script>
+</body>
+</html>

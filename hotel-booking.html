@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hotel Detail | Golobe</title>
+</head>
+<body>
+  <div id="flight-detail">
+    <!-- navbar -->
+    <nav id="navbar">
+      <div class="container">
+        <div class="flights-stays">
+          <a href="./flights-listing.html" class="trans-btn-dark"><img src="./img/plane-dark.png" alt="">Find Flight</a>
+          <a href="./hotels-listing.html" class="trans-btn-dark"><img src="./img/bed-dark.png" alt="">Find Stays</a>
+        </div>
+        <a href="./index.html" class="logo"><img src="./img/logo.png" alt="logo"></a>
+        <div class="profile-nav">
+          <a id="profile-favourites" href="./favourites.html"><img id="heart" src="./img/heart.png" alt="">Favourites</a>
+          <a id="profile-btn" href="./profile.html"><img id="profile-img-s" src="./img/profile-img.png" alt="">John D.</a>
+        </div>
+    </nav>
+    <div class="navigation">
+      <a href="./hotels-listing.html"><p>Turkey</p></a>
+      <img src="./img/back.png" alt="">
+      <a href="./hotels.html"><p>Istanbul</p></a>
+      <img src="./img/back.png" alt="">
+      <p>CVK Park Bosphorus Hotel Istanbul</p>
+    </div>
+
+    <div id="flight-detail-booking">
+      <div class="split">
+        <div class="container-1">
+          <div class="heading">
+            <h2>Superior room - 1 double bed or 2 twin beds</h2>
+            <div class="price">$240</div>
+          </div>
+          <div class="cvk-flow">
+            <div class="item">
+              <img src="./img/cvk-small.png" alt="">
+              <div class="item-21">
+                <h5>CVK Park Bosphorus Hotel Istanbul</h5>
+                <p><img src="./img/location.png" alt=""> Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</p>
+              </div>
+            </div>
+          </div>
+          <div class="plane-flow">
+            <h6>12:00 pm</h6>
+            <p>Newark(EWR)</p>
+            <img class="l-arrow" src="./img/dot-line.png" alt="">
+            <img class="plane-img" src="./img/hotel-small.png" alt="">
+            <img class="r-arrow" src="./img/dot-line.png" alt="">
+            <h6>12:00 pm</h6>
+            <p>Newark(EWR)</p>
+          </div>
+
+        </div>
+        <div class="container-2">
+          <div class="group">
+            <form action="POST" method="POST">
+              <label id="form-1" for="pay-in-full" change="formBackgroundOne">
+                <div class="item">
+                  <h6>Pay in full</h6>
+                  <p>Pay the total and you are all set.</p>
+                </div>
+                <input type="radio" name="pay" id="pay-in-full" value="pay-in-full" onclick="formBackgroundOne()">
+              </label>
+              <label id="form-2" for="pay-partly">
+                <div class="item">
+                  <h6>Pay part now, part later</h6>
+                  <p>Pay $207.43 now, and the rest ($207.43) will be automatically charged to the same payment method on Nov 14, 2022. No extra fees.
+                  </p>
+                </div>
+                <input type="radio" name="pay" id="pay-partly" value="pay-partly" onclick="formBackgroundTwo()">
+              </label>
+            </form>
+            <a href="#">More info</a>
+          </div>
+        </div>
+        <div class="container-3">
+          <h6>Login or Sign Up to book</h6>
+          <form action="GET">
+            <input type="tel" placeholder="Phone Number">
+            <p>We’ll call or text you to confirm your number. Standard message and data rates apply. <a href="#">Privacy Policy</a></p>
+            <a href="./flight-detail-booking-li.html" id="continue" type="submit" value="Continue">Continue</a>
+          </form>
+          <div class="item">
+            <div class="line"></div>
+            <p>Or</p>
+            <div class="line"></div>
+          </div>
+          <div class="item-2">
+            <a href="./flight-detail-booking-li.html"><img src="./img/fb-color.png" alt=""></a>
+            <a href="./flight-detail-booking-li.html"><img src="./img/google-color.png" alt=""></a>
+            <a href="./flight-detail-booking-li.html"><img src="./img/apple.png" alt=""></a>
+          </div>
+          <a href="./flight-detail-booking-li.html" id="continue-email">
+            <img src="./img/mail.png" alt="">
+            <p>Continue with email</p>
+          </a>
+        </div>
+      </div>
+      <div class="review-flight">
+        <div class="container-1">
+          <img src="./img/bosphorus-small.png" alt="">
+          <div class="item-1">
+            <p>CVK Park Bosphorus...</p>
+            <h5>Superior room - 1 double bed or 2 twin beds</h5>
+            <div class="item-21">
+              <div class="rating">4.2</div>
+              <p><s>Very Good</s> 54 reviews</p>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <h6>Your booking is protected by <s>golobe</s></h6>
+        <div class="line"></div>
+        <div class="price-details">
+          <h6>Price details</h6>
+          <div class="group">
+            <h6>Base Fare</h6><p>$400</p>
+          </div>
+          <div class="group">
+            <h6>Discount</h6><p>$400</p>
+          </div>
+          <div class="group">
+            <h6>Taxes</h6><p>$400</p>
+          </div>
+          <div class="group">
+            <h6>Service Fee</h6><p>$400</p>
+          </div>
+          <div class="line"></div>
+          <div class="group">
+            <h6>Total</h6><p>$400</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Newsletter -->
+  <div id="newsletter-0">
+    <div id="newsletter">
+      <div class="container">
+        <h3>Subscribe<br>Newsletter</h3>
+        <h5>The Travel</h5>
+        <p>Get inspired! Receive travel discounts, tips and behind the scenes stories.</p>
+        <form action="GET">
+          <input class="email" type="email" name="email" placeholder="Your email address">
+          <input class="submit" type="submit" name="subscribe" value="Subscribe">
+        </form>
+      </div>
+      <img src="./img/letter_box.png" alt="">
+    </div>
+  </div>
+  <footer>
+    <div class="logos">
+      <img class='logo-dark' src="./img/logo-dark.png" alt="logo">
+      <ul>
+        <li><a href="#"><img src="./img/fb.png" alt="fb"></a></li>
+        <li><a href="#"><img src="./img/tw.png" alt="tw"></a></li>
+        <li><a href="#"><img src="./img/yt.png" alt="yt"></a></li>
+        <li><a href="#"><img src="./img/ig.png" alt="ig"></a></li>
+      </ul>
+    </div>
+    <div class="destinations">
+      <h4>Our Destinations</h4>
+      <ul>
+        <li><a href="#">Canada</a></li>
+        <li><a href="#">Alaska</a></li>
+        <li><a href="#">France</a></li>
+        <li><a href="#">Iceland</a></li>
+      </ul>
+    </div>
+    <div class="activities">
+      <h4>Our Activities</h4>
+      <ul>
+        <li><a href="#">Northern Lights</a></li>
+        <li><a href="#">Cruising & sailing</a></li>
+        <li><a href="#">Multi-activities</a></li>
+        <li><a href="#">Kayaking</a></li>
+      </ul>
+    </div>
+    <div class="blogs">
+      <h4>Travel Blogs</h4>
+      <ul>
+        <li><a href="#">Bali Travel Guide</a></li>
+        <li><a href="#">Sri Lanka Travel Guide</a></li>
+        <li><a href="#">Peru Travel Guide</a></li>
+        <li><a href="#">Bali Travel Guide</a></li>
+      </ul>
+    </div>
+    <div class="about">
+      <h4>About Us</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Work with us</a></li>
+      </ul>
+    </div>
+    <div class="contact">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Work with us</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./main.js"></script>
+</body>
