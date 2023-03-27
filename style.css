@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@media only screen and (max-width: 478px) {
+  #newsletter-0 {
+    position: relative;
+    width: 100vw;
+    z-index: 5;
+    bottom: 0;
+  }
+  
+  footer {
+    position: relative;
+    width: 100vw;
+    bottom: 0;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -698,6 +713,17 @@ footer .contact ul {
   list-style: none;
   color: #112211;
 }
+
+footer .destinations ul li,
+footer .activities ul li,
+footer .blogs ul li,
+footer .about ul li, 
+footer .contact ul li {
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  line-height: 1.18vw;
+} 
 
 footer .destinations ul li a,
 footer .activities ul li a,
@@ -2618,7 +2644,8 @@ footer .contact {
 }
 
 #profile #profile-bg {
-  background: url('./img/profile-bg.png');
+  background: url('./img/profile-bg.png') center no-repeat;
+  background-size: 85.34vw 24.24vw;
   height: 24.24vw;
   width: 85.34vw;
   margin: 0 7.20vw;
