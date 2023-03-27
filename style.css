@@ -349,7 +349,7 @@ body {
 }
 
 #landing #popular-pics .container-2 .item-2 ul li {
-  list-style: circle;
+  list-style: none;
   font-size: 0.97vw;
   font-weight: 500;
   margin-right: 1.45vw;
