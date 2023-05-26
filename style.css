@@ -2497,6 +2497,7 @@ footer .contact {
 
 #set-a-password .container a {
   margin-bottom: 4.43vw;
+  color: #112211;
 }
 
 #set-a-password .container img {
@@ -4227,6 +4228,7 @@ footer .contact {
   font-family: 'Montserrat';
   font-weight: 500;
   margin-left: 1.66vw;
+  color:#112211;
 }
 
 #flight-detail-booking .split .container-3 .item {
@@ -4285,6 +4287,7 @@ footer .contact {
   border-radius: 0.28vw;
   margin: 0 1.66vw;
   margin-bottom: 1.66vw;
+  color:#112211;
 }
 
 #flight-detail-booking .split .container-3 #continue-email img {
